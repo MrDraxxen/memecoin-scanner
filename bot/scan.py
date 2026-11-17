@@ -719,6 +719,10 @@ def token_block(m, rc, dev, meta_word, meta_n, copy_txt):
     ]
     if rc.get("creator"):
         links.append('<a href="https://solscan.io/account/%s">dev</a>' % rc["creator"])
+    grok_q = ("Prověř memecoin $%s na Solaně, CA: %s. Hledej na X: kdo o něm postuje (KOLové, boti, "
+              "placený shill), kdy se začal objevovat, X účet projektu (stáří, followeři, přejmenování), "
+              "sentiment a red flagy. Odpověz stručně česky." % (m["symbol"], mint))
+    links.append('<a href="https://grok.com/?q=%s">🤖 Grok</a>' % urllib.parse.quote(grok_q))
     for key, label in (("twitter", "X"), ("telegram", "TG"), ("website", "web")):
         url = m.get(key)
         if url and url.startswith("http"):

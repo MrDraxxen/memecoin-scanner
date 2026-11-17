@@ -30,8 +30,8 @@ from datetime import datetime, timezone
 # NASTAVENI - tady si muzes upravit filtry
 # --------------------------------------------------------------------------
 CONFIG = {
-    "MC_MIN": 10_000,            # minimalni market cap v USD
-    "MC_MAX": 60_000,            # maximalni market cap v USD
+    "MC_MIN": 9_000,             # minimalni market cap v USD
+    "MC_MAX": 90_000,            # maximalni market cap v USD
 
     # Stari tokenu
     "FRESH_MIN_AGE_MIN": 10,     # mladsi nez 10 min ignorovat

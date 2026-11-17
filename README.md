@@ -1,6 +1,6 @@
 # Memecoin skener (Solana / pump.fun → Telegram)
 
-Každých 10 minut projde pump.fun, GeckoTerminal a DexScreener a hledá **čerstvé tokeny (10 min – 2 h)** s market capem **10k–60k USD**. Nadějné kandidáty prověří přes RugCheck: počet holderů, top 10, procento deva, insidery a mint/freeze authority. Souhrn ti pošle na Telegram, včetně CA a odkazů na pump.fun, DexScreener, Solscan, RugCheck a GMGN.
+Každých 10 minut projde pump.fun, GeckoTerminal a DexScreener a hledá **čerstvé tokeny (10 min – 2 h)** s market capem **9k–90k USD**. Nadějné kandidáty prověří přes RugCheck: počet holderů, top 10, procento deva, insidery a mint/freeze authority. Souhrn ti pošle na Telegram, včetně CA a odkazů na pump.fun, DexScreener, Solscan, RugCheck a GMGN.
 
 Běží zdarma na **GitHub Actions**, takže počítač nemusí být zapnutý.
 
@@ -71,7 +71,7 @@ Všechno je nahoře v souboru `bot/scan.py` v části `CONFIG`. Na GitHubu otev�
 
 | Nastavení | Výchozí | Význam |
 |---|---|---|
-| `MC_MIN` / `MC_MAX` | 10 000 / 60 000 | rozsah market capu v USD |
+| `MC_MIN` / `MC_MAX` | 9 000 / 90 000 | rozsah market capu v USD |
 | `FRESH_MIN_AGE_MIN` | 10 | tokeny mladší než 10 minut ignoruje |
 | `FRESH_MAX_AGE_H` | 2 | tokeny starší než 2 hodiny ignoruje |
 | `OLD_ENABLED` | False | `True` = posílat i tokeny starší než den |

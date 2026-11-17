@@ -687,6 +687,7 @@ def token_block(m, rc, dev, meta_word, meta_n, copy_txt):
         '<a href="https://solscan.io/token/%s">Solscan</a>' % mint,
         '<a href="https://rugcheck.xyz/tokens/%s">RugCheck</a>' % mint,
         '<a href="https://gmgn.ai/sol/token/%s">GMGN</a>' % mint,
+        '<a href="https://v2.bubblemaps.io/map?address=%s&amp;chain=solana">Bubblemaps</a>' % mint,
     ]
     if rc.get("creator"):
         links.append('<a href="https://solscan.io/account/%s">dev</a>' % rc["creator"])

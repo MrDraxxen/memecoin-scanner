@@ -69,10 +69,10 @@ CONFIG = {
 
     # Zdroje
     "PUMP_PAGES": 6,
-    "GECKO_DEXES": ["pump-fun", "pumpswap"],
-    "GECKO_PAGES": 8,            # stranek po 20 poolech (serazeno podle poctu obchodu za 24 h)
-    "GECKO_TRENDING_PAGES": 5,   # stranek trending poolu za 5 min / 1 h
-    "GECKO_NEW_PAGES": 5,        # stranek nejnovejsich poolu na Solane
+    "GECKO_DEX_PAGES": {"pump-fun": 5, "pumpswap": 2},  # stranek po 20 poolech (podle obchodu za 24 h)
+    "GECKO_TRENDING_PAGES": 3,   # stranek trending poolu za 5 min / 1 h
+    "GECKO_NEW_PAGES": 3,        # stranek nejnovejsich poolu na Solane
+    "GECKO_DELAY_S": 6,          # pauza mezi dotazy (GeckoTerminal ma prisny limit)
     "GECKO_TRENDING": ["5m", "1h"],
 
     "MAX_ALERTS": 5,             # kolik nejlepsich tokenu poslat za beh
@@ -112,7 +112,7 @@ def get_json(url, retries=2, timeout=20):
         except urllib.error.HTTPError as e:
             last_err = f"HTTP {e.code}"
             if e.code == 429:
-                time.sleep(3 + attempt * 3)
+                time.sleep(8 + attempt * 8)
                 continue
             if e.code in (400, 401, 403, 404):
                 break
@@ -295,8 +295,8 @@ def pump_candidates():
 
 
 def _gecko_pools(url, out, label):
-    data = get_json(url)
-    time.sleep(2.2)  # limit 30 dotazu / min
+    data = get_json(url, retries=1)
+    time.sleep(CONFIG["GECKO_DELAY_S"])
     pools = data.get("data") if isinstance(data, dict) else None
     if not pools:
         return False
@@ -321,8 +321,8 @@ def _gecko_pools(url, out, label):
 def gecko_candidates():
     """GeckoTerminal: nejaktivnejsi pooly na pump.fun / PumpSwap a trending na Solane."""
     out = {}
-    for dex in CONFIG["GECKO_DEXES"]:
-        for page in range(1, CONFIG["GECKO_PAGES"] + 1):
+    for dex, pages in CONFIG["GECKO_DEX_PAGES"].items():
+        for page in range(1, pages + 1):
             url = ("https://api.geckoterminal.com/api/v2/networks/solana/dexes/%s/pools"
                    "?page=%d&sort=h24_tx_count_desc" % (dex, page))
             if not _gecko_pools(url, out, "GeckoTerminal"):

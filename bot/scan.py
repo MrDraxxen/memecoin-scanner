@@ -75,6 +75,11 @@ CONFIG = {
     "GECKO_DELAY_S": 6,          # pauza mezi dotazy (GeckoTerminal ma prisny limit)
     "GECKO_TRENDING": ["5m", "1h"],
 
+    # Ochrana proti scamum
+    "PUMP_ONLY": True,           # jen tokeny vytvorene na pump.fun
+    "REJECT_DANGER": True,       # vyradit tokeny s "danger" rizikem z RugChecku (napr. odemcena LP)
+    "REJECT_COPIES": True,       # vyradit kopie, kdyz existuje vetsi token se stejnym tickerem
+
     "MAX_ALERTS": 5,             # kolik nejlepsich tokenu poslat za beh
     "MAX_RUGCHECK_CALLS": 25,    # kolik tokenu za beh proverit pres RugCheck
     "MAX_HELIUS_TOKENS": 6,      # kolik tokenu za beh proverit pres Helius (setri kredity)
@@ -430,6 +435,7 @@ def rugcheck(mint):
         "danger": [r.get("name") for r in rep.get("risks") or [] if r.get("level") == "danger"],
         "warn": [r.get("name") for r in rep.get("risks") or [] if r.get("level") == "warn"],
         "creator": rep.get("creator"),
+        "launchpad": ((rep.get("launchpad") or {}).get("platform") or ""),
         "supply_ui": supply / (10 ** decimals) if supply else 0,
         "pool_owners": pool_owners,
         "creator_owners": creator_owners,
@@ -592,6 +598,10 @@ def market_ok(m):
 def holders_ok(m, rc):
     if rc["rugged"]:
         return False, "rugged"
+    if CONFIG["PUMP_ONLY"] and not (m["mint"].endswith("pump") or rc.get("launchpad") == "pump_fun"):
+        return False, "není z pump.fun"
+    if CONFIG["REJECT_DANGER"] and rc["danger"]:
+        return False, "RugCheck danger"
     if rc["mint_auth"]:
         return False, "mint authority"
     if rc["freeze_auth"]:
@@ -874,6 +884,16 @@ def main():
     if helius:
         log("  Helius volani: %d" % helius.calls)
 
+    # kopie: kdyz existuje vetsi token se stejnym tickerem, je to skoro vzdy past
+    kept = []
+    for m, rc, dev in passed:
+        m["_copy"] = copy_check(m)
+        if CONFIG["REJECT_COPIES"] and (m["_copy"][0] or "").startswith("kopie? větší"):
+            bump(stats, "kopie většího tokenu")
+            continue
+        kept.append((m, rc, dev))
+    passed = kept
+
     passed.sort(key=lambda x: score(x[0], x[1]), reverse=True)
     extra = passed[CONFIG["MAX_ALERTS"]:]
     passed = passed[:CONFIG["MAX_ALERTS"]]
@@ -882,7 +902,7 @@ def main():
     for m, rc, dev in passed:
         tw = sorted(words(m["name"] + " " + m["symbol"]), key=lambda w: -meta.get(w, 0))
         meta_word = tw[0] if tw and meta.get(tw[0], 0) >= CONFIG["META_MIN_TOKENS"] else None
-        copy_txt, copy_addr = copy_check(m)
+        copy_txt, copy_addr = m["_copy"]
         blocks.append(token_block(m, rc, dev, meta_word, meta.get(meta_word, 0) if meta_word else 0, copy_txt, copy_addr))
 
     header = "━━━━━━━━━━━━━━━━━━\n🔎 <b><u>SKENER · %s</u></b>\n━━━━━━━━━━━━━━━━━━\nMC %s–%s · %d min–%g h · prověřeno %d · <b>prošlo %d</b>" % (

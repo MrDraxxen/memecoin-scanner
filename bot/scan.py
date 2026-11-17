@@ -82,7 +82,8 @@ CONFIG = {
     "SEEN_TTL_H": 72,
 }
 
-STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "state", "seen.json")
+STATE_FILE = os.environ.get("SCANNER_STATE") or os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "state", "seen.json")
 UA = "Mozilla/5.0 (memecoin-scanner; +github actions)"
 STOPWORDS = {
     "the", "coin", "sol", "solana", "token", "of", "and", "on", "in", "to", "for", "a", "is", "my",

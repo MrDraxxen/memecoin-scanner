@@ -113,3 +113,28 @@ Jestli je meme vtipné a jestli X účet stojí za něco, musíš posoudit sám.
 ## Test u sebe na počítači (volitelné)
 
 S nainstalovaným Pythonem 3: `python bot/scan.py`. Bez Telegram údajů jen vypíše zprávu do konzole.
+
+---
+
+## Spouštění na Macu (místo GitHubu)
+
+Výhoda: z domácí sítě funguje i pump.fun API, které GitHub blokuje. Mac musí být zapnutý a neuspaný.
+
+1. Otevři **Terminál** (Cmd+mezerník → „Terminál“).
+2. Stáhni bota:
+   ```
+   git clone https://github.com/MrDraxxen/memecoin-scanner.git ~/memecoin-scanner
+   ```
+   Když macOS nabídne instalaci „Command Line Developer Tools“, potvrď ji a po instalaci příkaz zopakuj.
+3. Spusť instalaci:
+   ```
+   bash ~/memecoin-scanner/mac/install_mac.sh
+   ```
+   Zeptá se na Telegram token, chat ID a Helius klíč. Uloží je jen do tvého Macu (`~/.memecoin-scanner/secrets.env`).
+
+Bot se pak spouští sám každých 10 minut a před každým během si stáhne nejnovější verzi z GitHubu.
+
+- Průběh: `tail -n 30 ~/.memecoin-scanner/scan.log`
+- Vypnutí: `bash ~/memecoin-scanner/mac/uninstall_mac.sh`
+
+Když běží na Macu, vypni běh na GitHubu (**Actions → memecoin-scan → ⋯ → Disable workflow**), jinak budou chodit zprávy dvakrát.

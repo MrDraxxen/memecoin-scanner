@@ -749,6 +749,9 @@ def main():
     seen = load_seen()
     hkey = env("HELIUS_API_KEY")
     helius = Helius(hkey) if hkey else None
+    if helius:
+        slot = helius.rpc("getSlot", [])
+        log("  Helius test: %s" % ("OK (slot %s)" % slot if slot else "NEFUNGUJE"))
 
     log("Stahuji kandidaty...")
     cands = pump_candidates()

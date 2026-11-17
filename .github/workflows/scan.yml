@@ -1,0 +1,37 @@
+name: memecoin-scan
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # kazdych 15 minut (GitHub obcas zpozdi o par minut)
+  workflow_dispatch:          # tlacitko "Run workflow" pro rucni spusteni
+
+permissions:
+  contents: write             # aby mohl ulozit, co uz poslal (state/seen.json)
+
+concurrency:
+  group: memecoin-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Skenovat
+        run: python bot/scan.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Ulozit stav
+        run: |
+          git config user.name "scanner-bot"
+          git config user.email "scanner-bot@users.noreply.github.com"
+          git add state/seen.json
+          git diff --cached --quiet || (git commit -m "scan state" && git pull --rebase && git push)

@@ -70,7 +70,9 @@ CONFIG = {
     # Zdroje
     "PUMP_PAGES": 6,
     "GECKO_DEXES": ["pump-fun", "pumpswap"],
-    "GECKO_PAGES": 3,
+    "GECKO_PAGES": 8,            # stranek po 20 poolech (serazeno podle poctu obchodu za 24 h)
+    "GECKO_TRENDING_PAGES": 5,   # stranek trending poolu za 5 min / 1 h
+    "GECKO_NEW_PAGES": 5,        # stranek nejnovejsich poolu na Solane
     "GECKO_TRENDING": ["5m", "1h"],
 
     "MAX_ALERTS": 5,             # kolik nejlepsich tokenu poslat za beh
@@ -325,8 +327,14 @@ def gecko_candidates():
             if not _gecko_pools(url, out, "GeckoTerminal"):
                 break
     for dur in CONFIG["GECKO_TRENDING"]:
-        _gecko_pools("https://api.geckoterminal.com/api/v2/networks/solana/trending_pools?duration=%s" % dur,
-                     out, "Gecko trending")
+        for page in range(1, CONFIG["GECKO_TRENDING_PAGES"] + 1):
+            if not _gecko_pools("https://api.geckoterminal.com/api/v2/networks/solana/trending_pools"
+                                "?duration=%s&page=%d" % (dur, page), out, "Gecko trending"):
+                break
+    for page in range(1, CONFIG["GECKO_NEW_PAGES"] + 1):
+        if not _gecko_pools("https://api.geckoterminal.com/api/v2/networks/solana/new_pools?page=%d" % page,
+                            out, "Gecko new"):
+            break
     return out
 
 
@@ -831,6 +839,7 @@ def main():
         shortlist.append(m)
     shortlist.sort(key=lambda m: m["buys_h1"] + m["sells_h1"], reverse=True)
     shortlist = shortlist[:CONFIG["MAX_RUGCHECK_CALLS"]]
+    log("  vyrazeno pred RugCheckem: %s" % json.dumps(stats, ensure_ascii=False))
     log("  RugCheck: %d" % len(shortlist))
 
     stage2 = []

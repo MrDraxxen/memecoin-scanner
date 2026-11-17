@@ -31,6 +31,8 @@ CONFIG = {
     "MC_MIN": 10_000,            # minimalni market cap v USD
     "MC_MAX": 60_000,            # maximalni market cap v USD
     "PUMP_PAGES": 6,             # kolik stranek (po 50) z pump.fun projit
+    "GECKO_DEXES": ["pump-fun", "pumpswap"],  # GeckoTerminal: bonding curve + po graduaci
+    "GECKO_PAGES": 3,            # stranek po 20 poolech na kazdy dex
     "OLD_MIN_AGE_H": 24,         # od kolika hodin je token "starsi"
 
     # Cerstve tokeny (mladsi nez OLD_MIN_AGE_H)
@@ -149,6 +151,45 @@ def pump_candidates():
                     "mc": mc,
                 }
         time.sleep(0.4)
+    return out
+
+
+def gecko_candidates():
+    """Nejaktivnejsi pooly na pump.fun (bonding curve) a PumpSwap z GeckoTerminalu.
+    Zaloha za pump.fun API, ktere blokuje servery GitHubu."""
+    out = {}
+    for dex in CONFIG["GECKO_DEXES"]:
+        for page in range(1, CONFIG["GECKO_PAGES"] + 1):
+            url = ("https://api.geckoterminal.com/api/v2/networks/solana/dexes/%s/pools"
+                   "?page=%d&sort=h24_tx_count_desc" % (dex, page))
+            data = get_json(url)
+            time.sleep(2.2)  # limit 30 dotazu / min
+            pools = (data or {}).get("data") if isinstance(data, dict) else None
+            if not pools:
+                break
+            for p in pools:
+                a = p.get("attributes") or {}
+                base = (((p.get("relationships") or {}).get("base_token") or {}).get("data") or {}).get("id", "")
+                mint = base.split("_", 1)[1] if base.startswith("solana_") else None
+                if not mint or mint.startswith("So1111"):
+                    continue
+                try:
+                    mc = float(a.get("market_cap_usd") or a.get("fdv_usd") or 0)
+                except (TypeError, ValueError):
+                    mc = 0
+                if not (CONFIG["MC_MIN"] <= mc <= CONFIG["MC_MAX"]):
+                    continue
+                created = None
+                if a.get("pool_created_at"):
+                    try:
+                        created = datetime.fromisoformat(a["pool_created_at"].replace("Z", "+00:00")).timestamp() * 1000
+                    except ValueError:
+                        pass
+                entry = out.setdefault(mint, {"sources": set()})
+                entry["sources"].add("GeckoTerminal")
+                entry.setdefault("mc", mc)
+                if created and (not entry.get("created_ms") or created < entry["created_ms"]):
+                    entry["created_ms"] = created
     return out
 
 
@@ -424,18 +465,30 @@ def send(text_parts):
         cur = (cur + "\n\n" + part) if cur else part
     if cur:
         messages.append(cur)
-    for msg in messages:
-        if not token or not chat:
+    if not token or not chat:
+        log("!! Chybi TELEGRAM_BOT_TOKEN nebo TELEGRAM_CHAT_ID (GitHub Settings -> Secrets). "
+            "Zprava jen vypsana do logu.")
+        for msg in messages:
             print(msg + "\n" + "-" * 40)
-            continue
+        return False
+    all_ok = True
+    for msg in messages:
         try:
             post_json("https://api.telegram.org/bot%s/sendMessage" % token, {
                 "chat_id": chat, "text": msg, "parse_mode": "HTML",
                 "disable_web_page_preview": True,
             })
+        except urllib.error.HTTPError as ex:
+            all_ok = False
+            detail = ex.read().decode("utf-8", "replace")[:300]
+            log("!! Telegram chyba HTTP %s: %s" % (ex.code, detail))
+            if ex.code in (400, 403):
+                log("   Zkontroluj TELEGRAM_CHAT_ID a jestli jsi botovi v Telegramu napsal aspon jednu zpravu.")
         except Exception as ex:  # noqa: BLE001
-            log("Telegram chyba: %s" % ex)
+            all_ok = False
+            log("!! Telegram chyba: %s" % ex)
         time.sleep(0.5)
+    return all_ok
 
 
 # --------------------------------------------------------------------------
@@ -446,15 +499,18 @@ def main():
     log("Stahuji kandidaty...")
     cands = pump_candidates()
     pump_ok = bool(cands)
-    for mint, d in dex_candidates().items():
-        if mint in cands:
-            cands[mint]["sources"] |= d["sources"]
-            for k in ("twitter", "telegram", "website"):
-                if d.get(k):
-                    cands[mint].setdefault(k, d[k])
-        else:
-            cands[mint] = d
-    log("  kandidatu: %d (pump.fun %s)" % (len(cands), "OK" if pump_ok else "nedostupny"))
+    gecko = gecko_candidates()
+    for extra_src in (gecko, dex_candidates()):
+        for mint, d in extra_src.items():
+            if mint in cands:
+                cands[mint]["sources"] |= d["sources"]
+                for k in ("twitter", "telegram", "website", "created_ms", "mc"):
+                    if d.get(k):
+                        cands[mint].setdefault(k, d[k])
+            else:
+                cands[mint] = d
+    log("  kandidatu: %d (pump.fun %s, GeckoTerminal %d)"
+        % (len(cands), "OK" if pump_ok else "nedostupny", len(gecko)))
 
     pairs = dex_pairs(cands.keys())
     stats = {}
@@ -492,8 +548,6 @@ def main():
     passed.sort(key=lambda x: score(*x), reverse=True)
     extra = passed[CONFIG["MAX_ALERTS"]:]
     passed = passed[:CONFIG["MAX_ALERTS"]]
-    for m, _ in passed:
-        seen[m["mint"]] = time.time()
 
     header = "🔎 <b>Skener %s</b>\nMC %s–%s · v rozsahu %d · prověřeno %d · <b>prošlo %d</b>" % (
         now_label(), fmt_usd(CONFIG["MC_MIN"]), fmt_usd(CONFIG["MC_MAX"]),
@@ -501,8 +555,8 @@ def main():
     if extra:
         header += "\nnejlepších %d níže, další: %s" % (
             len(passed), html.escape(", ".join("$" + str(m["symbol"]) for m, _ in extra)))
-    if not pump_ok:
-        header += "\n⚠️ pump.fun API teď neodpovídá, jen DexScreener zdroje."
+    if not pump_ok and not gecko:
+        header += "\n⚠️ pump.fun ani GeckoTerminal teď neodpovídají, jen DexScreener zdroje."
     if stats:
         top_reasons = sorted(stats.items(), key=lambda kv: -kv[1])[:4]
         header += "\n<i>vyřazeno: " + html.escape(", ".join("%s %d" % kv for kv in top_reasons)) + "</i>"
@@ -511,7 +565,10 @@ def main():
         parts = [header] + [token_block(m, rc) for m, rc in passed]
         if passed:
             parts.append("<i>Jen filtr, ne doporučení. Před nákupem projdi checklist (X, narativ, dev).</i>")
-        send(parts)
+        if send(parts):
+            # zapamatovat si jen to, co opravdu odeslo
+            for m, _ in passed:
+                seen[m["mint"]] = time.time()
     save_seen(seen)
     log("Hotovo: proslo %d" % len(passed))
 

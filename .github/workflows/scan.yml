@@ -2,7 +2,7 @@ name: memecoin-scan
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # kazdych 15 minut (GitHub obcas zpozdi o par minut)
+    - cron: "*/10 * * * *"   # kazdych 10 minut (GitHub obcas zpozdi o par minut)
   workflow_dispatch:          # tlacitko "Run workflow" pro rucni spusteni
 
 permissions:

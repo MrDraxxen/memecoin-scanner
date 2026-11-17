@@ -461,6 +461,32 @@ def x_link_kind(url):
     return "X odkaz"
 
 
+def x_info(url):
+    """Co jde o X odkazu zjistit zdarma: u tweetu autora, text a datum (oficialni oEmbed)."""
+    kind = x_link_kind(url)
+    if not kind.startswith("tweet") and kind != "odkaz na tweet":
+        return kind
+    clean = url.split("?")[0]
+    data = get_json("https://publish.twitter.com/oembed?omit_script=1&dnt=1&url=" + urllib.parse.quote(clean, safe=""),
+                    retries=0, timeout=10)
+    if not isinstance(data, dict) or not data.get("html"):
+        return kind + " · ⚠️ tweet nedostupný/smazaný"
+    raw = data["html"]
+    text = re.sub(r"<[^>]+>", " ", raw.split("&mdash;")[0])
+    text = html.unescape(re.sub(r"\s+", " ", text)).strip()
+    text = re.sub(r"pic\.twitter\.com/\S+|https?://t\.co/\S+", "", text).strip()
+    if len(text) > 90:
+        text = text[:87].rstrip() + "…"
+    author = (data.get("author_url") or "").rstrip("/").split("/")[-1]
+    date = re.findall(r">([A-Z][a-z]+ \d{1,2}, \d{4})<", raw)
+    out = "tweet od @%s" % author if author else kind
+    if date:
+        out += " (%s)" % date[-1]
+    if text:
+        out += ": „%s“" % text
+    return out
+
+
 def copy_check(m):
     """Existuje na Solane jiny token se stejnym tickerem, ktery je starsi nebo vetsi?"""
     sym = (m["symbol"] or "").lstrip("$").strip()
@@ -651,8 +677,9 @@ def narrative_line(m, meta_word, meta_n, copy_txt):
         bits.append("🔥 meta „%s“ (%d tokenů)" % (html.escape(meta_word), meta_n))
     if copy_txt:
         bits.append(html.escape(copy_txt))
-    bits.append(html.escape(x_link_kind(m.get("twitter"))))
-    return "🧠 Narativ: " + " · ".join(bits)
+    line = "🧠 Narativ: " + (" · ".join(bits) if bits else "—")
+    line += "\n🐦 X: " + html.escape(x_info(m.get("twitter")))
+    return line
 
 
 def token_block(m, rc, dev, meta_word, meta_n, copy_txt):

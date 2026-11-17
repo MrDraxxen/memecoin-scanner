@@ -1,6 +1,6 @@
 # Memecoin skener (Solana / pump.fun → Telegram)
 
-Každých 15 minut projde pump.fun, GeckoTerminal a DexScreener a hledá **čerstvé tokeny (10 min – 2 h)** s market capem **10k–60k USD**. Nadějné kandidáty prověří přes RugCheck: počet holderů, top 10, procento deva, insidery a mint/freeze authority. Souhrn ti pošle na Telegram, včetně CA a odkazů na pump.fun, DexScreener, Solscan, RugCheck a GMGN.
+Každých 10 minut projde pump.fun, GeckoTerminal a DexScreener a hledá **čerstvé tokeny (10 min – 2 h)** s market capem **10k–60k USD**. Nadějné kandidáty prověří přes RugCheck: počet holderů, top 10, procento deva, insidery a mint/freeze authority. Souhrn ti pošle na Telegram, včetně CA a odkazů na pump.fun, DexScreener, Solscan, RugCheck a GMGN.
 
 Běží zdarma na **GitHub Actions**, takže počítač nemusí být zapnutý.
 
@@ -45,7 +45,7 @@ V repozitáři jdi do **Settings → Secrets and variables → Actions → New r
 
 1. Záložka **Actions** → když se zeptá, potvrď **I understand my workflows, go ahead and enable them**.
 2. Vlevo klikni na **memecoin-scan** → **Run workflow** → **Run workflow**.
-3. Asi do minuty by ti měla na Telegram přijít první zpráva. Pak to běží samo každých 15 minut.
+3. Asi do minuty by ti měla na Telegram přijít první zpráva. Pak to běží samo každých 10 minut.
 
 ---
 

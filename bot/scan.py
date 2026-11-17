@@ -666,7 +666,8 @@ def token_block(m, rc, dev, meta_word, meta_n, copy_txt):
     lines = [
         "<b>%s · $%s</b> — %s" % (kind, e(str(m["symbol"])), e(str(m["name"]))),
         "<code>%s</code>" % m["mint"],
-        "MC <b>%s</b> · stáří <b>%s</b> · holdeři <b>%d</b>" % (fmt_usd(m["mc"]), fmt_age(m["age_h"]), rc["holders"]),
+        "MC <b>%s</b> · holdeři <b>%d</b>" % (fmt_usd(m["mc"]), rc["holders"]),
+        "⏱ stáří <b>%s</b> · vytvořen %s" % (fmt_age(m["age_h"]), prague_time(m["created_ms"]) if m.get("created_ms") else "?"),
         "Top10 %.1f %% · max %.1f %% · bundle %.1f %% (%s)" % (rc["top10"], rc["max_single"], bundle, bundle_src),
         "1h: %d tx (%d B / %d S) · Ø %s · vol %s%s"
         % (tx, m["buys_h1"], m["sells_h1"], fmt_usd(m["vol_h1"] / max(tx, 1)), fmt_usd(m["vol_h1"]), chg_txt),
@@ -699,10 +700,18 @@ def token_block(m, rc, dev, meta_word, meta_n, copy_txt):
     return "\n".join(lines)
 
 
+def prague_time(ms):
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.fromtimestamp(ms / 1000, ZoneInfo("Europe/Prague")).strftime("%H:%M")
+    except Exception:  # noqa: BLE001
+        return datetime.fromtimestamp(ms / 1000, timezone.utc).strftime("%H:%M UTC")
+
+
 def now_label():
     try:
         from zoneinfo import ZoneInfo
-        return datetime.now(ZoneInfo("Europe/Prague")).strftime("%d.%m. %H:%M")
+        return datetime.now(ZoneInfo("Europe/Prague")).strftime("%d.%m.%Y · %H:%M")
     except Exception:  # noqa: BLE001
         return datetime.now(timezone.utc).strftime("%d.%m. %H:%M UTC")
 
@@ -829,7 +838,7 @@ def main():
         copy_txt = copy_check(m)
         blocks.append(token_block(m, rc, dev, meta_word, meta.get(meta_word, 0) if meta_word else 0, copy_txt))
 
-    header = "🔎 <b>Skener %s</b>\nMC %s–%s · %d min–%g h · prověřeno %d · <b>prošlo %d</b>" % (
+    header = "━━━━━━━━━━━━━━━━━━\n🔎 <b><u>SKENER · %s</u></b>\n━━━━━━━━━━━━━━━━━━\nMC %s–%s · %d min–%g h · prověřeno %d · <b>prošlo %d</b>" % (
         now_label(), fmt_usd(CONFIG["MC_MIN"]), fmt_usd(CONFIG["MC_MAX"]),
         CONFIG["FRESH_MIN_AGE_MIN"], CONFIG["FRESH_MAX_AGE_H"], len(shortlist), len(passed) + len(extra))
     if extra:

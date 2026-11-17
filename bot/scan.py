@@ -789,7 +789,7 @@ def main():
         slot = helius.rpc("getSlot", [])
         log("  Helius test: %s" % ("OK (slot %s)" % slot if slot else "NEFUNGUJE"))
 
-    xt = get_json("https://publish.twitter.com/oembed?omit_script=1&url=https%3A%2F%2Fx.com%2Fsolana%2Fstatus%2F1925920596006117709", retries=0, timeout=10)
+    xt = get_json("https://publish.twitter.com/oembed?omit_script=1&url=https%3A%2F%2Fx.com%2Felonmusk%2Fstatus%2F2122589089702813944", retries=0, timeout=10)
     log("  X oEmbed test: %s" % ("OK" if isinstance(xt, dict) else "nedostupny"))
     log("Stahuji kandidaty...")
     cands = pump_candidates()

@@ -491,7 +491,7 @@ def copy_check(m):
     """Existuje na Solane jiny token se stejnym tickerem, ktery je starsi nebo vetsi?"""
     sym = (m["symbol"] or "").lstrip("$").strip()
     if not sym or sym == "?":
-        return None
+        return None, None
     data = get_json("https://api.dexscreener.com/latest/dex/search?q=" + urllib.parse.quote(sym), retries=1)
     time.sleep(0.3)
     others = {}
@@ -505,16 +505,17 @@ def copy_check(m):
         if prev is None or (p.get("marketCap") or 0) > (prev.get("marketCap") or 0):
             others[b["address"]] = p
     if not others:
-        return "originál"
+        return "originál", None
     my_created = m.get("created_ms") or 0
     bigger = [p for p in others.values() if (p.get("marketCap") or 0) > m["mc"]]
     older = [p for p in others.values() if p.get("pairCreatedAt") and my_created and p["pairCreatedAt"] < my_created]
     if bigger:
         top = max(bigger, key=lambda p: p.get("marketCap") or 0)
-        return "kopie? větší $%s má MC %s" % (sym, fmt_usd(top.get("marketCap")))
+        return "kopie? větší $%s má MC %s" % (sym, fmt_usd(top.get("marketCap"))), top["baseToken"]["address"]
     if older:
-        return "kopie? existuje starší $%s (%d×)" % (sym, len(others))
-    return "originál (%d mladších kopií)" % len(others)
+        top = min(older, key=lambda p: p["pairCreatedAt"])
+        return "kopie? existuje starší $%s (%d×)" % (sym, len(others)), top["baseToken"]["address"]
+    return "originál (%d mladších kopií)" % len(others), None
 
 
 # --------------------------------------------------------------------------
@@ -671,18 +672,21 @@ def dev_line(dev, rc):
     return line
 
 
-def narrative_line(m, meta_word, meta_n, copy_txt):
+def narrative_line(m, meta_word, meta_n, copy_txt, copy_addr=None):
     bits = []
     if meta_word:
         bits.append("🔥 meta „%s“ (%d tokenů)" % (html.escape(meta_word), meta_n))
     if copy_txt:
-        bits.append(html.escape(copy_txt))
+        t = html.escape(copy_txt)
+        if copy_addr:
+            t += ' → <a href="https://dexscreener.com/solana/%s">DexS</a> · <a href="https://pump.fun/coin/%s">pump.fun</a>' % (copy_addr, copy_addr)
+        bits.append(t)
     line = "🧠 Narativ: " + (" · ".join(bits) if bits else "—")
     line += "\n🐦 X: " + html.escape(x_info(m.get("twitter")))
     return line
 
 
-def token_block(m, rc, dev, meta_word, meta_n, copy_txt):
+def token_block(m, rc, dev, meta_word, meta_n, copy_txt, copy_addr=None):
     e = html.escape
     kind = "🕰 Starší" if is_old(m) else "🆕 Čerstvý"
     chg = m["chg_h1"]
@@ -699,7 +703,7 @@ def token_block(m, rc, dev, meta_word, meta_n, copy_txt):
         "1h: %d tx (%d B / %d S) · Ø %s · vol %s%s"
         % (tx, m["buys_h1"], m["sells_h1"], fmt_usd(m["vol_h1"] / max(tx, 1)), fmt_usd(m["vol_h1"]), chg_txt),
         dev_line(dev, rc),
-        narrative_line(m, meta_word, meta_n, copy_txt),
+        narrative_line(m, meta_word, meta_n, copy_txt, copy_addr),
     ]
     extra = []
     if rc["warn"]:
@@ -868,8 +872,8 @@ def main():
     for m, rc, dev in passed:
         tw = sorted(words(m["name"] + " " + m["symbol"]), key=lambda w: -meta.get(w, 0))
         meta_word = tw[0] if tw and meta.get(tw[0], 0) >= CONFIG["META_MIN_TOKENS"] else None
-        copy_txt = copy_check(m)
-        blocks.append(token_block(m, rc, dev, meta_word, meta.get(meta_word, 0) if meta_word else 0, copy_txt))
+        copy_txt, copy_addr = copy_check(m)
+        blocks.append(token_block(m, rc, dev, meta_word, meta.get(meta_word, 0) if meta_word else 0, copy_txt, copy_addr))
 
     header = "━━━━━━━━━━━━━━━━━━\n🔎 <b><u>SKENER · %s</u></b>\n━━━━━━━━━━━━━━━━━━\nMC %s–%s · %d min–%g h · prověřeno %d · <b>prošlo %d</b>" % (
         now_label(), fmt_usd(CONFIG["MC_MIN"]), fmt_usd(CONFIG["MC_MAX"]),

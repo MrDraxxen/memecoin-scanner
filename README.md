@@ -1,6 +1,6 @@
 # Memecoin skener (Solana / pump.fun → Telegram)
 
-Každých 15 minut projde pump.fun a DexScreener a hledá tokeny s market capem **10k–60k USD**. Nadějné kandidáty prověří přes RugCheck: počet holderů, top 10, procento deva, insidery a mint/freeze authority. Souhrn ti pošle na Telegram, včetně CA a odkazů na pump.fun, DexScreener, Solscan, RugCheck a GMGN.
+Každých 15 minut projde pump.fun, GeckoTerminal a DexScreener a hledá **čerstvé tokeny (10 min – 2 h)** s market capem **10k–60k USD**. Nadějné kandidáty prověří přes RugCheck: počet holderů, top 10, procento deva, insidery a mint/freeze authority. Souhrn ti pošle na Telegram, včetně CA a odkazů na pump.fun, DexScreener, Solscan, RugCheck a GMGN.
 
 Běží zdarma na **GitHub Actions**, takže počítač nemusí být zapnutý.
 
@@ -72,17 +72,35 @@ Všechno je nahoře v souboru `bot/scan.py` v části `CONFIG`. Na GitHubu otev�
 | Nastavení | Výchozí | Význam |
 |---|---|---|
 | `MC_MIN` / `MC_MAX` | 10 000 / 60 000 | rozsah market capu v USD |
-| `FRESH_MIN_AGE_H` | 1 | tokeny mladší než 1 h ignoruje |
-| `FRESH_MIN_HOLDERS` | 80 | minimum holderů u čerstvých |
-| `OLD_MIN_HOLDERS` | 150 | minimum holderů u starších |
-| `MAX_TOP10_PCT` | 30 | top 10 holderů max. 30 % |
+| `FRESH_MIN_AGE_MIN` | 10 | tokeny mladší než 10 minut ignoruje |
+| `FRESH_MAX_AGE_H` | 2 | tokeny starší než 2 hodiny ignoruje |
+| `OLD_ENABLED` | False | `True` = posílat i tokeny starší než den |
+| `FRESH_MIN_HOLDERS` | 50 | minimum holderů |
+| `MAX_TOP10_PCT` | 20 | top 10 holderů max. 20 % |
+| `MAX_BUNDLE_PCT` | 10 | bundleři a propojené insider peněženky max. 10 % |
 | `MAX_SINGLE_PCT` | 8 | žádná peněženka nad 8 % |
 | `MAX_DEV_PCT` | 5 | dev max. 5 % |
-| `MAX_INSIDERS` | 20 | max. insider peněženek podle RugChecku |
 | `MIN_AVG_TRADE_USD` | 10 | průměrný obchod pod $10 = boti |
 | `MAX_DROP_H1_PCT` | -40 | za hodinu spadl o víc než 40 % = přeskočit |
-| `MAX_ALERTS` | 5 | kolik nejlepších tokenů poslat za jeden běh |
+| `MAX_ALERTS` | 5 | kolik nejlepších tokenů poslat za běh |
 | `SEND_EMPTY_SUMMARY` | True | `False` = nepiš, když nic neprošlo |
+
+### Dev a bundle (Helius)
+
+S bezplatným klíčem od [Helius](https://dashboard.helius.dev) uloženým v Secrets jako `HELIUS_API_KEY` bot u nejlepších tokenů navíc zjistí:
+
+- **bundle z launche:** kolik % supply dnes drží peněženky, které koupily v prvních 2 slotech (bundleři a snipeři),
+- **deva:** stáří peněženky, počet transakcí, kolik má SOL a odkud dostal první peníze. Varuje u čerstvé peněženky a u sériového launchera.
+
+Bez klíče bere bundle jen podle propojených peněženek z RugChecku a deva neprověřuje.
+
+### Narativ (automaticky)
+
+- **meta:** kolik dalších aktivních tokenů sdílí stejné slovo v názvu, třeba „gta“ (7 tokenů),
+- **originál vs. kopie:** jestli na Solaně existuje větší nebo starší token se stejným tickerem,
+- **X odkaz:** vlastní účet projektu, cizí tweet (třeba od @elonmusk), X komunita, nebo bez X.
+
+Jestli je meme vtipné a jestli X účet stojí za něco, musíš posoudit sám.
 
 ## Dobré vědět
 

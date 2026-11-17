@@ -454,8 +454,8 @@ def now_label():
 
 
 def send(text_parts):
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat = os.environ.get("TELEGRAM_CHAT_ID")
+    token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+    chat = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
     # sloucit bloky do zprav do ~3800 znaku (limit Telegramu je 4096)
     messages, cur = [], ""
     for part in text_parts:

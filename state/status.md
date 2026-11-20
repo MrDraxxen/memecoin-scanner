@@ -1,21 +1,19 @@
-# Poslední sken: 20.11.2026 · 23:08
+# Poslední sken: 20.11.2026 · 23:18
 
-- kandidátů v rozsahu zdrojů: 119
-- prověřeno do hloubky (RugCheck): 20
-- **prošlo a odesláno: 1**
-  - $GEEG `JBWmerM6nxqSuLwBVwE46yj4NxjMBppGVEbHoG2Spump`
+- kandidátů v rozsahu zdrojů: 111
+- prověřeno do hloubky (RugCheck): 11
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 67
-- starší 2 h: 15
-- není z pump.fun: 14
+- MC mimo rozsah: 63
+- starší 2 h: 17
 - mladší 10 min: 9
+- není z pump.fun: 7
 - už posláno: 6
+- neznamé stáří: 3
+- top10 > 25 %: 2
 - prudce padá: 1
-- neznamé stáří: 1
-- insideři: 1
+- boti/wash: 1
 - RugCheck danger: 1
 - bundle > 10 %: 1
-- nafouknutí holdeři: 1
-- kopie většího tokenu: 1

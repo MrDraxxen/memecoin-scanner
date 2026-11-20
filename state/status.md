@@ -1,19 +1,17 @@
-# Poslední sken: 20.11.2026 · 18:23
+# Poslední sken: 20.11.2026 · 18:33
 
-- kandidátů v rozsahu zdrojů: 106
-- prověřeno do hloubky (RugCheck): 18
+- kandidátů v rozsahu zdrojů: 105
+- prověřeno do hloubky (RugCheck): 13
 - **prošlo a odesláno: 1**
-  - $MATHISOVER `3JgkhGnN5ggpE14Ykb2sgcsF1LTBUFyVZBPa3VrDpump`
+  - $h◡shippo `FDUktn5RyqhMqvXimZ8om9MGraFg5J6q92xEwoLFpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 56
-- starší 2 h: 17
-- není z pump.fun: 12
-- mladší 10 min: 6
-- boti/wash: 4
-- už posláno: 3
-- málo obchodů: 2
-- top10 > 25 %: 2
-- nafouknutí holdeři: 2
-- insideři: 1
+- MC mimo rozsah: 57
+- starší 2 h: 18
+- není z pump.fun: 11
+- mladší 10 min: 8
+- už posláno: 5
+- boti/wash: 3
+- málo obchodů: 1
+- nafouknutí holdeři: 1

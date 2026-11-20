@@ -1,19 +1,18 @@
-# Poslední sken: 20.11.2026 · 20:39
+# Poslední sken: 20.11.2026 · 20:49
 
-- kandidátů v rozsahu zdrojů: 98
-- prověřeno do hloubky (RugCheck): 8
+- kandidátů v rozsahu zdrojů: 111
+- prověřeno do hloubky (RugCheck): 17
 - **prošlo a odesláno: 1**
-  - $FIENA `FqjZnuzRv3QYQQQrRRxt6fAGtrnaXnPXFabExM7Ppump`
+  - $PAY `GdqJ3D4BF6ZKtpXajVqZTP39vrwD8wDXZGgw7tBA8PAY`
 
 Vyřazeno:
 
-- MC mimo rozsah: 51
+- MC mimo rozsah: 53
 - starší 2 h: 22
-- už posláno: 7
+- není z pump.fun: 11
+- už posláno: 8
 - mladší 10 min: 6
-- není z pump.fun: 3
-- boti/wash: 2
+- boti/wash: 3
+- RugCheck danger: 3
 - prudce padá: 2
-- RugCheck danger: 2
-- top10 > 25 %: 1
-- kopie většího tokenu: 1
+- nafouknutí holdeři: 2

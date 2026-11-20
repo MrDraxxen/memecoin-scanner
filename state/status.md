@@ -1,15 +1,18 @@
-# Poslední sken: 20.11.2026 · 15:54
+# Poslední sken: 20.11.2026 · 16:04
 
-- kandidátů v rozsahu zdrojů: 108
-- prověřeno do hloubky (RugCheck): 16
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 103
+- prověřeno do hloubky (RugCheck): 15
+- **prošlo a odesláno: 1**
+  - $小面包 `BjCRkoV3Ksd6bukFUyuF9pdPWTAoeAizFXXZ8qDJpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 56
-- starší 2 h: 19
-- není z pump.fun: 14
-- mladší 10 min: 10
+- MC mimo rozsah: 57
+- starší 2 h: 17
+- není z pump.fun: 12
+- mladší 10 min: 6
 - už posláno: 4
-- prudce padá: 3
-- kopie většího tokenu: 2
+- prudce padá: 2
+- boti/wash: 2
+- top10 > 25 %: 1
+- kopie většího tokenu: 1

@@ -1,20 +1,16 @@
-# Poslední sken: 21.11.2026 · 00:34
+# Poslední sken: 21.11.2026 · 00:44
 
 - kandidátů v rozsahu zdrojů: 105
-- prověřeno do hloubky (RugCheck): 11
-- **prošlo a odesláno: 1**
-  - $TITTYVERSE `4dXAFK3eL6MSmNtxoSni1u9493bJ9wweJDqSRkijpump`
+- prověřeno do hloubky (RugCheck): 12
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 65
+- MC mimo rozsah: 61
 - starší 2 h: 20
-- mladší 10 min: 5
-- není z pump.fun: 5
-- už posláno: 3
-- neznamé stáří: 1
-- bundle > 10 %: 1
+- není z pump.fun: 10
+- mladší 10 min: 7
+- už posláno: 4
+- prudce padá: 1
 - insideři: 1
 - RugCheck danger: 1
-- nafouknutí holdeři: 1
-- kopie většího tokenu: 1

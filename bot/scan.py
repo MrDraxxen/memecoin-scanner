@@ -929,7 +929,31 @@ def main():
             for m, _, _ in passed:
                 seen[m["mint"]] = time.time()
     save_seen(seen)
+    write_status(len(cands), len(shortlist), passed, stats)
     log("Hotovo: proslo %d" % len(passed))
+
+
+def write_status(n_cands, n_checked, passed, stats):
+    """Prehled posledniho skenu: state/status.md (vidis ho na GitHubu i z mobilu)."""
+    path = os.path.join(os.path.dirname(STATE_FILE), "status.md")
+    lines = [
+        "# Poslední sken: %s" % now_label(),
+        "",
+        "- kandidátů v rozsahu zdrojů: %d" % n_cands,
+        "- prověřeno do hloubky (RugCheck): %d" % n_checked,
+        "- **prošlo a odesláno: %d**" % len(passed),
+    ]
+    for m, _, _ in passed:
+        lines.append("  - $%s `%s`" % (m["symbol"], m["mint"]))
+    if stats:
+        lines += ["", "Vyřazeno:", ""]
+        for k, v in sorted(stats.items(), key=lambda kv: -kv[1]):
+            lines.append("- %s: %d" % (k, v))
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines) + "\n")
+    except OSError as e:
+        log("status.md nelze zapsat: %s" % e)
 
 
 if __name__ == "__main__":

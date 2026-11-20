@@ -43,7 +43,7 @@ jobs:
             # nejnovejsi stav a kod (kdyby se mezitim neco zmenilo)
             git pull -q --rebase || true
             python bot/scan.py || echo "sken $i selhal"
-            git add state/seen.json
+            git add state/
             if ! git diff --cached --quiet; then
               git commit -q -m "scan state" && (git pull -q --rebase && git push -q) || echo "ulozeni stavu selhalo"
             fi

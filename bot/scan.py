@@ -50,7 +50,7 @@ CONFIG = {
     "OLD_MIN_VOL_H24": 5_000,
 
     # Holdeři (bez poolu / bonding curve)
-    "MAX_TOP10_PCT": 20.0,
+    "MAX_TOP10_PCT": 25.0,
     "MAX_SINGLE_PCT": 8.0,
     "MAX_DEV_PCT": 5.0,
     "MAX_BUNDLE_PCT": 10.0,      # bundleri + propojene insider peněženky dohromady
@@ -83,7 +83,7 @@ CONFIG = {
     "MAX_ALERTS": 5,             # kolik nejlepsich tokenu poslat za beh
     "MAX_RUGCHECK_CALLS": 25,    # kolik tokenu za beh proverit pres RugCheck
     "MAX_HELIUS_TOKENS": 6,      # kolik tokenu za beh proverit pres Helius (setri kredity)
-    "SEND_EMPTY_SUMMARY": True,  # poslat zpravu, i kdyz nic neproslo
+    "SEND_EMPTY_SUMMARY": False, # poslat zpravu, i kdyz nic neproslo
     "SEEN_TTL_H": 72,
 }
 

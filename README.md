@@ -76,14 +76,14 @@ Všechno je nahoře v souboru `bot/scan.py` v části `CONFIG`. Na GitHubu otev�
 | `FRESH_MAX_AGE_H` | 2 | tokeny starší než 2 hodiny ignoruje |
 | `OLD_ENABLED` | False | `True` = posílat i tokeny starší než den |
 | `FRESH_MIN_HOLDERS` | 50 | minimum holderů |
-| `MAX_TOP10_PCT` | 20 | top 10 holderů max. 20 % |
+| `MAX_TOP10_PCT` | 25 | top 10 holderů max. 25 % |
 | `MAX_BUNDLE_PCT` | 10 | bundleři a propojené insider peněženky max. 10 % |
 | `MAX_SINGLE_PCT` | 8 | žádná peněženka nad 8 % |
 | `MAX_DEV_PCT` | 5 | dev max. 5 % |
 | `MIN_AVG_TRADE_USD` | 10 | průměrný obchod pod $10 = boti |
 | `MAX_DROP_H1_PCT` | -40 | za hodinu spadl o víc než 40 % = přeskočit |
 | `MAX_ALERTS` | 5 | kolik nejlepších tokenů poslat za běh |
-| `SEND_EMPTY_SUMMARY` | True | `False` = nepiš, když nic neprošlo |
+| `SEND_EMPTY_SUMMARY` | False | `True` = posílat i prázdné souhrny |
 
 ### Dev a bundle (Helius)
 

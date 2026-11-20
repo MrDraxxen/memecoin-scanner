@@ -55,6 +55,9 @@ CONFIG = {
     "MAX_DEV_PCT": 5.0,
     "MAX_BUNDLE_PCT": 10.0,      # bundleri + propojene insider peněženky dohromady
     "MAX_INSIDERS": 20,          # RugCheck "graphInsidersDetected"
+    "MAX_CLUSTER_PCT": 15.0,     # propojene peněženky mezi top holdery (jako Bubblemaps), Helius
+    "CLUSTER_HOLDERS": 20,       # kolik top holderu provereni na spolecny zdroj penez
+    "CLUSTER_FRESH_DAYS": 3,     # do clusteru pocitat jen peněženky mladsi nez tohle (burzy financuji kazdeho)
 
     # Obchodovani
     "MIN_AVG_TRADE_USD": 10,     # prumerny obchod pod $10 = boti / wash trading
@@ -249,6 +252,66 @@ def dev_profile(h, creator):
     return out
 
 
+def first_funding(h, wallet, max_pages=2):
+    """(odkud peněženka dostala prvni SOL, stari v hodinach) nebo (None, None) u stare/aktivni peněženky."""
+    sigs, complete = h.signatures(wallet, max_pages=max_pages)
+    if not sigs or not complete:
+        return None, None
+    oldest = sigs[-1]
+    age_h = (time.time() - oldest["blockTime"]) / 3600 if oldest.get("blockTime") else None
+    t = h.tx(oldest["signature"])
+    if not t:
+        return None, age_h
+    ins = list((((t.get("transaction") or {}).get("message") or {}).get("instructions")) or [])
+    for inner in ((t.get("meta") or {}).get("innerInstructions") or []):
+        ins.extend(inner.get("instructions") or [])
+    for i in ins:
+        p = i.get("parsed") if isinstance(i, dict) else None
+        if isinstance(p, dict) and p.get("type") in ("transfer", "transferWithSeed", "createAccount"):
+            info = p.get("info") or {}
+            dest = info.get("destination") or info.get("newAccount")
+            src = info.get("source")
+            if dest == wallet and src and src != wallet:
+                return src, age_h
+    return None, age_h
+
+
+def cluster_check(h, holders):
+    """Jako Bubblemaps: top holdery propojene spolecnym zdrojem penez (jen ceste peněženky).
+    Vraci (nejvetsi cluster %, vsechny clustery %, pocet peněženek v clusterech, pocet cerstvych)."""
+    holders = holders[:CONFIG["CLUSTER_HOLDERS"]]
+    pct = dict(holders)
+    fresh_limit = CONFIG["CLUSTER_FRESH_DAYS"] * 24
+    parent = {}
+
+    def find(x):
+        parent.setdefault(x, x)
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    fresh = 0
+    for owner, _ in holders:
+        if h.failed:
+            break
+        src, age_h = first_funding(h, owner)
+        if age_h is not None and age_h < fresh_limit:
+            fresh += 1
+            if src:
+                parent[find(owner)] = find(src)
+        elif src and src in pct:
+            parent[find(owner)] = find(src)  # financovan jinym top holderem
+    groups = {}
+    for owner, p in holders:
+        groups.setdefault(find(owner), []).append(p)
+    clusters = [g for g in groups.values() if len(g) >= 2]
+    biggest = max((sum(g) for g in clusters), default=0.0)
+    total = sum(sum(g) for g in clusters)
+    members = sum(len(g) for g in clusters)
+    return biggest, total, members, fresh
+
+
 # --------------------------------------------------------------------------
 # Stav
 # --------------------------------------------------------------------------
@@ -438,6 +501,7 @@ def rugcheck(mint):
         "launchpad": ((rep.get("launchpad") or {}).get("platform") or ""),
         "supply_ui": supply / (10 ** decimals) if supply else 0,
         "pool_owners": pool_owners,
+        "real_holders": [(h.get("owner"), float(h.get("pct") or 0)) for h in real if h.get("owner")],
         "creator_owners": creator_owners,
     }
 
@@ -668,6 +732,14 @@ def short(addr):
     return addr[:4] + "…" + addr[-4:] if addr and len(addr) > 10 else (addr or "?")
 
 
+def cluster_line(rc):
+    c = rc.get("cluster")
+    if not c:
+        return "🫧 Cluster: — (bez Helius)"
+    return "🫧 Cluster: %.1f %% (%d peněženek se společným zdrojem) · čerstvé peněženky %d/%d v top" % (
+        c["total"], c["n"], c["fresh"], c["of"])
+
+
 def dev_line(dev, rc):
     e = html.escape
     parts = ["drží %.1f %%" % rc["dev_pct"]]
@@ -719,6 +791,7 @@ def token_block(m, rc, dev, meta_word, meta_n, copy_txt, copy_addr=None):
         "MC <b>%s</b> · holdeři <b>%d</b>" % (fmt_usd(m["mc"]), rc["holders"]),
         "⏱ stáří <b>%s</b> · vytvořen %s" % (fmt_age(m["age_h"]), prague_time(m["created_ms"]) if m.get("created_ms") else "?"),
         "Top10 %.1f %% · max %.1f %% · bundle %.1f %% (%s)" % (rc["top10"], rc["max_single"], bundle, bundle_src),
+        cluster_line(rc),
         "1h: %d tx (%d B / %d S) · Ø %s · vol %s%s"
         % (tx, m["buys_h1"], m["sells_h1"], fmt_usd(m["vol_h1"] / max(tx, 1)), fmt_usd(m["vol_h1"]), chg_txt),
         dev_line(dev, rc),
@@ -877,6 +950,12 @@ def main():
             ok, why = bundle_ok(rc)
             if not ok:
                 bump(stats, why)
+                continue
+            c_big, c_total, c_n, c_fresh = cluster_check(helius, rc["real_holders"])
+            rc["cluster"] = {"big": c_big, "total": c_total, "n": c_n, "fresh": c_fresh,
+                             "of": min(len(rc["real_holders"]), CONFIG["CLUSTER_HOLDERS"])}
+            if c_total > CONFIG["MAX_CLUSTER_PCT"]:
+                bump(stats, "cluster > %d %%" % CONFIG["MAX_CLUSTER_PCT"])
                 continue
             if rc.get("creator"):
                 dev = dev_profile(helius, rc["creator"])

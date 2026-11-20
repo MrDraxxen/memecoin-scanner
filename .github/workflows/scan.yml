@@ -1,8 +1,12 @@
 name: memecoin-scan
 
+# GitHub spousti naplanovane behy nespolehlive (realne cca 1x za hodinu).
+# Proto kazdy beh udela 6 skenu po 10 minutach (~55 min) a dalsi beh ceka ve fronte.
+# Vysledek: sken zhruba kazdych 10 minut, bez externi sluzby.
+
 on:
   schedule:
-    - cron: "*/10 * * * *"   # kazdych 10 minut (GitHub obcas zpozdi o par minut)
+    - cron: "*/15 * * * *"    # jen aby byl vzdy pripraveny dalsi beh ve fronte
   workflow_dispatch:          # tlacitko "Run workflow" pro rucni spusteni
 
 permissions:
@@ -10,12 +14,12 @@ permissions:
 
 concurrency:
   group: memecoin-scan
-  cancel-in-progress: false
+  cancel-in-progress: false   # novy beh pocka, az dobehne predchozi
 
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
 
@@ -23,16 +27,28 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Skenovat
-        run: python bot/scan.py
+      - name: Skenovat 6x po 10 minutach
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           HELIUS_API_KEY: ${{ secrets.HELIUS_API_KEY }}
-
-      - name: Ulozit stav
+          SCANS: "6"
+          INTERVAL_S: "600"
         run: |
           git config user.name "scanner-bot"
           git config user.email "scanner-bot@users.noreply.github.com"
-          git add state/seen.json
-          git diff --cached --quiet || (git commit -m "scan state" && git pull --rebase && git push)
+          for i in $(seq 1 "$SCANS"); do
+            start=$(date +%s)
+            echo "===== sken $i/$SCANS $(date -u '+%H:%M:%S') UTC ====="
+            # nejnovejsi stav a kod (kdyby se mezitim neco zmenilo)
+            git pull -q --rebase || true
+            python bot/scan.py || echo "sken $i selhal"
+            git add state/seen.json
+            if ! git diff --cached --quiet; then
+              git commit -q -m "scan state" && (git pull -q --rebase && git push -q) || echo "ulozeni stavu selhalo"
+            fi
+            if [ "$i" -lt "$SCANS" ]; then
+              wait_s=$(( INTERVAL_S - ($(date +%s) - start) ))
+              if [ "$wait_s" -gt 0 ]; then sleep "$wait_s"; fi
+            fi
+          done

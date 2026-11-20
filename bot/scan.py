@@ -69,7 +69,7 @@ CONFIG = {
 
     # Zdroje
     "PUMP_PAGES": 6,
-    "GECKO_DEX_PAGES": {"pump-fun": 5, "pumpswap": 2},  # stranek po 20 poolech (podle obchodu za 24 h)
+    "GECKO_DEX_PAGES": {"pump-fun": 5, "pumpswap": 1},  # stranek po 20 poolech (podle obchodu za 24 h)
     "GECKO_TRENDING_PAGES": 3,   # stranek trending poolu za 5 min / 1 h
     "GECKO_NEW_PAGES": 3,        # stranek nejnovejsich poolu na Solane
     "GECKO_DELAY_S": 6,          # pauza mezi dotazy (GeckoTerminal ma prisny limit)

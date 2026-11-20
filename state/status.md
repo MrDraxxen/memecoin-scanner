@@ -1,15 +1,16 @@
-# Poslední sken: 20.11.2026 · 19:46
+# Poslední sken: 20.11.2026 · 19:56
 
-- kandidátů v rozsahu zdrojů: 96
-- prověřeno do hloubky (RugCheck): 5
+- kandidátů v rozsahu zdrojů: 97
+- prověřeno do hloubky (RugCheck): 7
 - **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 53
-- starší 2 h: 23
-- už posláno: 7
-- mladší 10 min: 7
+- MC mimo rozsah: 54
+- starší 2 h: 22
+- mladší 10 min: 8
+- už posláno: 5
 - není z pump.fun: 4
+- RugCheck danger: 2
 - prudce padá: 1
-- RugCheck danger: 1
+- insideři: 1

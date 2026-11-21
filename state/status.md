@@ -1,16 +1,16 @@
-# Poslední sken: 21.11.2026 · 05:49
+# Poslední sken: 21.11.2026 · 05:53
 
-- kandidátů v rozsahu zdrojů: 110
-- prověřeno do hloubky (RugCheck): 21
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 102
+- prověřeno do hloubky (RugCheck): 14
+- **prošlo a odesláno: 1**
+  - $OnlyCats `2S4e8Lv5kMqzXumeWrXMMwANUVtFLazeezUorfG9pump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 53
+- MC mimo rozsah: 52
 - starší 2 h: 20
-- není z pump.fun: 19
-- mladší 10 min: 10
+- mladší 10 min: 12
+- není z pump.fun: 11
 - už posláno: 3
-- boti/wash: 3
-- RugCheck danger: 1
-- kopie většího tokenu: 1
+- insideři: 2
+- boti/wash: 1

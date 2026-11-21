@@ -1,16 +1,14 @@
-# Poslední sken: 21.11.2026 · 04:46
+# Poslední sken: 21.11.2026 · 04:56
 
-- kandidátů v rozsahu zdrojů: 99
-- prověřeno do hloubky (RugCheck): 11
-- **prošlo a odesláno: 1**
-  - $MUR `439nprrEUAawb4nmfnB8Y9AhpEKdRr5MpEfLse7R6HkJ`
+- kandidátů v rozsahu zdrojů: 97
+- prověřeno do hloubky (RugCheck): 9
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 60
+- MC mimo rozsah: 56
 - starší 2 h: 19
-- není z pump.fun: 9
-- už posláno: 4
-- mladší 10 min: 4
-- málo obchodů: 1
+- mladší 10 min: 8
+- není z pump.fun: 8
+- už posláno: 5
 - kopie většího tokenu: 1

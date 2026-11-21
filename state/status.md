@@ -1,19 +1,16 @@
-# Poslední sken: 22.11.2026 · 00:48
+# Poslední sken: 22.11.2026 · 00:58
 
-- kandidátů v rozsahu zdrojů: 152
-- prověřeno do hloubky (RugCheck): 16
+- kandidátů v rozsahu zdrojů: 164
+- prověřeno do hloubky (RugCheck): 15
 - **prošlo a odesláno: 1**
-  - $lens `FBU2ogNQEmrKXtPFCdk68zgoHX5fW3EhZYAHKXbhpump`
+  - $KAREN `9kaQR3dorDz4vwim3iGaoRa9amoLcUHPp6wuLHpEpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 69
-- starší 2 h: 49
-- mladší 10 min: 12
-- není z pump.fun: 10
-- už posláno: 4
+- starší 2 h: 69
+- MC mimo rozsah: 66
+- mladší 10 min: 11
+- není z pump.fun: 11
 - kopie většího tokenu: 3
+- už posláno: 2
 - boti/wash: 1
-- prudce padá: 1
-- top10 > 25 %: 1
-- cluster > 15 %: 1

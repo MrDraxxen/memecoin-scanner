@@ -1,19 +1,17 @@
-# Poslední sken: 21.11.2026 · 23:45
+# Poslední sken: 21.11.2026 · 23:55
 
-- kandidátů v rozsahu zdrojů: 145
-- prověřeno do hloubky (RugCheck): 24
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 155
+- prověřeno do hloubky (RugCheck): 20
+- **prošlo a odesláno: 1**
+  - $CTA6 `4sgD5mAhdm7BWbfmWXeWrsvtAe9u9Js6F1EwKXhSpump`
 
 Vyřazeno:
 
 - MC mimo rozsah: 66
-- starší 2 h: 41
-- není z pump.fun: 19
-- mladší 10 min: 6
+- starší 2 h: 57
+- není z pump.fun: 15
+- mladší 10 min: 5
+- top10 > 25 %: 4
 - prudce padá: 3
+- boti/wash: 2
 - už posláno: 2
-- neznamé stáří: 2
-- top10 > 25 %: 2
-- kopie většího tokenu: 2
-- boti/wash: 1
-- nafouknutí holdeři: 1

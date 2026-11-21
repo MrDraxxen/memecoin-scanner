@@ -1,18 +1,17 @@
-# Poslední sken: 21.11.2026 · 14:30
+# Poslední sken: 21.11.2026 · 14:40
 
-- kandidátů v rozsahu zdrojů: 106
-- prověřeno do hloubky (RugCheck): 17
+- kandidátů v rozsahu zdrojů: 96
+- prověřeno do hloubky (RugCheck): 10
 - **prošlo a odesláno: 1**
-  - $DPRK `EALjJGCnm5JUFW8LNFdgsn4L5YCkzxYkFYioV2zPpump`
+  - $DPRK `8LiYzFsD2WySHR26ZAZdZkYZHgEvjdE9SrSfchhwpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 53
-- starší 2 h: 23
-- není z pump.fun: 12
-- mladší 10 min: 10
-- už posláno: 2
-- kopie většího tokenu: 2
+- MC mimo rozsah: 50
+- starší 2 h: 24
+- mladší 10 min: 8
+- není z pump.fun: 7
+- už posláno: 3
 - boti/wash: 1
-- RugCheck danger: 1
+- insideři: 1
 - top10 > 25 %: 1

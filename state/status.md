@@ -1,18 +1,18 @@
-# Poslední sken: 21.11.2026 · 15:23
+# Poslední sken: 21.11.2026 · 15:33
 
-- kandidátů v rozsahu zdrojů: 108
-- prověřeno do hloubky (RugCheck): 19
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 114
+- prověřeno do hloubky (RugCheck): 20
+- **prošlo a odesláno: 1**
+  - $Bigfoot `3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 48
-- starší 2 h: 25
+- MC mimo rozsah: 51
+- starší 2 h: 24
 - není z pump.fun: 15
-- mladší 10 min: 10
+- mladší 10 min: 13
 - už posláno: 4
 - boti/wash: 2
-- insideři: 1
+- top10 > 25 %: 2
 - RugCheck danger: 1
-- top10 > 25 %: 1
 - kopie většího tokenu: 1

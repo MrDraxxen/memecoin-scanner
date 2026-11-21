@@ -1,16 +1,18 @@
-# Poslední sken: 21.11.2026 · 19:40
+# Poslední sken: 21.11.2026 · 19:50
 
-- kandidátů v rozsahu zdrojů: 104
-- prověřeno do hloubky (RugCheck): 15
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 112
+- prověřeno do hloubky (RugCheck): 16
+- **prošlo a odesláno: 1**
+  - $TIMON `9Z3vdxmdfzVqFF46GMsHnRXwzWYjFFdDtEDmFw38pump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 58
-- starší 2 h: 21
-- není z pump.fun: 10
-- mladší 10 min: 8
+- MC mimo rozsah: 54
+- starší 2 h: 23
+- mladší 10 min: 14
+- není z pump.fun: 12
+- prudce padá: 2
 - už posláno: 2
 - nafouknutí holdeři: 2
-- kopie většího tokenu: 2
+- neznamé stáří: 1
 - RugCheck danger: 1

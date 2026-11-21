@@ -1,20 +1,16 @@
-# Poslední sken: 21.11.2026 · 17:44
+# Poslední sken: 21.11.2026 · 17:53
 
-- kandidátů v rozsahu zdrojů: 120
-- prověřeno do hloubky (RugCheck): 18
-- **prošlo a odesláno: 1**
-  - $GTA VII `5hNyf7yxDRyip1r37DnJySQofKfnjBBfzK5BDhmNpump`
+- kandidátů v rozsahu zdrojů: 110
+- prověřeno do hloubky (RugCheck): 14
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
 - MC mimo rozsah: 59
 - starší 2 h: 24
-- není z pump.fun: 13
-- mladší 10 min: 12
-- už posláno: 3
-- prudce padá: 2
-- kopie většího tokenu: 2
-- boti/wash: 1
-- neznamé stáří: 1
-- top10 > 25 %: 1
-- RugCheck danger: 1
+- mladší 10 min: 9
+- není z pump.fun: 8
+- už posláno: 4
+- kopie většího tokenu: 3
+- nafouknutí holdeři: 2
+- insideři: 1

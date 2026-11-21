@@ -1,18 +1,15 @@
-# Poslední sken: 21.11.2026 · 21:05
+# Poslední sken: 21.11.2026 · 21:15
 
-- kandidátů v rozsahu zdrojů: 116
-- prověřeno do hloubky (RugCheck): 17
-- **prošlo a odesláno: 1**
-  - $JEREMY `5vh1khFqXp2BdboRv7ycBknTeMEG9rT8kKqBk3BKpump`
+- kandidátů v rozsahu zdrojů: 106
+- prověřeno do hloubky (RugCheck): 10
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 59
+- MC mimo rozsah: 62
 - starší 2 h: 26
-- není z pump.fun: 14
-- mladší 10 min: 9
+- není z pump.fun: 8
+- mladší 10 min: 4
 - už posláno: 3
+- top10 > 25 %: 2
 - boti/wash: 1
-- neznamé stáří: 1
-- top10 > 25 %: 1
-- kopie většího tokenu: 1

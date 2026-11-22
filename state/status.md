@@ -1,18 +1,19 @@
-# Poslední sken: 22.11.2026 · 02:15
+# Poslední sken: 22.11.2026 · 02:25
 
 - kandidátů v rozsahu zdrojů: 148
-- prověřeno do hloubky (RugCheck): 15
+- prověřeno do hloubky (RugCheck): 14
 - **prošlo a odesláno: 1**
-  - $FIONARIP `Cjz8m5m5A7r8EwYtm4vYKbUJGa7qT7GjfooNsicvpump`
+  - $CI `4sYBDAjAiFm2kJDJExyWjPEW5rth9riExqtyRDmhpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 58
-- starší 2 h: 55
-- už posláno: 9
+- MC mimo rozsah: 59
+- starší 2 h: 57
 - není z pump.fun: 8
-- mladší 10 min: 5
-- kopie většího tokenu: 4
-- boti/wash: 3
+- už posláno: 7
+- mladší 10 min: 4
+- boti/wash: 4
 - prudce padá: 3
-- top10 > 25 %: 2
+- RugCheck danger: 2
+- kopie většího tokenu: 2
+- insideři: 1

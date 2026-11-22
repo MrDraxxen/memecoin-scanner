@@ -1,21 +1,20 @@
-# Poslední sken: 22.11.2026 · 21:15
+# Poslední sken: 22.11.2026 · 21:25
 
-- kandidátů v rozsahu zdrojů: 156
-- prověřeno do hloubky (RugCheck): 22
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 158
+- prověřeno do hloubky (RugCheck): 19
+- **prošlo a odesláno: 2**
+  - $Heliogram `HELio3Xy1xAJhbMA9fWZMpeNDjoeiM5LrmCJrrrxZ5zM`
+  - $GS `BKes6jwa2LQnwtiakPMk9fj6ooKnZVPx5dnDMgCZpump`
 
 Vyřazeno:
 
-- starší 2 h: 56
-- MC mimo rozsah: 43
-- už posláno: 15
+- starší 2 h: 58
+- MC mimo rozsah: 52
 - není z pump.fun: 15
-- mladší 10 min: 13
-- prudce padá: 3
-- boti/wash: 2
-- málo obchodů: 2
-- RugCheck danger: 2
-- kopie většího tokenu: 2
+- už posláno: 14
+- mladší 10 min: 12
+- boti/wash: 1
+- neznamé stáří: 1
+- málo obchodů: 1
 - nafouknutí holdeři: 1
-- bundle > 10 %: 1
-- top10 > 25 %: 1
+- RugCheck danger: 1

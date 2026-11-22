@@ -1,19 +1,18 @@
-# Poslední sken: 22.11.2026 · 17:52
+# Poslední sken: 22.11.2026 · 18:01
 
-- kandidátů v rozsahu zdrojů: 139
-- prověřeno do hloubky (RugCheck): 13
-- **prošlo a odesláno: 2**
-  - $OMGAI `AHDP4wVa73GQYSP6AhrC2f5eE5CfkpCyyzwLg5WQpump`
-  - $FOAM `2MdCPWNFufmJSZhajSvi1yqBFTB24GQ4ipjNcB8Vpump`
+- kandidátů v rozsahu zdrojů: 169
+- prověřeno do hloubky (RugCheck): 12
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 58
-- MC mimo rozsah: 43
-- mladší 10 min: 13
-- už posláno: 10
-- není z pump.fun: 7
-- kopie většího tokenu: 3
+- starší 2 h: 77
+- MC mimo rozsah: 50
+- mladší 10 min: 15
+- už posláno: 12
+- není z pump.fun: 9
+- kopie většího tokenu: 2
+- boti/wash: 1
 - prudce padá: 1
 - neznamé stáří: 1
-- nafouknutí holdeři: 1
+- top10 > 25 %: 1

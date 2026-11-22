@@ -1,16 +1,18 @@
-# Poslední sken: 22.11.2026 · 18:55
+# Poslední sken: 22.11.2026 · 19:05
 
-- kandidátů v rozsahu zdrojů: 141
-- prověřeno do hloubky (RugCheck): 17
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 157
+- prověřeno do hloubky (RugCheck): 14
+- **prošlo a odesláno: 1**
+  - $SANTIA `HNLPyVR7v6RJbCqX5FAxTdhiE5RDFcF5soAwLFuPpump`
 
 Vyřazeno:
 
-- starší 2 h: 55
+- starší 2 h: 68
 - MC mimo rozsah: 42
-- není z pump.fun: 16
-- už posláno: 13
-- mladší 10 min: 10
-- boti/wash: 2
-- prudce padá: 2
+- mladší 10 min: 16
+- už posláno: 11
+- není z pump.fun: 11
+- prudce padá: 3
+- boti/wash: 3
+- top10 > 25 %: 1
 - kopie většího tokenu: 1

@@ -1,15 +1,17 @@
-# Poslední sken: 23.11.2026 · 00:39
+# Poslední sken: 23.11.2026 · 00:49
 
-- kandidátů v rozsahu zdrojů: 140
-- prověřeno do hloubky (RugCheck): 14
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 155
+- prověřeno do hloubky (RugCheck): 17
+- **prošlo a odesláno: 2**
+  - $P `7Kn92xBncvzp8FUrmZKFnEDd7wS3iLAugr5A8vWBpump`
+  - $PRIVI `89DKn95R7QvjAcGSeqHvmj3pq7TJFbJcckURqjvuHsHp`
 
 Vyřazeno:
 
-- starší 2 h: 53
-- MC mimo rozsah: 52
+- starší 2 h: 58
+- MC mimo rozsah: 53
+- není z pump.fun: 15
 - už posláno: 14
-- není z pump.fun: 12
-- boti/wash: 4
-- mladší 10 min: 3
-- top10 > 25 %: 2
+- mladší 10 min: 6
+- boti/wash: 6
+- neznamé stáří: 1

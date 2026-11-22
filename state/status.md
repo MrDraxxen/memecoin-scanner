@@ -1,16 +1,19 @@
-# Poslední sken: 22.11.2026 · 00:58
+# Poslední sken: 22.11.2026 · 01:08
 
-- kandidátů v rozsahu zdrojů: 164
-- prověřeno do hloubky (RugCheck): 15
-- **prošlo a odesláno: 1**
-  - $KAREN `9kaQR3dorDz4vwim3iGaoRa9amoLcUHPp6wuLHpEpump`
+- kandidátů v rozsahu zdrojů: 154
+- prověřeno do hloubky (RugCheck): 12
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 69
-- MC mimo rozsah: 66
+- starší 2 h: 67
+- MC mimo rozsah: 57
 - mladší 10 min: 11
-- není z pump.fun: 11
-- kopie většího tokenu: 3
-- už posláno: 2
-- boti/wash: 1
+- není z pump.fun: 9
+- už posláno: 3
+- boti/wash: 2
+- prudce padá: 1
+- málo obchodů: 1
+- insideři: 1
+- top10 > 25 %: 1
+- kopie většího tokenu: 1

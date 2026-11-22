@@ -1,17 +1,19 @@
-# Poslední sken: 22.11.2026 · 02:55
+# Poslední sken: 22.11.2026 · 03:06
 
-- kandidátů v rozsahu zdrojů: 144
-- prověřeno do hloubky (RugCheck): 9
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 156
+- prověřeno do hloubky (RugCheck): 23
+- **prošlo a odesláno: 1**
+  - $DUEL `H5Kk6GDuPempspWjo7ZSuy5pw3uHAs3uaho5EPE5pump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 61
-- starší 2 h: 55
-- mladší 10 min: 7
+- MC mimo rozsah: 59
+- starší 2 h: 53
+- není z pump.fun: 17
+- mladší 10 min: 9
 - už posláno: 7
-- není z pump.fun: 6
 - boti/wash: 3
 - prudce padá: 2
 - RugCheck danger: 2
-- kopie většího tokenu: 1
+- kopie většího tokenu: 2
+- top10 > 25 %: 1

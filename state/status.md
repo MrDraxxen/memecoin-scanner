@@ -1,17 +1,18 @@
-# Poslední sken: 22.11.2026 · 06:30
+# Poslední sken: 22.11.2026 · 06:40
 
-- kandidátů v rozsahu zdrojů: 164
-- prověřeno do hloubky (RugCheck): 22
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 171
+- prověřeno do hloubky (RugCheck): 23
+- **prošlo a odesláno: 1**
+  - $CORONA `6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 64
-- starší 2 h: 59
-- není z pump.fun: 17
-- mladší 10 min: 9
-- boti/wash: 5
-- už posláno: 5
+- starší 2 h: 64
+- MC mimo rozsah: 59
+- není z pump.fun: 18
+- mladší 10 min: 16
+- už posláno: 6
 - kopie většího tokenu: 3
+- boti/wash: 2
+- prudce padá: 1
 - RugCheck danger: 1
-- top10 > 25 %: 1

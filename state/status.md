@@ -1,17 +1,19 @@
-# Poslední sken: 22.11.2026 · 20:55
+# Poslední sken: 22.11.2026 · 21:05
 
-- kandidátů v rozsahu zdrojů: 152
-- prověřeno do hloubky (RugCheck): 22
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 150
+- prověřeno do hloubky (RugCheck): 23
+- **prošlo a odesláno: 1**
+  - $AAD `DiEV12zj3uddSxKMhikvZzDAMdCxV2fzd49ZgWbopump`
 
 Vyřazeno:
 
-- starší 2 h: 68
-- MC mimo rozsah: 43
-- není z pump.fun: 16
-- už posláno: 10
-- boti/wash: 4
-- mladší 10 min: 4
-- RugCheck danger: 4
+- starší 2 h: 53
+- MC mimo rozsah: 46
+- není z pump.fun: 15
+- mladší 10 min: 14
+- už posláno: 11
+- boti/wash: 3
+- RugCheck danger: 3
 - kopie většího tokenu: 2
-- prudce padá: 1
+- nafouknutí holdeři: 1
+- top10 > 25 %: 1

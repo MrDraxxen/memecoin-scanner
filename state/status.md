@@ -1,18 +1,17 @@
-# Poslední sken: 22.11.2026 · 21:59
+# Poslední sken: 22.11.2026 · 22:09
 
-- kandidátů v rozsahu zdrojů: 164
-- prověřeno do hloubky (RugCheck): 23
-- **prošlo a odesláno: 1**
-  - $SI2SI `HxpiqQCPnNX6ZnCzJriLUzmWsASoeC916kWtJYPnpump`
+- kandidátů v rozsahu zdrojů: 152
+- prověřeno do hloubky (RugCheck): 17
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 57
-- MC mimo rozsah: 54
-- není z pump.fun: 19
+- MC mimo rozsah: 53
+- starší 2 h: 53
 - už posláno: 14
-- mladší 10 min: 10
-- prudce padá: 3
-- neznamé stáří: 3
+- není z pump.fun: 13
+- mladší 10 min: 11
+- boti/wash: 2
+- prudce padá: 2
+- top10 > 25 %: 2
 - kopie většího tokenu: 2
-- top10 > 25 %: 1

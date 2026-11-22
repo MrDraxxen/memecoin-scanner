@@ -1,19 +1,18 @@
-# Poslední sken: 22.11.2026 · 02:12
+# Poslední sken: 22.11.2026 · 02:15
 
-- kandidátů v rozsahu zdrojů: 158
-- prověřeno do hloubky (RugCheck): 25
+- kandidátů v rozsahu zdrojů: 148
+- prověřeno do hloubky (RugCheck): 15
 - **prošlo a odesláno: 1**
-  - $HORSEGIRLS `EPA862sBzf64Amt3mS3aefXcJ5PgaFgQLrz2XWQTpump`
+  - $FIONARIP `Cjz8m5m5A7r8EwYtm4vYKbUJGa7qT7GjfooNsicvpump`
 
 Vyřazeno:
 
-- starší 2 h: 58
-- MC mimo rozsah: 57
-- není z pump.fun: 17
-- mladší 10 min: 7
-- už posláno: 6
+- MC mimo rozsah: 58
+- starší 2 h: 55
+- už posláno: 9
+- není z pump.fun: 8
+- mladší 10 min: 5
+- kopie většího tokenu: 4
+- boti/wash: 3
 - prudce padá: 3
-- top10 > 25 %: 3
-- kopie většího tokenu: 3
-- boti/wash: 2
-- RugCheck danger: 1
+- top10 > 25 %: 2

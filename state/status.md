@@ -1,19 +1,21 @@
-# Poslední sken: 22.11.2026 · 22:44
+# Poslední sken: 22.11.2026 · 22:54
 
-- kandidátů v rozsahu zdrojů: 159
-- prověřeno do hloubky (RugCheck): 20
-- **prošlo a odesláno: 1**
-  - $MVC `83DQikKipWyMG7HCLspawxpWKvVNz8VecFxLoxxspump`
+- kandidátů v rozsahu zdrojů: 162
+- prověřeno do hloubky (RugCheck): 19
+- **prošlo a odesláno: 3**
+  - $fug `qrAcqxJRNXdXPVW3CWXCFTGKPZdMVr8MavEVXNmpump`
+  - $PLAYGTA `4rsQFakKrhvgH854V54E6aJTB5BXfmSRjapGJM19pump`
+  - $Hold `8J7yeYsBzozSQ67Ji4kpun2gdfTFp8o9g6rNkYR3pump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 53
-- starší 2 h: 48
-- mladší 10 min: 19
-- není z pump.fun: 15
-- už posláno: 14
-- boti/wash: 3
-- kopie většího tokenu: 3
+- starší 2 h: 57
+- MC mimo rozsah: 54
+- není z pump.fun: 14
+- mladší 10 min: 12
+- už posláno: 12
+- boti/wash: 4
+- prudce padá: 2
+- kopie většího tokenu: 2
 - neznamé stáří: 1
 - málo obchodů: 1
-- top10 > 25 %: 1

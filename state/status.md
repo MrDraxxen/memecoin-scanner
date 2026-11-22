@@ -1,19 +1,16 @@
-# Poslední sken: 22.11.2026 · 01:31
+# Poslední sken: 22.11.2026 · 01:41
 
-- kandidátů v rozsahu zdrojů: 134
-- prověřeno do hloubky (RugCheck): 7
-- **prošlo a odesláno: 1**
-  - $BOOBILLIONS `13qebRhFyiB32FH9b1YYTgh8RW4VvmNEbi79eG28pump`
+- kandidátů v rozsahu zdrojů: 135
+- prověřeno do hloubky (RugCheck): 12
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 56
-- MC mimo rozsah: 55
-- boti/wash: 5
-- už posláno: 5
+- MC mimo rozsah: 58
+- starší 2 h: 51
+- není z pump.fun: 9
+- už posláno: 6
 - mladší 10 min: 5
-- není z pump.fun: 2
+- boti/wash: 3
 - kopie většího tokenu: 2
-- prudce padá: 1
 - RugCheck danger: 1
-- top10 > 25 %: 1

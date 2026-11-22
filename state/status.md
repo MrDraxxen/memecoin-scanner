@@ -1,18 +1,16 @@
-# Poslední sken: 22.11.2026 · 09:33
+# Poslední sken: 22.11.2026 · 09:43
 
-- kandidátů v rozsahu zdrojů: 149
-- prověřeno do hloubky (RugCheck): 18
-- **prošlo a odesláno: 1**
-  - $eˣ `CbHNSZB6JzAxfWpamKvZReouucF2PTZGXitcfda6pump`
+- kandidátů v rozsahu zdrojů: 146
+- prověřeno do hloubky (RugCheck): 16
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 63
-- starší 2 h: 48
-- není z pump.fun: 15
-- už posláno: 8
-- mladší 10 min: 8
-- boti/wash: 3
-- prudce padá: 1
-- insideři: 1
-- kopie většího tokenu: 1
+- MC mimo rozsah: 61
+- starší 2 h: 49
+- není z pump.fun: 13
+- mladší 10 min: 11
+- už posláno: 7
+- boti/wash: 2
+- kopie většího tokenu: 2
+- nafouknutí holdeři: 1

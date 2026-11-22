@@ -1,18 +1,18 @@
-# Poslední sken: 22.11.2026 · 05:25
+# Poslední sken: 22.11.2026 · 05:36
 
-- kandidátů v rozsahu zdrojů: 157
-- prověřeno do hloubky (RugCheck): 5
-- **prošlo a odesláno: 1**
-  - $彪哥 `77gLMe1DMax8pgjGwQYrm5DBGYzLWtiBTMQxM9Jcpump`
+- kandidátů v rozsahu zdrojů: 142
+- prověřeno do hloubky (RugCheck): 10
+- **prošlo a odesláno: 2**
+  - $NICELIST `GXnTGDEe74PPBrnGhTpHhTZmSTUq6Zyc3cQJZLkgpump`
+  - $PigGPT `7jAwMth6o7pkdXxz1YYRtvCALw4pSBPMLWqBzPqcpump`
 
 Vyřazeno:
 
-- starší 2 h: 72
-- MC mimo rozsah: 66
-- mladší 10 min: 6
-- už posláno: 5
+- MC mimo rozsah: 64
+- starší 2 h: 59
+- už posláno: 6
+- není z pump.fun: 4
+- kopie většího tokenu: 3
 - boti/wash: 2
-- není z pump.fun: 2
-- prudce padá: 1
+- mladší 10 min: 1
 - top10 > 25 %: 1
-- kopie většího tokenu: 1

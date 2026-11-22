@@ -1,19 +1,18 @@
-# Poslední sken: 22.11.2026 · 20:41
+# Poslední sken: 22.11.2026 · 20:51
 
-- kandidátů v rozsahu zdrojů: 130
+- kandidátů v rozsahu zdrojů: 134
 - prověřeno do hloubky (RugCheck): 11
-- **prošlo a odesláno: 0**
+- **prošlo a odesláno: 1**
+  - $SIGIL `8Y6GQsN7FnZ9ygvUYY6C7ybiHVUomcwwhWFbR61Jpump`
 
 Vyřazeno:
 
 - starší 2 h: 60
-- MC mimo rozsah: 37
-- už posláno: 12
-- mladší 10 min: 7
-- není z pump.fun: 6
-- boti/wash: 2
-- RugCheck danger: 2
-- málo obchodů: 1
-- nafouknutí holdeři: 1
-- top10 > 25 %: 1
-- kopie většího tokenu: 1
+- MC mimo rozsah: 43
+- už posláno: 10
+- není z pump.fun: 5
+- mladší 10 min: 4
+- boti/wash: 4
+- RugCheck danger: 3
+- prudce padá: 2
+- kopie většího tokenu: 2

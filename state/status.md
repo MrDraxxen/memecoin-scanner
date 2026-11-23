@@ -1,19 +1,20 @@
-# Poslední sken: 23.11.2026 · 21:18
+# Poslední sken: 23.11.2026 · 21:27
 
-- kandidátů v rozsahu zdrojů: 163
-- prověřeno do hloubky (RugCheck): 23
-- **prošlo a odesláno: 1**
-  - $SEXDAQ `5JEC1YtmGTyf1bZy5JJNowhDkup41cJUavKqc2m2pump`
+- kandidátů v rozsahu zdrojů: 151
+- prověřeno do hloubky (RugCheck): 20
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 64
-- MC mimo rozsah: 48
-- není z pump.fun: 18
+- starší 2 h: 52
+- MC mimo rozsah: 47
+- není z pump.fun: 15
 - už posláno: 14
-- mladší 10 min: 9
+- mladší 10 min: 12
 - kopie většího tokenu: 3
-- boti/wash: 2
 - prudce padá: 2
-- neznamé stáří: 1
+- neznamé stáří: 2
+- boti/wash: 1
+- málo obchodů: 1
+- RugCheck danger: 1
 - top10 > 25 %: 1

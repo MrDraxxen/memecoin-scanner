@@ -1,18 +1,18 @@
-# Poslední sken: 23.11.2026 · 23:38
+# Poslední sken: 23.11.2026 · 23:48
 
-- kandidátů v rozsahu zdrojů: 150
-- prověřeno do hloubky (RugCheck): 17
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 143
+- prověřeno do hloubky (RugCheck): 7
+- **prošlo a odesláno: 1**
+  - $BLC `4R9ZbBnboH39tMwMVP7yTzAbm1ibivWEkVDm2EbBpump`
 
 Vyřazeno:
 
 - starší 2 h: 55
-- MC mimo rozsah: 46
-- už posláno: 17
-- není z pump.fun: 12
+- MC mimo rozsah: 47
+- už posláno: 18
 - mladší 10 min: 10
+- kopie většího tokenu: 5
 - boti/wash: 4
-- kopie většího tokenu: 3
+- neznamé stáří: 1
 - prudce padá: 1
 - top10 > 25 %: 1
-- RugCheck danger: 1

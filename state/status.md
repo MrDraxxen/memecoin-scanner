@@ -1,19 +1,19 @@
-# Poslední sken: 23.11.2026 · 19:07
+# Poslední sken: 23.11.2026 · 19:10
 
-- kandidátů v rozsahu zdrojů: 146
-- prověřeno do hloubky (RugCheck): 15
+- kandidátů v rozsahu zdrojů: 148
+- prověřeno do hloubky (RugCheck): 19
 - **prošlo a odesláno: 2**
-  - $rGPU `Bdd1X3QzvQGu8xRiQRNkQaiJZEHoBJYup5RGHR7Tpump`
-  - $birds `6Ncsox6oJptTepXojfgpUpE21siCoz46oDDCwQqMuvNV`
+  - $NBI `B9RrESDxun2JeBZYZgJUm2cYdFJGEoxkF2RGLB48pump`
+  - $Perpy `7ohH6rTJE3jdeLxc12r3QWiWrcGuAgbNSiePHA4ppump`
 
 Vyřazeno:
 
-- starší 2 h: 52
-- MC mimo rozsah: 51
-- už posláno: 14
-- mladší 10 min: 13
-- není z pump.fun: 9
-- RugCheck danger: 2
-- neznamé stáří: 1
+- MC mimo rozsah: 49
+- starší 2 h: 49
+- už posláno: 16
+- není z pump.fun: 15
+- mladší 10 min: 12
+- boti/wash: 2
+- prudce padá: 1
 - top10 > 25 %: 1
-- kopie většího tokenu: 1
+- RugCheck danger: 1

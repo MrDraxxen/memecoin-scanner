@@ -1,18 +1,20 @@
-# Poslední sken: 23.11.2026 · 03:29
+# Poslední sken: 23.11.2026 · 03:40
 
-- kandidátů v rozsahu zdrojů: 156
-- prověřeno do hloubky (RugCheck): 17
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 165
+- prověřeno do hloubky (RugCheck): 22
+- **prošlo a odesláno: 1**
+  - $lilguy `D1cNYbwpkoTjB4fUrMkSoEzgQe2xH7hSkg3XJDpDpump`
 
 Vyřazeno:
 
-- starší 2 h: 59
-- MC mimo rozsah: 51
-- není z pump.fun: 15
-- už posláno: 13
-- mladší 10 min: 10
-- boti/wash: 4
+- starší 2 h: 68
+- MC mimo rozsah: 48
+- není z pump.fun: 16
+- už posláno: 11
+- mladší 10 min: 9
+- boti/wash: 5
+- kopie většího tokenu: 3
 - prudce padá: 1
-- neznamé stáří: 1
-- bundle > 10 %: 1
-- top10 > 25 %: 1
+- málo obchodů: 1
+- insideři: 1
+- RugCheck danger: 1

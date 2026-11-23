@@ -1,17 +1,20 @@
-# Poslední sken: 23.11.2026 · 11:48
+# Poslední sken: 23.11.2026 · 11:57
 
-- kandidátů v rozsahu zdrojů: 138
-- prověřeno do hloubky (RugCheck): 16
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 140
+- prověřeno do hloubky (RugCheck): 14
+- **prošlo a odesláno: 1**
+  - $WHALDIA `H3K6fVCEGEicLt3dn6DWYugNsd3a3Dw5dmwd6ZAupump`
 
 Vyřazeno:
 
-- starší 2 h: 56
-- MC mimo rozsah: 44
+- starší 2 h: 64
+- MC mimo rozsah: 43
+- už posláno: 11
 - není z pump.fun: 10
-- už posláno: 9
-- mladší 10 min: 8
-- kopie většího tokenu: 4
 - boti/wash: 3
 - prudce padá: 2
-- RugCheck danger: 2
+- mladší 10 min: 2
+- málo obchodů: 1
+- top10 > 25 %: 1
+- RugCheck danger: 1
+- kopie většího tokenu: 1

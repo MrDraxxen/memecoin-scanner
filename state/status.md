@@ -1,18 +1,18 @@
-# Poslední sken: 23.11.2026 · 23:58
+# Poslední sken: 24.11.2026 · 00:09
 
-- kandidátů v rozsahu zdrojů: 133
-- prověřeno do hloubky (RugCheck): 7
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 155
+- prověřeno do hloubky (RugCheck): 24
+- **prošlo a odesláno: 1**
+  - $DIBS `E95f6TRF7Rw2GAXuzCahrz2LEhsMzrYHcHiV3N1Ppump`
 
 Vyřazeno:
 
-- starší 2 h: 62
+- starší 2 h: 56
 - MC mimo rozsah: 43
-- už posláno: 15
+- není z pump.fun: 18
+- už posláno: 14
+- mladší 10 min: 12
+- boti/wash: 4
 - kopie většího tokenu: 4
-- mladší 10 min: 3
-- boti/wash: 2
-- prudce padá: 1
-- není z pump.fun: 1
+- prudce padá: 2
 - top10 > 25 %: 1
-- insideři: 1

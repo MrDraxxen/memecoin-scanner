@@ -1,17 +1,17 @@
-# Poslední sken: 23.11.2026 · 09:21
+# Poslední sken: 23.11.2026 · 09:31
 
-- kandidátů v rozsahu zdrojů: 167
+- kandidátů v rozsahu zdrojů: 155
 - prověřeno do hloubky (RugCheck): 20
-- **prošlo a odesláno: 1**
-  - $MEOWTAXI `cbzfmDW7VT28wAaupybHeBsDezHi9yfHCx1Ymocpump`
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 65
 - MC mimo rozsah: 55
+- starší 2 h: 54
 - není z pump.fun: 19
-- už posláno: 11
-- mladší 10 min: 9
+- mladší 10 min: 11
+- už posláno: 10
 - boti/wash: 3
-- prudce padá: 2
-- málo obchodů: 2
+- neznamé stáří: 1
+- málo obchodů: 1
+- kopie většího tokenu: 1

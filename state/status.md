@@ -1,17 +1,21 @@
-# Poslední sken: 23.11.2026 · 18:04
+# Poslední sken: 23.11.2026 · 18:14
 
-- kandidátů v rozsahu zdrojů: 152
-- prověřeno do hloubky (RugCheck): 13
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 149
+- prověřeno do hloubky (RugCheck): 18
+- **prošlo a odesláno: 1**
+  - $JACKET `C3g5gYECbttn2HmkyxhS2c3iqkhELkEDDNBTAhDCpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 58
+- MC mimo rozsah: 62
 - starší 2 h: 43
-- mladší 10 min: 19
-- už posláno: 13
+- už posláno: 12
+- mladší 10 min: 10
 - není z pump.fun: 10
-- prudce padá: 5
-- top10 > 25 %: 2
-- boti/wash: 1
+- top10 > 25 %: 3
+- boti/wash: 2
+- RugCheck danger: 2
+- málo obchodů: 1
+- prudce padá: 1
+- insideři: 1
 - kopie většího tokenu: 1

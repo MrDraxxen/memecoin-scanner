@@ -1,19 +1,21 @@
-# Poslední sken: 23.11.2026 · 22:21
+# Poslední sken: 23.11.2026 · 22:31
 
-- kandidátů v rozsahu zdrojů: 151
-- prověřeno do hloubky (RugCheck): 25
-- **prošlo a odesláno: 1**
-  - $JIMMY `38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump`
+- kandidátů v rozsahu zdrojů: 148
+- prověřeno do hloubky (RugCheck): 18
+- **prošlo a odesláno: 2**
+  - $NCSP `816hX5ah459t2z37LPQC8X11uZECsgHwvs8iBRWcpump`
+  - $brokr `7ziGWVJFg6tAViBrPNhd7Z8DYLWYDJ3DYQqYryHApump`
 
 Vyřazeno:
 
-- starší 2 h: 53
-- MC mimo rozsah: 46
-- není z pump.fun: 20
-- už posláno: 12
-- mladší 10 min: 7
-- kopie většího tokenu: 3
-- boti/wash: 2
-- málo obchodů: 1
+- starší 2 h: 51
+- MC mimo rozsah: 50
+- už posláno: 13
+- není z pump.fun: 13
+- mladší 10 min: 10
+- boti/wash: 3
+- kopie většího tokenu: 2
 - prudce padá: 1
-- top10 > 25 %: 1
+- neznamé stáří: 1
+- málo obchodů: 1
+- insideři: 1

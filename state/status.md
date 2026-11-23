@@ -1,18 +1,15 @@
-# Poslední sken: 23.11.2026 · 07:21
+# Poslední sken: 23.11.2026 · 07:31
 
 - kandidátů v rozsahu zdrojů: 145
-- prověřeno do hloubky (RugCheck): 14
-- **prošlo a odesláno: 1**
-  - $Niggalizard `72m6obhBxxcGyFCZ19sWqRQZGrpi8mSHq5XWAyqypump`
+- prověřeno do hloubky (RugCheck): 15
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 56
-- starší 2 h: 56
-- není z pump.fun: 12
-- už posláno: 10
-- boti/wash: 3
-- mladší 10 min: 3
-- neznamé stáří: 2
-- prudce padá: 1
+- starší 2 h: 61
+- MC mimo rozsah: 52
+- není z pump.fun: 14
+- už posláno: 11
+- mladší 10 min: 5
+- boti/wash: 1
 - kopie většího tokenu: 1

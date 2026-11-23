@@ -1,17 +1,18 @@
-# Poslední sken: 23.11.2026 · 07:54
+# Poslední sken: 23.11.2026 · 08:04
 
-- kandidátů v rozsahu zdrojů: 149
+- kandidátů v rozsahu zdrojů: 164
 - prověřeno do hloubky (RugCheck): 19
-- **prošlo a odesláno: 0**
+- **prošlo a odesláno: 1**
+  - $milky `HqhBJYFEuXrGyWjjLFughGK4cYNm5H1hVFfvWDrRpump`
 
 Vyřazeno:
 
-- starší 2 h: 59
-- MC mimo rozsah: 53
-- není z pump.fun: 16
-- už posláno: 9
-- mladší 10 min: 8
-- boti/wash: 1
-- nafouknutí holdeři: 1
-- RugCheck danger: 1
-- kopie většího tokenu: 1
+- starší 2 h: 67
+- MC mimo rozsah: 55
+- není z pump.fun: 18
+- už posláno: 11
+- mladší 10 min: 7
+- boti/wash: 2
+- prudce padá: 1
+- neznamé stáří: 1
+- málo obchodů: 1

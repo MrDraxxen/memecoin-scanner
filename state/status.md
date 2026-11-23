@@ -1,18 +1,18 @@
-# Poslední sken: 23.11.2026 · 01:33
+# Poslední sken: 23.11.2026 · 01:43
 
-- kandidátů v rozsahu zdrojů: 178
-- prověřeno do hloubky (RugCheck): 19
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 151
+- prověřeno do hloubky (RugCheck): 21
+- **prošlo a odesláno: 1**
+  - $vibestack `FdC1L6kVj13UDZVyo4w6fgwtVTgpNt13sxXj1Huqpump`
 
 Vyřazeno:
 
-- starší 2 h: 77
-- MC mimo rozsah: 53
-- už posláno: 15
-- není z pump.fun: 15
-- mladší 10 min: 8
-- boti/wash: 5
-- kopie většího tokenu: 2
-- prudce padá: 1
-- top10 > 25 %: 1
-- RugCheck danger: 1
+- starší 2 h: 59
+- MC mimo rozsah: 50
+- není z pump.fun: 13
+- už posláno: 12
+- mladší 10 min: 5
+- boti/wash: 4
+- RugCheck danger: 3
+- kopie většího tokenu: 3
+- bundle > 10 %: 1

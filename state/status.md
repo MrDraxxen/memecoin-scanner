@@ -1,19 +1,18 @@
-# Poslední sken: 23.11.2026 · 22:01
+# Poslední sken: 23.11.2026 · 22:11
 
-- kandidátů v rozsahu zdrojů: 155
-- prověřeno do hloubky (RugCheck): 19
+- kandidátů v rozsahu zdrojů: 152
+- prověřeno do hloubky (RugCheck): 25
 - **prošlo a odesláno: 1**
-  - $GUMO `Buyin7J3NYVbtQ5BJwcdjoMF1DkkKCq7iUMBFNmvpump`
+  - $CHILLHIPPO `B7EUKvZAvxsy8G1TAALBacAMHESZYcuSHbsaayDjpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 54
-- starší 2 h: 54
-- není z pump.fun: 15
-- už posláno: 12
-- mladší 10 min: 11
+- starší 2 h: 50
+- MC mimo rozsah: 43
+- není z pump.fun: 21
+- mladší 10 min: 18
+- už posláno: 11
+- prudce padá: 3
 - boti/wash: 2
-- prudce padá: 2
 - kopie většího tokenu: 2
-- neznamé stáří: 1
-- insideři: 1
+- RugCheck danger: 1

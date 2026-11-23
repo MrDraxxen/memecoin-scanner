@@ -1,19 +1,18 @@
-# Poslední sken: 23.11.2026 · 13:51
+# Poslední sken: 23.11.2026 · 14:01
 
-- kandidátů v rozsahu zdrojů: 151
+- kandidátů v rozsahu zdrojů: 160
 - prověřeno do hloubky (RugCheck): 20
-- **prošlo a odesláno: 1**
-  - $shitten `AkS6fRjHB143zRFyaJNjUGSCc2nAYDoRTXJsFLJupump`
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 55
-- starší 2 h: 52
-- není z pump.fun: 15
-- mladší 10 min: 11
-- už posláno: 9
-- kopie většího tokenu: 3
+- MC mimo rozsah: 63
+- starší 2 h: 57
+- není z pump.fun: 17
+- už posláno: 10
+- mladší 10 min: 6
 - boti/wash: 2
+- kopie většího tokenu: 2
 - málo obchodů: 1
-- prudce padá: 1
+- neznamé stáří: 1
 - top10 > 25 %: 1

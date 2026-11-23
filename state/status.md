@@ -1,21 +1,20 @@
-# Poslední sken: 23.11.2026 · 18:14
+# Poslední sken: 23.11.2026 · 18:17
 
-- kandidátů v rozsahu zdrojů: 149
-- prověřeno do hloubky (RugCheck): 18
-- **prošlo a odesláno: 1**
-  - $JACKET `C3g5gYECbttn2HmkyxhS2c3iqkhELkEDDNBTAhDCpump`
+- kandidátů v rozsahu zdrojů: 142
+- prověřeno do hloubky (RugCheck): 10
+- **prošlo a odesláno: 2**
+  - $OFFSHORE `DMTxhDS1isv7fVrYZvoJpG5stEpHqfYTFAhHAYHVpump`
+  - $Nieagle `BWmUgqgbPMv8QQWusQM4AZttRCoNLasjY7VfLRXmpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 62
-- starší 2 h: 43
-- už posláno: 12
-- mladší 10 min: 10
-- není z pump.fun: 10
-- top10 > 25 %: 3
-- boti/wash: 2
-- RugCheck danger: 2
-- málo obchodů: 1
+- MC mimo rozsah: 60
+- starší 2 h: 48
+- už posláno: 15
+- mladší 10 min: 4
+- boti/wash: 4
+- není z pump.fun: 4
+- top10 > 25 %: 2
 - prudce padá: 1
 - insideři: 1
-- kopie většího tokenu: 1
+- RugCheck danger: 1

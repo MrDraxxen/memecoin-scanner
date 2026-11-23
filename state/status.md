@@ -1,20 +1,20 @@
-# Poslední sken: 23.11.2026 · 01:53
+# Poslední sken: 23.11.2026 · 02:03
 
-- kandidátů v rozsahu zdrojů: 154
-- prověřeno do hloubky (RugCheck): 13
-- **prošlo a odesláno: 1**
-  - $PCRY `JDU2jAprEkm927UJhvD2p5MstuDiWy5FmSmWURGjpump`
+- kandidátů v rozsahu zdrojů: 155
+- prověřeno do hloubky (RugCheck): 11
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 61
-- MC mimo rozsah: 56
-- už posláno: 12
-- mladší 10 min: 8
-- není z pump.fun: 8
-- boti/wash: 2
-- kopie většího tokenu: 2
-- prudce padá: 1
+- MC mimo rozsah: 52
+- starší 2 h: 51
+- mladší 10 min: 16
+- už posláno: 14
+- není z pump.fun: 7
+- boti/wash: 5
+- prudce padá: 3
+- málo obchodů: 2
+- RugCheck danger: 2
 - neznamé stáří: 1
-- RugCheck danger: 1
 - bundle > 10 %: 1
+- kopie většího tokenu: 1

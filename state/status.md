@@ -1,17 +1,17 @@
-# Poslední sken: 23.11.2026 · 03:09
+# Poslední sken: 23.11.2026 · 03:19
 
-- kandidátů v rozsahu zdrojů: 161
-- prověřeno do hloubky (RugCheck): 16
-- **prošlo a odesláno: 1**
-  - $MAKE `55A36YmuSSvbPkfxS33WQt4h2ydzo2WZERERK3Vfpump`
+- kandidátů v rozsahu zdrojů: 167
+- prověřeno do hloubky (RugCheck): 17
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 56
-- starší 2 h: 55
-- není z pump.fun: 15
-- mladší 10 min: 13
-- už posláno: 13
+- starší 2 h: 63
+- MC mimo rozsah: 55
+- už posláno: 14
+- není z pump.fun: 14
+- mladší 10 min: 12
 - boti/wash: 5
-- prudce padá: 2
-- neznamé stáří: 1
+- top10 > 25 %: 2
+- prudce padá: 1
+- kopie většího tokenu: 1

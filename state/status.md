@@ -1,21 +1,19 @@
-# Poslední sken: 24.11.2026 · 20:37
+# Poslední sken: 24.11.2026 · 20:47
 
-- kandidátů v rozsahu zdrojů: 126
+- kandidátů v rozsahu zdrojů: 147
 - prověřeno do hloubky (RugCheck): 14
 - **prošlo a odesláno: 1**
-  - $FNF `HXRGEqVsVsU1tX6KEXx2iFrKFH3yJGkX9duY5indCU8w`
+  - $SSAI `CnPemydzb25DE2dFcqGVMUs3iv1exW3mV9UKB72WSSAi`
 
 Vyřazeno:
 
-- MC mimo rozsah: 52
-- starší 2 h: 45
-- už posláno: 7
-- mladší 10 min: 5
-- není z pump.fun: 5
+- starší 2 h: 63
+- MC mimo rozsah: 51
+- už posláno: 9
+- není z pump.fun: 7
+- mladší 10 min: 6
+- prudce padá: 3
 - kopie většího tokenu: 3
-- boti/wash: 2
 - top10 > 25 %: 2
-- prudce padá: 1
-- insideři: 1
+- boti/wash: 1
 - RugCheck danger: 1
-- nafouknutí holdeři: 1

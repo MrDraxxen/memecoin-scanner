@@ -1,18 +1,17 @@
-# Poslední sken: 24.11.2026 · 01:55
+# Poslední sken: 24.11.2026 · 02:05
 
-- kandidátů v rozsahu zdrojů: 158
-- prověřeno do hloubky (RugCheck): 16
-- **prošlo a odesláno: 1**
-  - $HOTPE `2KdvhJWqFWmsYLY9njDiTrJy74m4hu2P7v1Bs9Pfpump`
+- kandidátů v rozsahu zdrojů: 147
+- prověřeno do hloubky (RugCheck): 11
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 63
-- MC mimo rozsah: 44
-- už posláno: 14
-- není z pump.fun: 14
-- mladší 10 min: 12
-- boti/wash: 6
-- málo obchodů: 2
+- starší 2 h: 61
+- MC mimo rozsah: 41
+- už posláno: 15
+- mladší 10 min: 11
+- není z pump.fun: 10
+- boti/wash: 4
+- málo obchodů: 3
 - neznamé stáří: 1
 - kopie většího tokenu: 1

@@ -1,18 +1,17 @@
-# Poslední sken: 24.11.2026 · 21:50
+# Poslední sken: 24.11.2026 · 21:53
 
-- kandidátů v rozsahu zdrojů: 147
-- prověřeno do hloubky (RugCheck): 19
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 141
+- prověřeno do hloubky (RugCheck): 20
+- **prošlo a odesláno: 1**
+  - $Civilian `CiViLiANRXME3FP649zEekMvWahfycta5DUUedeeVnU4`
 
 Vyřazeno:
 
-- MC mimo rozsah: 52
-- starší 2 h: 51
-- není z pump.fun: 15
-- už posláno: 12
-- mladší 10 min: 11
-- prudce padá: 2
+- starší 2 h: 53
+- MC mimo rozsah: 47
+- není z pump.fun: 17
+- mladší 10 min: 12
+- už posláno: 5
+- prudce padá: 4
 - RugCheck danger: 1
-- málo holderů: 1
 - top10 > 25 %: 1
-- kopie většího tokenu: 1

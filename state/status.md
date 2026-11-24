@@ -1,17 +1,18 @@
-# Poslední sken: 24.11.2026 · 14:33
+# Poslední sken: 24.11.2026 · 14:43
 
-- kandidátů v rozsahu zdrojů: 132
-- prověřeno do hloubky (RugCheck): 17
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 148
+- prověřeno do hloubky (RugCheck): 22
+- **prošlo a odesláno: 1**
+  - $OTCX `54voBA3j72QacTSP7sNbyASCEye5rUBShmnHijG4pump`
 
 Vyřazeno:
 
 - starší 2 h: 60
-- MC mimo rozsah: 43
-- není z pump.fun: 10
-- už posláno: 7
-- mladší 10 min: 4
-- kopie většího tokenu: 4
-- top10 > 25 %: 2
-- boti/wash: 1
-- bundle > 10 %: 1
+- MC mimo rozsah: 44
+- není z pump.fun: 13
+- mladší 10 min: 10
+- už posláno: 10
+- top10 > 25 %: 4
+- boti/wash: 2
+- insideři: 2
+- kopie většího tokenu: 2

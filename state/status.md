@@ -1,20 +1,18 @@
-# Poslední sken: 24.11.2026 · 01:45
+# Poslední sken: 24.11.2026 · 01:55
 
-- kandidátů v rozsahu zdrojů: 150
-- prověřeno do hloubky (RugCheck): 19
+- kandidátů v rozsahu zdrojů: 158
+- prověřeno do hloubky (RugCheck): 16
 - **prošlo a odesláno: 1**
-  - $DMIND `7wknwoAiitNduRmLWoRrr4k4ftirjBXbuVE5ei7Bpump`
+  - $HOTPE `2KdvhJWqFWmsYLY9njDiTrJy74m4hu2P7v1Bs9Pfpump`
 
 Vyřazeno:
 
-- starší 2 h: 59
-- MC mimo rozsah: 39
+- starší 2 h: 63
+- MC mimo rozsah: 44
+- už posláno: 14
 - není z pump.fun: 14
-- už posláno: 12
-- mladší 10 min: 10
+- mladší 10 min: 12
 - boti/wash: 6
-- málo obchodů: 3
-- prudce padá: 2
-- kopie většího tokenu: 2
-- RugCheck danger: 1
-- velryba: 1
+- málo obchodů: 2
+- neznamé stáří: 1
+- kopie většího tokenu: 1

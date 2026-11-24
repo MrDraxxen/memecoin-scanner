@@ -1,20 +1,17 @@
-# Poslední sken: 24.11.2026 · 06:56
+# Poslední sken: 24.11.2026 · 07:06
 
-- kandidátů v rozsahu zdrojů: 160
-- prověřeno do hloubky (RugCheck): 25
-- **prošlo a odesláno: 1**
-  - $ORBLUX `5KDyvAjSU8HWofZfVnpkdY2N4UM1R2jxUkLupYmgpump`
+- kandidátů v rozsahu zdrojů: 153
+- prověřeno do hloubky (RugCheck): 20
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 67
-- MC mimo rozsah: 35
-- není z pump.fun: 20
-- mladší 10 min: 12
-- už posláno: 11
-- boti/wash: 4
-- top10 > 25 %: 2
-- prudce padá: 1
+- starší 2 h: 73
+- MC mimo rozsah: 34
+- není z pump.fun: 17
+- mladší 10 min: 13
+- už posláno: 10
+- boti/wash: 2
+- kopie většího tokenu: 2
 - málo obchodů: 1
-- bundle > 10 %: 1
-- kopie většího tokenu: 1
+- top10 > 25 %: 1

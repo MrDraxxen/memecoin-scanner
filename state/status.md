@@ -1,17 +1,20 @@
-# Poslední sken: 24.11.2026 · 21:53
+# Poslední sken: 24.11.2026 · 22:03
 
-- kandidátů v rozsahu zdrojů: 141
-- prověřeno do hloubky (RugCheck): 20
+- kandidátů v rozsahu zdrojů: 123
+- prověřeno do hloubky (RugCheck): 14
 - **prošlo a odesláno: 1**
-  - $Civilian `CiViLiANRXME3FP649zEekMvWahfycta5DUUedeeVnU4`
+  - $Tinkerbelle `5SS1XzHuQT1MiJLSzE8cZy1hUNYaoMkaPo8q1Koipump`
 
 Vyřazeno:
 
-- starší 2 h: 53
-- MC mimo rozsah: 47
-- není z pump.fun: 17
-- mladší 10 min: 12
-- už posláno: 5
-- prudce padá: 4
-- RugCheck danger: 1
+- starší 2 h: 49
+- MC mimo rozsah: 35
+- mladší 10 min: 11
+- není z pump.fun: 8
+- už posláno: 7
+- prudce padá: 5
+- boti/wash: 2
+- kopie většího tokenu: 2
+- insideři: 1
 - top10 > 25 %: 1
+- RugCheck danger: 1

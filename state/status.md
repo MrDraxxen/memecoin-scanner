@@ -1,16 +1,16 @@
-# Poslední sken: 24.11.2026 · 04:59
+# Poslední sken: 24.11.2026 · 05:09
 
-- kandidátů v rozsahu zdrojů: 158
-- prověřeno do hloubky (RugCheck): 25
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 154
+- prověřeno do hloubky (RugCheck): 20
+- **prošlo a odesláno: 1**
+  - $BTCow `8ijfaD31UNbhtucEXMjZu5vsdG7DSSEQYDZJQDGNpump`
 
 Vyřazeno:
 
-- starší 2 h: 60
-- MC mimo rozsah: 42
-- není z pump.fun: 25
-- už posláno: 11
-- mladší 10 min: 11
-- prudce padá: 3
-- boti/wash: 1
-- málo obchodů: 1
+- starší 2 h: 70
+- MC mimo rozsah: 40
+- není z pump.fun: 18
+- mladší 10 min: 12
+- už posláno: 10
+- prudce padá: 2
+- kopie většího tokenu: 1

@@ -1,19 +1,16 @@
-# Poslední sken: 24.11.2026 · 18:49
+# Poslední sken: 24.11.2026 · 18:59
 
-- kandidátů v rozsahu zdrojů: 134
-- prověřeno do hloubky (RugCheck): 7
+- kandidátů v rozsahu zdrojů: 137
+- prověřeno do hloubky (RugCheck): 4
 - **prošlo a odesláno: 1**
-  - $AUTONOMOUS `5S5xGCZ9Do7k1aXVm2LdxR6EWA4HxfMpJRe9inN5Q76C`
+  - $知了 `3hiM6twGsV6Lcf8sh68A5DqfTmU84jeM4kNPy2DVpump`
 
 Vyřazeno:
 
 - starší 2 h: 59
-- MC mimo rozsah: 52
-- už posláno: 10
-- mladší 10 min: 4
+- MC mimo rozsah: 57
+- už posláno: 9
+- mladší 10 min: 7
 - top10 > 25 %: 2
-- kopie většího tokenu: 2
-- málo obchodů: 1
-- prudce padá: 1
-- bundle > 10 %: 1
-- RugCheck danger: 1
+- boti/wash: 1
+- kopie většího tokenu: 1

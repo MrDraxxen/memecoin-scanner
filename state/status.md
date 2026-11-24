@@ -1,21 +1,17 @@
-# Poslední sken: 24.11.2026 · 17:47
+# Poslední sken: 24.11.2026 · 17:56
 
-- kandidátů v rozsahu zdrojů: 148
-- prověřeno do hloubky (RugCheck): 23
-- **prošlo a odesláno: 1**
-  - $CHUPA `3z1owyRkfnASZsYxzPphvzQp5pbKHRC3wn6nujjZtQ8k`
+- kandidátů v rozsahu zdrojů: 140
+- prověřeno do hloubky (RugCheck): 17
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 58
-- MC mimo rozsah: 52
-- není z pump.fun: 12
-- mladší 10 min: 7
-- už posláno: 6
+- starší 2 h: 57
+- MC mimo rozsah: 51
+- není z pump.fun: 11
+- už posláno: 7
+- mladší 10 min: 6
 - top10 > 25 %: 4
-- RugCheck danger: 2
-- kopie většího tokenu: 2
-- prudce padá: 1
-- neznamé stáří: 1
-- insideři: 1
+- prudce padá: 2
 - bundle > 10 %: 1
+- RugCheck danger: 1

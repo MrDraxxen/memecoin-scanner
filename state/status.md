@@ -1,20 +1,22 @@
-# Poslední sken: 24.11.2026 · 22:03
+# Poslední sken: 24.11.2026 · 22:14
 
-- kandidátů v rozsahu zdrojů: 123
-- prověřeno do hloubky (RugCheck): 14
-- **prošlo a odesláno: 1**
-  - $Tinkerbelle `5SS1XzHuQT1MiJLSzE8cZy1hUNYaoMkaPo8q1Koipump`
+- kandidátů v rozsahu zdrojů: 121
+- prověřeno do hloubky (RugCheck): 15
+- **prošlo a odesláno: 2**
+  - $GOYBEAM `7EmoVZALwZhZ2bb8gijF6JTJKybUhV2kuRVHiATZpump`
+  - $BABYCLAUDIA `6ic871aCJ5PMWVwZtGrpQPhgwjeY8MRmeqbhsKuMpump`
 
 Vyřazeno:
 
-- starší 2 h: 49
-- MC mimo rozsah: 35
-- mladší 10 min: 11
-- není z pump.fun: 8
+- starší 2 h: 59
+- MC mimo rozsah: 32
 - už posláno: 7
-- prudce padá: 5
-- boti/wash: 2
+- není z pump.fun: 6
+- mladší 10 min: 4
+- prudce padá: 3
+- top10 > 25 %: 2
 - kopie většího tokenu: 2
+- boti/wash: 1
 - insideři: 1
-- top10 > 25 %: 1
+- málo holderů: 1
 - RugCheck danger: 1

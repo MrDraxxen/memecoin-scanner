@@ -1,21 +1,19 @@
-# Poslední sken: 24.11.2026 · 22:23
+# Poslední sken: 24.11.2026 · 22:33
 
-- kandidátů v rozsahu zdrojů: 102
-- prověřeno do hloubky (RugCheck): 12
+- kandidátů v rozsahu zdrojů: 97
+- prověřeno do hloubky (RugCheck): 7
 - **prošlo a odesláno: 1**
-  - $GOYBEAM `8izurVrUuD3Xko2GmwqwSWodhHpTQjPYHGGyFQowpump`
+  - $JOEY `CR4Tks2HjJkKVQQVDmKU41qW7iEaEBh1RRExdTRMpump`
 
 Vyřazeno:
 
-- starší 2 h: 41
+- starší 2 h: 47
 - MC mimo rozsah: 32
-- už posláno: 8
-- mladší 10 min: 7
-- kopie většího tokenu: 3
-- není z pump.fun: 2
-- top10 > 25 %: 2
+- už posláno: 6
+- mladší 10 min: 2
+- prudce padá: 2
 - RugCheck danger: 2
+- kopie většího tokenu: 2
 - boti/wash: 1
-- prudce padá: 1
-- insideři: 1
+- top10 > 25 %: 1
 - málo holderů: 1

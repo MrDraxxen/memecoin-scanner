@@ -1,18 +1,18 @@
-# Poslední sken: 24.11.2026 · 16:53
+# Poslední sken: 24.11.2026 · 17:03
 
-- kandidátů v rozsahu zdrojů: 124
-- prověřeno do hloubky (RugCheck): 8
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 127
+- prověřeno do hloubky (RugCheck): 9
+- **prošlo a odesláno: 1**
+  - $wif `6sbUBNuXyVQVHsoaUGYAiL3Pyntpyjm3yHZP1YfHYMzH`
 
 Vyřazeno:
 
-- starší 2 h: 57
+- starší 2 h: 64
 - MC mimo rozsah: 42
-- mladší 10 min: 9
-- už posláno: 7
-- není z pump.fun: 3
-- top10 > 25 %: 2
-- boti/wash: 1
+- není z pump.fun: 6
+- už posláno: 5
+- mladší 10 min: 4
+- boti/wash: 2
+- neznamé stáří: 1
 - RugCheck danger: 1
 - nafouknutí holdeři: 1
-- kopie většího tokenu: 1

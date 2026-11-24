@@ -1,19 +1,17 @@
-# Poslední sken: 24.11.2026 · 22:33
+# Poslední sken: 24.11.2026 · 22:44
 
-- kandidátů v rozsahu zdrojů: 97
+- kandidátů v rozsahu zdrojů: 114
 - prověřeno do hloubky (RugCheck): 7
 - **prošlo a odesláno: 1**
-  - $JOEY `CR4Tks2HjJkKVQQVDmKU41qW7iEaEBh1RRExdTRMpump`
+  - $SCRAP `BTbP7QckBbsEqnkynYF4BcmAz8CQAnxYsuPHbtXYpump`
 
 Vyřazeno:
 
-- starší 2 h: 47
-- MC mimo rozsah: 32
-- už posláno: 6
-- mladší 10 min: 2
-- prudce padá: 2
-- RugCheck danger: 2
-- kopie většího tokenu: 2
-- boti/wash: 1
-- top10 > 25 %: 1
-- málo holderů: 1
+- starší 2 h: 53
+- MC mimo rozsah: 37
+- už posláno: 9
+- kopie většího tokenu: 5
+- mladší 10 min: 4
+- boti/wash: 3
+- prudce padá: 1
+- RugCheck danger: 1

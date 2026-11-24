@@ -1,20 +1,17 @@
-# Poslední sken: 24.11.2026 · 03:22
+# Poslední sken: 24.11.2026 · 03:31
 
-- kandidátů v rozsahu zdrojů: 147
-- prověřeno do hloubky (RugCheck): 13
-- **prošlo a odesláno: 1**
-  - $THEO `GVzahMEr1XjpE3aoRQvPViuVKWHSXASpdDAh7xJypump`
+- kandidátů v rozsahu zdrojů: 137
+- prověřeno do hloubky (RugCheck): 9
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 73
-- MC mimo rozsah: 41
+- starší 2 h: 62
+- MC mimo rozsah: 40
+- už posláno: 12
 - mladší 10 min: 9
-- už posláno: 9
 - není z pump.fun: 7
-- kopie většího tokenu: 2
+- prudce padá: 4
 - boti/wash: 1
-- prudce padá: 1
-- bundle > 10 %: 1
 - top10 > 25 %: 1
-- RugCheck danger: 1
+- kopie většího tokenu: 1

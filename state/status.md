@@ -1,19 +1,21 @@
-# Poslední sken: 24.11.2026 · 23:17
+# Poslední sken: 24.11.2026 · 23:27
 
-- kandidátů v rozsahu zdrojů: 145
-- prověřeno do hloubky (RugCheck): 14
-- **prošlo a odesláno: 1**
-  - $BOUNCER `ANDLpP3C7tFXEpqRBmmnbS4usmQthHfs93N5oHGpump`
+- kandidátů v rozsahu zdrojů: 146
+- prověřeno do hloubky (RugCheck): 16
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 55
-- starší 2 h: 52
-- mladší 10 min: 13
-- už posláno: 10
-- není z pump.fun: 7
+- starší 2 h: 53
+- MC mimo rozsah: 52
+- už posláno: 12
+- není z pump.fun: 9
+- mladší 10 min: 8
+- boti/wash: 2
+- prudce padá: 2
 - RugCheck danger: 2
 - kopie většího tokenu: 2
-- prudce padá: 1
-- nafouknutí holdeři: 1
+- neznamé stáří: 1
 - bundle > 10 %: 1
+- top10 > 25 %: 1
+- insideři: 1

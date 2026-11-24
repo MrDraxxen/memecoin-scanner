@@ -1,17 +1,18 @@
-# Poslední sken: 24.11.2026 · 15:37
+# Poslední sken: 24.11.2026 · 15:41
 
-- kandidátů v rozsahu zdrojů: 128
-- prověřeno do hloubky (RugCheck): 16
+- kandidátů v rozsahu zdrojů: 145
+- prověřeno do hloubky (RugCheck): 20
 - **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 58
-- MC mimo rozsah: 40
-- už posláno: 9
-- není z pump.fun: 7
+- starší 2 h: 64
+- MC mimo rozsah: 43
+- není z pump.fun: 10
+- už posláno: 8
+- mladší 10 min: 7
 - kopie většího tokenu: 5
-- mladší 10 min: 4
-- top10 > 25 %: 3
+- top10 > 25 %: 4
+- prudce padá: 2
 - boti/wash: 1
 - RugCheck danger: 1

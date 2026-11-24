@@ -1,18 +1,17 @@
-# Poslední sken: 24.11.2026 · 15:17
+# Poslední sken: 24.11.2026 · 15:27
 
-- kandidátů v rozsahu zdrojů: 147
-- prověřeno do hloubky (RugCheck): 19
-- **prošlo a odesláno: 1**
-  - $SCAMSEM `fiixPXZmvzFefzHmCXQG9jri2JyH8ichA3tgWENpump`
+- kandidátů v rozsahu zdrojů: 142
+- prověřeno do hloubky (RugCheck): 21
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 56
-- MC mimo rozsah: 49
-- není z pump.fun: 13
-- mladší 10 min: 11
-- už posláno: 9
-- kopie většího tokenu: 3
-- boti/wash: 2
-- top10 > 25 %: 2
+- starší 2 h: 58
+- MC mimo rozsah: 44
+- není z pump.fun: 14
+- mladší 10 min: 10
+- už posláno: 7
+- kopie většího tokenu: 6
+- boti/wash: 1
 - prudce padá: 1
+- top10 > 25 %: 1

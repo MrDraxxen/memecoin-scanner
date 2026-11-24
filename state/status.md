@@ -1,19 +1,20 @@
-# Poslední sken: 25.11.2026 · 00:34
+# Poslední sken: 25.11.2026 · 00:45
 
-- kandidátů v rozsahu zdrojů: 143
-- prověřeno do hloubky (RugCheck): 8
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 161
+- prověřeno do hloubky (RugCheck): 19
+- **prošlo a odesláno: 1**
+  - $SHIBA `7qG6uWHL8rkxJBYVM3hWKHjY8ECoSgGWa475dmEapump`
 
 Vyřazeno:
 
-- starší 2 h: 61
-- MC mimo rozsah: 54
-- už posláno: 10
-- mladší 10 min: 5
-- prudce padá: 4
-- kopie většího tokenu: 3
-- není z pump.fun: 2
+- starší 2 h: 60
+- MC mimo rozsah: 57
+- už posláno: 12
+- není z pump.fun: 11
+- mladší 10 min: 7
+- kopie většího tokenu: 5
+- boti/wash: 3
+- prudce padá: 2
 - málo obchodů: 1
-- bundle > 10 %: 1
 - insideři: 1
-- RugCheck danger: 1
+- top10 > 25 %: 1

@@ -1,18 +1,17 @@
-# Poslední sken: 24.11.2026 · 21:10
+# Poslední sken: 24.11.2026 · 21:20
 
-- kandidátů v rozsahu zdrojů: 164
-- prověřeno do hloubky (RugCheck): 23
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 152
+- prověřeno do hloubky (RugCheck): 20
+- **prošlo a odesláno: 1**
+  - $Red `8cg5AqsiGr5G98k26dXehcCJTYYfAYb43Aqdg5BQpump`
 
 Vyřazeno:
 
-- starší 2 h: 67
-- MC mimo rozsah: 52
-- není z pump.fun: 18
+- starší 2 h: 57
+- MC mimo rozsah: 50
+- není z pump.fun: 15
+- mladší 10 min: 13
 - už posláno: 8
-- mladší 10 min: 8
-- boti/wash: 5
-- top10 > 25 %: 2
-- kopie většího tokenu: 2
-- prudce padá: 1
-- RugCheck danger: 1
+- prudce padá: 4
+- top10 > 25 %: 3
+- kopie většího tokenu: 1

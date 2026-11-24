@@ -1,20 +1,18 @@
-# Poslední sken: 24.11.2026 · 01:12
+# Poslední sken: 24.11.2026 · 01:21
 
-- kandidátů v rozsahu zdrojů: 141
-- prověřeno do hloubky (RugCheck): 17
-- **prošlo a odesláno: 1**
-  - $FLOG `CGJUUXmWgHaCp3ZVfX6rQJKQbNvLj7gXp3mBbUtJpump`
+- kandidátů v rozsahu zdrojů: 149
+- prověřeno do hloubky (RugCheck): 8
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 51
-- MC mimo rozsah: 47
-- už posláno: 13
-- není z pump.fun: 12
-- mladší 10 min: 8
-- boti/wash: 2
-- málo obchodů: 2
-- insideři: 2
+- starší 2 h: 68
+- MC mimo rozsah: 51
+- už posláno: 12
+- není z pump.fun: 6
+- mladší 10 min: 5
+- boti/wash: 3
 - prudce padá: 1
+- málo obchodů: 1
+- insideři: 1
 - top10 > 25 %: 1
-- kopie většího tokenu: 1

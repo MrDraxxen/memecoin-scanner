@@ -1,17 +1,19 @@
-# Poslední sken: 25.11.2026 · 09:03
+# Poslední sken: 25.11.2026 · 09:13
 
-- kandidátů v rozsahu zdrojů: 140
-- prověřeno do hloubky (RugCheck): 8
-- **prošlo a odesláno: 1**
-  - $TANDEM `4XvnS1B28BgsUcwjR2bTm3csxnp8hmTsXZM6jH3Ypump`
+- kandidátů v rozsahu zdrojů: 145
+- prověřeno do hloubky (RugCheck): 7
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
 - starší 2 h: 60
-- MC mimo rozsah: 53
-- už posláno: 8
+- MC mimo rozsah: 55
+- už posláno: 9
+- boti/wash: 7
 - mladší 10 min: 6
-- boti/wash: 4
-- není z pump.fun: 4
-- kopie většího tokenu: 3
-- málo obchodů: 1
+- není z pump.fun: 3
+- prudce padá: 1
+- RugCheck nedostupný: 1
+- top10 > 25 %: 1
+- bundle > 10 %: 1
+- kopie většího tokenu: 1

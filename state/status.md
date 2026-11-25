@@ -1,18 +1,20 @@
-# Poslední sken: 25.11.2026 · 01:27
+# Poslední sken: 25.11.2026 · 01:37
 
 - kandidátů v rozsahu zdrojů: 146
-- prověřeno do hloubky (RugCheck): 13
-- **prošlo a odesláno: 0**
+- prověřeno do hloubky (RugCheck): 17
+- **prošlo a odesláno: 2**
+  - $mameshiba `5iRqHB1wuRJePVRNFQbAtxPFURWcYwF33y6ajagnpump`
+  - $TOUCAN `5Xd2vr3oY2YDhBeozvsZQto3rLiMzWDDBLadkgQspump`
 
 Vyřazeno:
 
-- starší 2 h: 59
-- MC mimo rozsah: 55
-- už posláno: 12
-- není z pump.fun: 8
-- mladší 10 min: 5
-- top10 > 25 %: 3
+- starší 2 h: 58
+- MC mimo rozsah: 54
+- už posláno: 10
+- není z pump.fun: 7
+- mladší 10 min: 6
+- top10 > 25 %: 4
+- RugCheck danger: 2
 - boti/wash: 1
-- málo obchodů: 1
-- RugCheck danger: 1
+- málo holderů: 1
 - kopie většího tokenu: 1

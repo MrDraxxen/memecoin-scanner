@@ -1,17 +1,19 @@
-# Poslední sken: 25.11.2026 · 20:59
+# Poslední sken: 25.11.2026 · 21:03
 
-- kandidátů v rozsahu zdrojů: 159
-- prověřeno do hloubky (RugCheck): 14
-- **prošlo a odesláno: 1**
-  - $CALL `yrwuwd18NprNrG1WRCC95oedieWrXTJ72SMp8Cupump`
+- kandidátů v rozsahu zdrojů: 161
+- prověřeno do hloubky (RugCheck): 21
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
 - MC mimo rozsah: 59
-- starší 2 h: 56
-- už posláno: 18
-- mladší 10 min: 10
-- není z pump.fun: 9
-- kopie většího tokenu: 3
-- prudce padá: 2
-- top10 > 25 %: 1
+- starší 2 h: 49
+- už posláno: 19
+- není z pump.fun: 13
+- mladší 10 min: 8
+- boti/wash: 4
+- kopie většího tokenu: 4
+- top10 > 25 %: 2
+- prudce padá: 1
+- insideři: 1
+- RugCheck danger: 1

@@ -1,17 +1,17 @@
-# Poslední sken: 25.11.2026 · 09:23
+# Poslední sken: 25.11.2026 · 09:26
 
-- kandidátů v rozsahu zdrojů: 144
-- prověřeno do hloubky (RugCheck): 7
-- **prošlo a odesláno: 1**
-  - $Lumii `BpL6KdfppUuGiBZWLuwVoQWi4mRWu2WStnLAQ7Ydpump`
+- kandidátů v rozsahu zdrojů: 154
+- prověřeno do hloubky (RugCheck): 9
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 65
-- MC mimo rozsah: 55
+- starší 2 h: 64
+- MC mimo rozsah: 56
 - už posláno: 11
+- není z pump.fun: 8
+- mladší 10 min: 7
 - boti/wash: 4
-- není z pump.fun: 4
-- mladší 10 min: 2
-- RugCheck danger: 1
+- neznamé stáří: 2
+- prudce padá: 1
 - insideři: 1

@@ -1,19 +1,20 @@
-# Poslední sken: 25.11.2026 · 21:43
+# Poslední sken: 25.11.2026 · 21:53
 
-- kandidátů v rozsahu zdrojů: 159
-- prověřeno do hloubky (RugCheck): 24
+- kandidátů v rozsahu zdrojů: 162
+- prověřeno do hloubky (RugCheck): 25
 - **prošlo a odesláno: 1**
-  - $COSMOS `32uVUcCJLWh3XNry5FrYoVjB7JVXAEt77iMNS6GWNVDA`
+  - $UBI `hCM8Mga76sK983j3Gvui427SakSGYnG1tDi4Tsipump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 61
-- starší 2 h: 48
-- není z pump.fun: 20
-- už posláno: 9
-- prudce padá: 6
-- mladší 10 min: 5
-- boti/wash: 4
+- MC mimo rozsah: 62
+- starší 2 h: 52
+- není z pump.fun: 19
+- už posláno: 10
+- boti/wash: 5
+- prudce padá: 4
 - kopie většího tokenu: 3
-- neznamé stáří: 1
+- mladší 10 min: 2
 - málo obchodů: 1
+- nafouknutí holdeři: 1
+- top10 > 25 %: 1

@@ -1,21 +1,17 @@
-# Poslední sken: 25.11.2026 · 22:07
+# Poslední sken: 25.11.2026 · 22:18
 
-- kandidátů v rozsahu zdrojů: 172
-- prověřeno do hloubky (RugCheck): 14
-- **prošlo a odesláno: 1**
-  - $STEPHANIE `3ViK7xpPengLM7T9uWYwUZbnZ3h4g6m5MccjrthZpump`
+- kandidátů v rozsahu zdrojů: 150
+- prověřeno do hloubky (RugCheck): 9
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 65
-- starší 2 h: 59
-- už posláno: 14
-- není z pump.fun: 9
-- mladší 10 min: 8
-- boti/wash: 6
-- prudce padá: 2
-- neznamé stáří: 2
-- málo obchodů: 2
-- kopie většího tokenu: 2
-- nafouknutí holdeři: 1
-- RugCheck danger: 1
+- MC mimo rozsah: 58
+- starší 2 h: 52
+- už posláno: 13
+- mladší 10 min: 7
+- boti/wash: 7
+- RugCheck nedostupný: 7
+- prudce padá: 3
+- není z pump.fun: 2
+- málo obchodů: 1

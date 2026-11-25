@@ -1,21 +1,17 @@
-# Poslední sken: 25.11.2026 · 02:51
+# Poslední sken: 25.11.2026 · 03:01
 
-- kandidátů v rozsahu zdrojů: 154
-- prověřeno do hloubky (RugCheck): 21
-- **prošlo a odesláno: 2**
-  - $Caiolo `2ksAWrKoyPkXaSo2HBSPrjALrytsm9SVEHq11VQZpump`
-  - $PINKWOJAK `7GeVoC1PoBA5i5YYmB24xAYjd6WyuRKJizUUtgKdpump`
+- kandidátů v rozsahu zdrojů: 168
+- prověřeno do hloubky (RugCheck): 19
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 58
-- MC mimo rozsah: 51
-- není z pump.fun: 14
-- už posláno: 10
-- mladší 10 min: 7
-- boti/wash: 3
+- starší 2 h: 70
+- MC mimo rozsah: 56
+- není z pump.fun: 17
+- už posláno: 13
+- mladší 10 min: 6
 - málo obchodů: 3
-- top10 > 25 %: 2
-- kopie většího tokenu: 2
 - prudce padá: 1
 - RugCheck danger: 1
+- kopie většího tokenu: 1

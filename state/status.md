@@ -1,19 +1,18 @@
-# Poslední sken: 25.11.2026 · 06:23
+# Poslední sken: 25.11.2026 · 06:33
 
-- kandidátů v rozsahu zdrojů: 148
-- prověřeno do hloubky (RugCheck): 9
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 147
+- prověřeno do hloubky (RugCheck): 7
+- **prošlo a odesláno: 1**
+  - $Coomer `e1b1R4g6LxeigjJ3BJGmGuxBW7aTiskTrYbQPaapump`
 
 Vyřazeno:
 
-- starší 2 h: 59
-- MC mimo rozsah: 57
-- už posláno: 11
-- mladší 10 min: 7
-- není z pump.fun: 6
-- prudce padá: 3
-- boti/wash: 1
-- málo obchodů: 1
+- starší 2 h: 68
+- MC mimo rozsah: 56
+- už posláno: 8
+- mladší 10 min: 5
+- není z pump.fun: 4
+- boti/wash: 2
+- prudce padá: 1
 - RugCheck danger: 1
-- velryba: 1
 - kopie většího tokenu: 1

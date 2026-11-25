@@ -1,21 +1,22 @@
-# Poslední sken: 25.11.2026 · 18:41
+# Poslední sken: 25.11.2026 · 18:51
 
-- kandidátů v rozsahu zdrojů: 129
-- prověřeno do hloubky (RugCheck): 8
+- kandidátů v rozsahu zdrojů: 143
+- prověřeno do hloubky (RugCheck): 10
 - **prošlo a odesláno: 1**
-  - $Investor `J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump`
+  - $猫 `7hAGVWEF7B29QRLWW5B9Tqq4GJTMND7T6B1toNewpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 58
-- starší 2 h: 45
-- už posláno: 9
+- MC mimo rozsah: 59
+- starší 2 h: 52
+- už posláno: 11
+- mladší 10 min: 5
 - boti/wash: 3
-- prudce padá: 3
-- mladší 10 min: 2
+- není z pump.fun: 3
 - RugCheck danger: 2
-- kopie většího tokenu: 2
+- top10 > 25 %: 2
+- prudce padá: 1
+- neznamé stáří: 1
 - málo obchodů: 1
-- bundle > 10 %: 1
-- insideři: 1
-- málo holderů: 1
+- velryba: 1
+- kopie většího tokenu: 1

@@ -1,18 +1,21 @@
-# Poslední sken: 25.11.2026 · 23:11
+# Poslední sken: 25.11.2026 · 23:22
 
-- kandidátů v rozsahu zdrojů: 173
-- prověřeno do hloubky (RugCheck): 25
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 157
+- prověřeno do hloubky (RugCheck): 22
+- **prošlo a odesláno: 3**
+  - $BLIND `4ebNSy8WG45Dpa5Bp3hasFdDTNmcVo6aQp8LPACPpump`
+  - $IMFINE `coAZ4oVWNtHr1cmRM7ezHRRC5oggsY354Xsg7j5pump`
+  - $SAGEMAN `4VYg6PKqqb4hi9c49d7YD78217ehHxZpaXwGTD2Gpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 63
-- starší 2 h: 55
-- není z pump.fun: 23
-- už posláno: 11
-- boti/wash: 6
-- mladší 10 min: 5
-- prudce padá: 2
-- málo obchodů: 2
-- bundle > 10 %: 1
-- RugCheck danger: 1
+- MC mimo rozsah: 61
+- starší 2 h: 53
+- není z pump.fun: 15
+- už posláno: 9
+- boti/wash: 5
+- mladší 10 min: 3
+- prudce padá: 3
+- top10 > 25 %: 2
+- kopie většího tokenu: 2
+- málo obchodů: 1

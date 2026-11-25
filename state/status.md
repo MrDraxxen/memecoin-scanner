@@ -1,17 +1,17 @@
-# Poslední sken: 25.11.2026 · 19:14
+# Poslední sken: 25.11.2026 · 19:24
 
-- kandidátů v rozsahu zdrojů: 155
-- prověřeno do hloubky (RugCheck): 11
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 156
+- prověřeno do hloubky (RugCheck): 10
+- **prošlo a odesláno: 1**
+  - $I `6TAEsBQuHki4C6ynUmWARpjJ1xmKshrqv7Qh1FHwpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 60
-- starší 2 h: 60
-- už posláno: 13
-- mladší 10 min: 10
-- není z pump.fun: 8
-- boti/wash: 1
-- bundle > 10 %: 1
-- insideři: 1
+- starší 2 h: 64
+- MC mimo rozsah: 62
+- už posláno: 11
+- mladší 10 min: 9
+- není z pump.fun: 5
+- insideři: 2
+- nafouknutí holdeři: 1
 - dev drží moc: 1

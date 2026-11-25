@@ -1,19 +1,16 @@
-# Poslední sken: 25.11.2026 · 11:54
+# Poslední sken: 25.11.2026 · 12:04
 
-- kandidátů v rozsahu zdrojů: 141
-- prověřeno do hloubky (RugCheck): 15
-- **prošlo a odesláno: 1**
-  - $HARVEST `JB9NZEP3Dyaik7WAwTjbk7XFBzxYetaeFoMXCXoTpump`
+- kandidátů v rozsahu zdrojů: 134
+- prověřeno do hloubky (RugCheck): 10
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 56
+- starší 2 h: 58
 - MC mimo rozsah: 51
-- už posláno: 10
-- není z pump.fun: 10
-- prudce padá: 3
-- mladší 10 min: 3
-- kopie většího tokenu: 3
-- boti/wash: 2
-- neznamé stáří: 1
-- top10 > 25 %: 1
+- už posláno: 11
+- není z pump.fun: 8
+- mladší 10 min: 2
+- kopie většího tokenu: 2
+- prudce padá: 1
+- boti/wash: 1

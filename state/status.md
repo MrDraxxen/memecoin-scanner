@@ -1,17 +1,20 @@
-# Poslední sken: 25.11.2026 · 01:47
+# Poslední sken: 25.11.2026 · 01:58
 
-- kandidátů v rozsahu zdrojů: 147
-- prověřeno do hloubky (RugCheck): 13
+- kandidátů v rozsahu zdrojů: 148
+- prověřeno do hloubky (RugCheck): 20
 - **prošlo a odesláno: 1**
-  - $ChristmASS `CLxrgvfFs3gr9BQhTAfGxZDsiHfVUQTDEahfiZdLpump`
+  - $Snowguy `14trbNzGwr8sywD2a1B1E9gsER4QwnjndvWdG97mpump`
 
 Vyřazeno:
 
-- starší 2 h: 57
-- MC mimo rozsah: 54
-- mladší 10 min: 12
-- už posláno: 10
-- není z pump.fun: 8
+- MC mimo rozsah: 56
+- starší 2 h: 49
+- není z pump.fun: 14
+- už posláno: 12
+- mladší 10 min: 5
+- boti/wash: 4
 - top10 > 25 %: 3
 - prudce padá: 1
+- málo obchodů: 1
 - RugCheck danger: 1
+- kopie většího tokenu: 1

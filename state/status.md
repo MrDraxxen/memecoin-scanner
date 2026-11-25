@@ -1,19 +1,18 @@
-# Poslední sken: 25.11.2026 · 19:54
+# Poslední sken: 25.11.2026 · 20:05
 
-- kandidátů v rozsahu zdrojů: 163
-- prověřeno do hloubky (RugCheck): 14
-- **prošlo a odesláno: 2**
-  - $Cumpute `JgL8EfSjVz9BuBiscVMfvGRJLKEAw9BosYNFcPKpump`
-  - $ JWIF `5zT7z5qKLwwwSMyP4HRLpKb7yUAC7cHEFRXPSVH3pump`
+- kandidátů v rozsahu zdrojů: 170
+- prověřeno do hloubky (RugCheck): 12
+- **prošlo a odesláno: 1**
+  - $POMPD `A4ScEozJhNUqSypR1v39PGWerUzTRK5RKJtjZN3epump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 69
+- MC mimo rozsah: 70
 - starší 2 h: 62
-- už posláno: 11
-- není z pump.fun: 9
-- mladší 10 min: 5
+- už posláno: 15
+- mladší 10 min: 8
+- není z pump.fun: 7
+- boti/wash: 2
 - top10 > 25 %: 2
+- kopie většího tokenu: 2
 - prudce padá: 1
-- boti/wash: 1
-- kopie většího tokenu: 1

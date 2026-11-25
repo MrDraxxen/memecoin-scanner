@@ -1,17 +1,19 @@
-# Poslední sken: 25.11.2026 · 23:41
+# Poslední sken: 25.11.2026 · 23:45
 
-- kandidátů v rozsahu zdrojů: 158
-- prověřeno do hloubky (RugCheck): 13
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 140
+- prověřeno do hloubky (RugCheck): 11
+- **prošlo a odesláno: 1**
+  - $青鬼 `8g7BgshVGoSQzrXRkX83K4WBYr22FhPUttETF6RJpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 62
-- starší 2 h: 62
-- není z pump.fun: 11
-- už posláno: 9
-- mladší 10 min: 4
-- boti/wash: 4
+- MC mimo rozsah: 57
+- starší 2 h: 52
+- už posláno: 11
+- není z pump.fun: 5
+- kopie většího tokenu: 4
+- boti/wash: 3
 - prudce padá: 3
-- kopie většího tokenu: 2
-- neznamé stáří: 1
+- mladší 10 min: 2
+- málo obchodů: 1
+- nafouknutí holdeři: 1

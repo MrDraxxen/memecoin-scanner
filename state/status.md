@@ -1,19 +1,19 @@
-# Poslední sken: 25.11.2026 · 21:34
+# Poslední sken: 25.11.2026 · 21:43
 
-- kandidátů v rozsahu zdrojů: 157
-- prověřeno do hloubky (RugCheck): 25
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 159
+- prověřeno do hloubky (RugCheck): 24
+- **prošlo a odesláno: 1**
+  - $COSMOS `32uVUcCJLWh3XNry5FrYoVjB7JVXAEt77iMNS6GWNVDA`
 
 Vyřazeno:
 
-- MC mimo rozsah: 60
-- starší 2 h: 46
-- není z pump.fun: 18
-- už posláno: 14
-- mladší 10 min: 4
-- kopie většího tokenu: 4
-- prudce padá: 3
-- boti/wash: 2
-- insideři: 2
+- MC mimo rozsah: 61
+- starší 2 h: 48
+- není z pump.fun: 20
+- už posláno: 9
+- prudce padá: 6
+- mladší 10 min: 5
+- boti/wash: 4
+- kopie většího tokenu: 3
+- neznamé stáří: 1
 - málo obchodů: 1
-- RugCheck danger: 1

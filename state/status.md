@@ -1,18 +1,19 @@
-# Poslední sken: 26.11.2026 · 15:45
+# Poslední sken: 26.11.2026 · 15:48
 
-- kandidátů v rozsahu zdrojů: 149
-- prověřeno do hloubky (RugCheck): 24
-- **prošlo a odesláno: 1**
-  - $CRAB `6ppi7LfHkAhHkQwS3kT1zjCsGYQyK4uvpp3pE6Xmpump`
+- kandidátů v rozsahu zdrojů: 122
+- prověřeno do hloubky (RugCheck): 10
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 49
-- MC mimo rozsah: 46
-- není z pump.fun: 19
-- mladší 10 min: 17
-- už posláno: 8
-- boti/wash: 4
-- top10 > 25 %: 3
-- prudce padá: 1
+- MC mimo rozsah: 44
+- starší 2 h: 40
+- mladší 10 min: 16
+- už posláno: 9
+- není z pump.fun: 5
+- boti/wash: 3
 - insideři: 1
+- bundle > 10 %: 1
+- RugCheck danger: 1
+- top10 > 25 %: 1
+- kopie většího tokenu: 1

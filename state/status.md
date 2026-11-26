@@ -1,18 +1,18 @@
-# Poslední sken: 26.11.2026 · 16:29
+# Poslední sken: 26.11.2026 · 16:38
 
-- kandidátů v rozsahu zdrojů: 133
-- prověřeno do hloubky (RugCheck): 9
-- **prošlo a odesláno: 1**
-  - $MONA `6is11V1KgpybgPdMkYGBacbiT62kqunsvnLDNzDfpump`
+- kandidátů v rozsahu zdrojů: 132
+- prověřeno do hloubky (RugCheck): 7
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 58
-- MC mimo rozsah: 43
-- mladší 10 min: 10
-- už posláno: 10
-- boti/wash: 3
-- kopie většího tokenu: 3
+- starší 2 h: 59
+- MC mimo rozsah: 46
+- už posláno: 12
+- mladší 10 min: 4
+- boti/wash: 4
 - není z pump.fun: 2
-- top10 > 25 %: 2
-- velryba: 1
+- kopie většího tokenu: 2
+- insideři: 1
+- top10 > 25 %: 1
+- RugCheck danger: 1

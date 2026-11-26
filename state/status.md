@@ -1,17 +1,20 @@
-# Poslední sken: 26.11.2026 · 08:37
+# Poslední sken: 26.11.2026 · 08:40
 
-- kandidátů v rozsahu zdrojů: 167
-- prověřeno do hloubky (RugCheck): 25
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 159
+- prověřeno do hloubky (RugCheck): 18
+- **prošlo a odesláno: 1**
+  - $Sae `ZP4J8fNk7FC3iDUPAWd8TX6q8CkVVuSeJgnHCvpPSae`
 
 Vyřazeno:
 
-- starší 2 h: 59
-- MC mimo rozsah: 58
-- není z pump.fun: 22
-- mladší 10 min: 9
-- už posláno: 8
+- starší 2 h: 60
+- MC mimo rozsah: 57
+- není z pump.fun: 13
+- už posláno: 12
 - prudce padá: 4
-- kopie většího tokenu: 3
-- boti/wash: 1
-- málo obchodů: 1
+- boti/wash: 3
+- mladší 10 min: 3
+- málo obchodů: 2
+- kopie většího tokenu: 2
+- bundle > 10 %: 1
+- RugCheck danger: 1

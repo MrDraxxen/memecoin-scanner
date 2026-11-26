@@ -1,19 +1,18 @@
-# Poslední sken: 27.11.2026 · 00:41
+# Poslední sken: 27.11.2026 · 00:51
 
-- kandidátů v rozsahu zdrojů: 134
-- prověřeno do hloubky (RugCheck): 14
-- **prošlo a odesláno: 2**
-  - $TOGI `81TW4gTEH4aNsSaKCoBhoznx9AG8AiYoBXfvEzJkpump`
-  - $404 `AMBaYwTVf1B3XhpDevgNzb29HNKUGKjcW7SatTBmF4o4`
+- kandidátů v rozsahu zdrojů: 142
+- prověřeno do hloubky (RugCheck): 12
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 47
-- MC mimo rozsah: 42
-- už posláno: 18
-- mladší 10 min: 9
-- není z pump.fun: 7
-- prudce padá: 4
-- top10 > 25 %: 2
+- starší 2 h: 56
+- MC mimo rozsah: 46
+- už posláno: 17
+- mladší 10 min: 8
+- není z pump.fun: 8
+- prudce padá: 2
 - RugCheck danger: 2
-- kopie většího tokenu: 1
+- boti/wash: 1
+- insideři: 1
+- top10 > 25 %: 1

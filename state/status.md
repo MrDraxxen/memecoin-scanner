@@ -1,20 +1,18 @@
-# Poslední sken: 26.11.2026 · 12:24
+# Poslední sken: 26.11.2026 · 12:34
 
-- kandidátů v rozsahu zdrojů: 164
-- prověřeno do hloubky (RugCheck): 22
-- **prošlo a odesláno: 2**
-  - $Salaryman `3K7RPVGFJRxNoqqRJH5j1npAJBTCRf3Lt45vQzy7pump`
-  - $Hey `F9CwhBgSsEJuCigbodtUH257EqQpRSzKLKwHPPKNpump`
+- kandidátů v rozsahu zdrojů: 163
+- prověřeno do hloubky (RugCheck): 19
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 65
-- MC mimo rozsah: 45
-- není z pump.fun: 17
+- starší 2 h: 72
+- MC mimo rozsah: 44
 - už posláno: 13
-- mladší 10 min: 13
+- není z pump.fun: 13
+- mladší 10 min: 9
 - boti/wash: 4
-- kopie většího tokenu: 2
-- prudce padá: 1
-- málo obchodů: 1
-- top10 > 25 %: 1
+- kopie většího tokenu: 4
+- prudce padá: 2
+- insideři: 1
+- RugCheck danger: 1

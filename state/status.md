@@ -1,21 +1,21 @@
-# Poslední sken: 26.11.2026 · 17:34
+# Poslední sken: 26.11.2026 · 17:45
 
-- kandidátů v rozsahu zdrojů: 125
-- prověřeno do hloubky (RugCheck): 7
-- **prošlo a odesláno: 1**
-  - $Aries `a9tpCY1WLMybZAdWJ5u91TAdAiBrWRvBbDDEg1ypump`
+- kandidátů v rozsahu zdrojů: 141
+- prověřeno do hloubky (RugCheck): 14
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 45
-- MC mimo rozsah: 42
-- už posláno: 15
-- prudce padá: 6
+- starší 2 h: 60
+- MC mimo rozsah: 43
+- už posláno: 13
 - mladší 10 min: 5
 - boti/wash: 4
-- kopie většího tokenu: 2
-- málo obchodů: 1
-- RugCheck danger: 1
-- není z pump.fun: 1
-- top10 > 25 %: 1
+- RugCheck danger: 4
+- top10 > 25 %: 3
+- kopie většího tokenu: 3
+- není z pump.fun: 2
+- prudce padá: 1
+- neznamé stáří: 1
+- nafouknutí holdeři: 1
 - insideři: 1

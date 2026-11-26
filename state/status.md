@@ -1,20 +1,18 @@
-# Poslední sken: 26.11.2026 · 18:24
+# Poslední sken: 26.11.2026 · 18:27
 
-- kandidátů v rozsahu zdrojů: 136
-- prověřeno do hloubky (RugCheck): 7
-- **prošlo a odesláno: 1**
-  - $HSANE `4ykJMR3txJYxrbbG6SxPFvGSgX2iF5UiieXYJD4Npump`
+- kandidátů v rozsahu zdrojů: 135
+- prověřeno do hloubky (RugCheck): 6
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 54
-- MC mimo rozsah: 45
-- už posláno: 11
-- mladší 10 min: 9
+- starší 2 h: 61
+- MC mimo rozsah: 40
+- už posláno: 12
+- mladší 10 min: 8
 - boti/wash: 5
-- prudce padá: 4
+- prudce padá: 3
 - insideři: 2
 - není z pump.fun: 2
-- neznamé stáří: 1
+- nafouknutí holdeři: 1
 - RugCheck danger: 1
-- kopie většího tokenu: 1

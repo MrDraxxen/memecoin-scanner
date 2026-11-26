@@ -1,19 +1,21 @@
-# Poslední sken: 26.11.2026 · 19:07
+# Poslední sken: 26.11.2026 · 19:17
 
-- kandidátů v rozsahu zdrojů: 136
-- prověřeno do hloubky (RugCheck): 14
+- kandidátů v rozsahu zdrojů: 133
+- prověřeno do hloubky (RugCheck): 7
 - **prošlo a odesláno: 1**
-  - $KINDNESS `9PvgMDbR4Vqza55hXJA3PUa1oDPrWPLXWkBgqAuMpump`
+  - $JAZZ `CErq2oGNSJWVovVMjx8k1wuL6qR75q1teSxJNqrCpump`
 
 Vyřazeno:
 
-- starší 2 h: 54
+- starší 2 h: 59
 - MC mimo rozsah: 45
-- už posláno: 13
-- není z pump.fun: 9
-- mladší 10 min: 5
-- RugCheck danger: 3
+- už posláno: 14
+- mladší 10 min: 4
 - boti/wash: 2
-- prudce padá: 2
+- není z pump.fun: 2
+- prudce padá: 1
 - málo obchodů: 1
-- insideři: 1
+- nafouknutí holdeři: 1
+- RugCheck danger: 1
+- top10 > 25 %: 1
+- kopie většího tokenu: 1

@@ -1,20 +1,21 @@
-# Poslední sken: 26.11.2026 · 21:05
+# Poslední sken: 26.11.2026 · 21:08
 
-- kandidátů v rozsahu zdrojů: 113
-- prověřeno do hloubky (RugCheck): 10
-- **prošlo a odesláno: 1**
-  - $H/MONHOOK `GHZ3crguwug4zVYQCm4JCiiMU3Psp4yudFw1jSNUpump`
+- kandidátů v rozsahu zdrojů: 139
+- prověřeno do hloubky (RugCheck): 23
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 43
-- MC mimo rozsah: 40
-- už posláno: 13
-- není z pump.fun: 5
-- boti/wash: 4
-- prudce padá: 2
-- mladší 10 min: 1
+- starší 2 h: 46
+- MC mimo rozsah: 42
+- už posláno: 16
+- není z pump.fun: 15
+- mladší 10 min: 8
+- RugCheck danger: 3
+- boti/wash: 2
+- kopie většího tokenu: 2
+- málo obchodů: 1
+- prudce padá: 1
+- top10 > 25 %: 1
 - nafouknutí holdeři: 1
-- RugCheck danger: 1
-- insideři: 1
-- kopie většího tokenu: 1
+- bundle > 10 %: 1

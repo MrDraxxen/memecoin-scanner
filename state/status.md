@@ -1,18 +1,19 @@
-# Poslední sken: 26.11.2026 · 19:50
+# Poslední sken: 26.11.2026 · 20:00
 
-- kandidátů v rozsahu zdrojů: 134
-- prověřeno do hloubky (RugCheck): 12
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 131
+- prověřeno do hloubky (RugCheck): 9
+- **prošlo a odesláno: 2**
+  - $Jewcoin `DyHYbb4qmBoRtkgxmgaqiYHLoFXCCWLUBys4LMPFpump`
+  - $RetinaRink `Dk6vDzAmDxNydkzRAxeXcDj8bqhJs7igL34HTLAvpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 50
-- starší 2 h: 45
-- už posláno: 15
-- mladší 10 min: 8
-- není z pump.fun: 6
-- málo obchodů: 3
-- RugCheck danger: 3
-- top10 > 25 %: 2
-- prudce padá: 1
+- starší 2 h: 58
+- MC mimo rozsah: 43
+- už posláno: 14
+- mladší 10 min: 6
+- není z pump.fun: 4
+- boti/wash: 1
 - bundle > 10 %: 1
+- top10 > 25 %: 1
+- kopie většího tokenu: 1

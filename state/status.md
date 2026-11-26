@@ -1,18 +1,17 @@
-# Poslední sken: 26.11.2026 · 20:11
+# Poslední sken: 26.11.2026 · 20:14
 
-- kandidátů v rozsahu zdrojů: 133
-- prověřeno do hloubky (RugCheck): 9
-- **prošlo a odesláno: 2**
-  - $BASS `4U1ZcA8a8p5BKW8e4FsQnvd9TjvnWJgb4s58gGAApump`
-  - $ZBRA `DrBCGJscM3ziBRd2CDt5dV9W1rCVAimVZ78BxrN8pump`
+- kandidátů v rozsahu zdrojů: 135
+- prověřeno do hloubky (RugCheck): 12
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 57
-- MC mimo rozsah: 45
-- už posláno: 14
-- mladší 10 min: 8
-- není z pump.fun: 3
-- kopie většího tokenu: 2
-- nafouknutí holdeři: 1
+- starší 2 h: 58
+- MC mimo rozsah: 40
+- už posláno: 13
+- mladší 10 min: 10
+- není z pump.fun: 9
+- prudce padá: 2
 - top10 > 25 %: 1
+- RugCheck danger: 1
+- kopie většího tokenu: 1

@@ -1,19 +1,19 @@
-# Poslední sken: 26.11.2026 · 19:30
+# Poslední sken: 26.11.2026 · 19:41
 
-- kandidátů v rozsahu zdrojů: 143
-- prověřeno do hloubky (RugCheck): 6
-- **prošlo a odesláno: 1**
-  - $PILLMAN `CgJkmr87iVzgCNnsYyaqoj9WmBee9tw7uQU2pKM4QYFe`
+- kandidátů v rozsahu zdrojů: 128
+- prověřeno do hloubky (RugCheck): 10
+- **prošlo a odesláno: 2**
+  - $CRACKVERA `F6R9uPWGun1zNohQGDypL25aJUkucMwe5fZbrCqspump`
+  - $TRT `5puzNQBzsT48UqQAxwxWsTiiGRz5rKVeSJthpiD6pump`
 
 Vyřazeno:
 
-- starší 2 h: 61
-- MC mimo rozsah: 49
+- starší 2 h: 56
+- MC mimo rozsah: 44
 - už posláno: 15
-- mladší 10 min: 9
-- není z pump.fun: 3
+- není z pump.fun: 4
+- kopie většího tokenu: 3
+- mladší 10 min: 1
 - boti/wash: 1
 - prudce padá: 1
-- neznamé stáří: 1
 - RugCheck danger: 1
-- kopie většího tokenu: 1

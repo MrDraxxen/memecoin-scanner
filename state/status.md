@@ -1,17 +1,20 @@
-# Poslední sken: 26.11.2026 · 20:54
+# Poslední sken: 26.11.2026 · 21:05
 
-- kandidátů v rozsahu zdrojů: 140
-- prověřeno do hloubky (RugCheck): 14
+- kandidátů v rozsahu zdrojů: 113
+- prověřeno do hloubky (RugCheck): 10
 - **prošlo a odesláno: 1**
-  - $FIREBALL `3FXQU7aFGcKoAAnEbAM28RjKoxB8FM9iNnBD6uXmfire`
+  - $H/MONHOOK `GHZ3crguwug4zVYQCm4JCiiMU3Psp4yudFw1jSNUpump`
 
 Vyřazeno:
 
-- starší 2 h: 51
-- MC mimo rozsah: 41
-- mladší 10 min: 15
-- už posláno: 14
-- není z pump.fun: 11
-- prudce padá: 3
-- boti/wash: 2
-- kopie většího tokenu: 2
+- starší 2 h: 43
+- MC mimo rozsah: 40
+- už posláno: 13
+- není z pump.fun: 5
+- boti/wash: 4
+- prudce padá: 2
+- mladší 10 min: 1
+- nafouknutí holdeři: 1
+- RugCheck danger: 1
+- insideři: 1
+- kopie většího tokenu: 1

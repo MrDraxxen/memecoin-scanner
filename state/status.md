@@ -1,17 +1,16 @@
-# Poslední sken: 26.11.2026 · 01:51
+# Poslední sken: 26.11.2026 · 02:01
 
-- kandidátů v rozsahu zdrojů: 161
-- prověřeno do hloubky (RugCheck): 7
+- kandidátů v rozsahu zdrojů: 159
+- prověřeno do hloubky (RugCheck): 8
 - **prošlo a odesláno: 1**
-  - $ISABELLE `9NGZcSJLab63jdFFfeKykM48CxWspjc1xj3PSeQVVrYg`
+  - $VIGIL `4oZqAT8xgFviPyU6jygJc4gzN2SPy1SBJC1W7UdDpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 66
-- starší 2 h: 60
-- už posláno: 15
-- mladší 10 min: 11
-- kopie většího tokenu: 3
-- boti/wash: 2
-- není z pump.fun: 2
-- top10 > 25 %: 1
+- MC mimo rozsah: 68
+- starší 2 h: 53
+- už posláno: 13
+- mladší 10 min: 12
+- není z pump.fun: 7
+- boti/wash: 3
+- prudce padá: 2

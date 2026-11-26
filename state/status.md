@@ -1,20 +1,19 @@
-# Poslední sken: 26.11.2026 · 09:54
+# Poslední sken: 26.11.2026 · 10:04
 
-- kandidátů v rozsahu zdrojů: 141
-- prověřeno do hloubky (RugCheck): 16
+- kandidátů v rozsahu zdrojů: 153
+- prověřeno do hloubky (RugCheck): 13
 - **prošlo a odesláno: 1**
-  - $McCoin `J8Kbq9sX6B6D2nVCFMKU2EP7UgtpZg5qBsZDALPapump`
+  - $PPV `CbGrZ3Q2XxSV2oiZsLkDWW1GFjrqUDAzTH9XwVr1pump`
 
 Vyřazeno:
 
-- starší 2 h: 55
-- MC mimo rozsah: 54
-- už posláno: 9
-- není z pump.fun: 9
-- mladší 10 min: 3
-- boti/wash: 3
-- kopie většího tokenu: 3
-- prudce padá: 1
+- starší 2 h: 60
+- MC mimo rozsah: 56
+- už posláno: 11
+- mladší 10 min: 7
+- není z pump.fun: 7
+- kopie většího tokenu: 4
+- prudce padá: 3
+- boti/wash: 2
+- málo obchodů: 1
 - insideři: 1
-- top10 > 25 %: 1
-- nafouknutí holdeři: 1

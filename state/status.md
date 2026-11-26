@@ -1,19 +1,18 @@
-# Poslední sken: 26.11.2026 · 06:48
+# Poslední sken: 26.11.2026 · 06:53
 
-- kandidátů v rozsahu zdrojů: 165
-- prověřeno do hloubky (RugCheck): 13
-- **prošlo a odesláno: 1**
-  - $BOLTRAY `E7rHWDh3U6pyFZmME5Xih1txaNKF4DsR53JtqYS7pump`
+- kandidátů v rozsahu zdrojů: 185
+- prověřeno do hloubky (RugCheck): 23
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 66
-- starší 2 h: 66
-- už posláno: 14
-- není z pump.fun: 9
-- mladší 10 min: 4
-- boti/wash: 1
+- starší 2 h: 70
+- MC mimo rozsah: 69
+- není z pump.fun: 20
+- už posláno: 13
+- málo obchodů: 4
+- boti/wash: 3
+- prudce padá: 2
+- kopie většího tokenu: 2
 - neznamé stáří: 1
-- insideři: 1
 - top10 > 25 %: 1
-- kopie většího tokenu: 1

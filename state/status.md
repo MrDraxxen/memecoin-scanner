@@ -1,19 +1,17 @@
-# Poslední sken: 26.11.2026 · 04:07
+# Poslední sken: 26.11.2026 · 04:11
 
-- kandidátů v rozsahu zdrojů: 159
-- prověřeno do hloubky (RugCheck): 17
-- **prošlo a odesláno: 1**
-  - $GIVEMAS `BVGHBTnfnvWufgPjBZfKwUkWXQ3tf43RBd9rx9Qgpump`
+- kandidátů v rozsahu zdrojů: 170
+- prověřeno do hloubky (RugCheck): 22
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 64
-- MC mimo rozsah: 53
-- už posláno: 13
-- není z pump.fun: 13
-- mladší 10 min: 5
-- boti/wash: 4
+- starší 2 h: 59
+- MC mimo rozsah: 55
+- není z pump.fun: 22
+- už posláno: 15
+- mladší 10 min: 10
+- boti/wash: 5
 - prudce padá: 2
-- top10 > 25 %: 2
 - málo obchodů: 1
-- kopie většího tokenu: 1
+- neznamé stáří: 1

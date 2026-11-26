@@ -1,18 +1,18 @@
-# Poslední sken: 26.11.2026 · 03:47
+# Poslední sken: 26.11.2026 · 03:57
 
-- kandidátů v rozsahu zdrojů: 160
-- prověřeno do hloubky (RugCheck): 13
-- **prošlo a odesláno: 1**
-  - $MCAP `AYij72wApHA4qGV5RbZJhsAVocjHtJJhgoUswV3tpump`
+- kandidátů v rozsahu zdrojů: 152
+- prověřeno do hloubky (RugCheck): 15
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 67
-- MC mimo rozsah: 56
-- už posláno: 11
-- není z pump.fun: 8
-- mladší 10 min: 6
-- prudce padá: 4
+- starší 2 h: 55
+- MC mimo rozsah: 55
+- už posláno: 13
+- není z pump.fun: 11
+- mladší 10 min: 8
 - boti/wash: 3
 - top10 > 25 %: 3
+- prudce padá: 2
+- neznamé stáří: 1
 - kopie většího tokenu: 1

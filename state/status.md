@@ -1,20 +1,19 @@
-# Poslední sken: 26.11.2026 · 18:58
+# Poslední sken: 26.11.2026 · 19:07
 
-- kandidátů v rozsahu zdrojů: 131
-- prověřeno do hloubky (RugCheck): 9
+- kandidátů v rozsahu zdrojů: 136
+- prověřeno do hloubky (RugCheck): 14
 - **prošlo a odesláno: 1**
-  - $bolphante `FVBzzG4ZcAgxSLW1rWjNC9EH9CgEgz1A4puNYexMpump`
+  - $KINDNESS `9PvgMDbR4Vqza55hXJA3PUa1oDPrWPLXWkBgqAuMpump`
 
 Vyřazeno:
 
 - starší 2 h: 54
-- MC mimo rozsah: 42
-- už posláno: 10
-- mladší 10 min: 6
-- prudce padá: 6
-- boti/wash: 4
-- kopie většího tokenu: 3
-- není z pump.fun: 2
+- MC mimo rozsah: 45
+- už posláno: 13
+- není z pump.fun: 9
+- mladší 10 min: 5
+- RugCheck danger: 3
+- boti/wash: 2
+- prudce padá: 2
+- málo obchodů: 1
 - insideři: 1
-- nafouknutí holdeři: 1
-- RugCheck danger: 1

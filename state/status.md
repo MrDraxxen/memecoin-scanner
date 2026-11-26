@@ -1,19 +1,18 @@
-# Poslední sken: 26.11.2026 · 03:04
+# Poslední sken: 26.11.2026 · 03:14
 
-- kandidátů v rozsahu zdrojů: 159
-- prověřeno do hloubky (RugCheck): 17
-- **prošlo a odesláno: 1**
-  - $MemeStonks `ERhjmSpLh6Rr4ozYjkGohr7rLizv7Mw6MgWpEFH7pump`
+- kandidátů v rozsahu zdrojů: 152
+- prověřeno do hloubky (RugCheck): 19
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 63
-- starší 2 h: 53
-- už posláno: 12
-- mladší 10 min: 11
-- není z pump.fun: 11
-- boti/wash: 2
-- top10 > 25 %: 2
-- kopie většího tokenu: 2
-- prudce padá: 1
+- MC mimo rozsah: 59
+- starší 2 h: 50
+- není z pump.fun: 14
+- už posláno: 11
+- mladší 10 min: 7
+- boti/wash: 3
+- prudce padá: 3
+- top10 > 25 %: 3
 - RugCheck danger: 1
+- velryba: 1

@@ -1,19 +1,17 @@
-# Poslední sken: 26.11.2026 · 23:34
+# Poslední sken: 26.11.2026 · 23:44
 
-- kandidátů v rozsahu zdrojů: 135
-- prověřeno do hloubky (RugCheck): 13
+- kandidátů v rozsahu zdrojů: 156
+- prověřeno do hloubky (RugCheck): 17
 - **prošlo a odesláno: 1**
-  - $DEXDATA `63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump`
+  - $HOLD `BuNeErf9FjL6dgzE74S21Qm9EeBaYMJXSW4A8ihxpump`
 
 Vyřazeno:
 
-- starší 2 h: 49
-- MC mimo rozsah: 46
-- už posláno: 15
-- není z pump.fun: 10
-- mladší 10 min: 6
+- starší 2 h: 59
+- MC mimo rozsah: 47
+- už posláno: 16
+- není z pump.fun: 14
+- mladší 10 min: 13
 - boti/wash: 4
-- prudce padá: 1
-- málo obchodů: 1
 - top10 > 25 %: 1
-- kopie většího tokenu: 1
+- nafouknutí holdeři: 1

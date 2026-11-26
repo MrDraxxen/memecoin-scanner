@@ -1,19 +1,18 @@
-# Poslední sken: 26.11.2026 · 20:34
+# Poslední sken: 26.11.2026 · 20:44
 
-- kandidátů v rozsahu zdrojů: 137
-- prověřeno do hloubky (RugCheck): 15
-- **prošlo a odesláno: 1**
-  - $MEOWI `Bwwc9n2mPn1k5rGv6UjAudiPPYmQpSzYevddjdmHpump`
+- kandidátů v rozsahu zdrojů: 145
+- prověřeno do hloubky (RugCheck): 16
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 60
-- MC mimo rozsah: 36
-- mladší 10 min: 11
-- není z pump.fun: 11
-- už posláno: 10
-- prudce padá: 3
-- boti/wash: 2
+- starší 2 h: 56
+- MC mimo rozsah: 42
+- už posláno: 14
+- mladší 10 min: 12
+- není z pump.fun: 12
+- boti/wash: 3
+- prudce padá: 2
+- kopie většího tokenu: 2
 - top10 > 25 %: 1
-- RugCheck danger: 1
-- kopie většího tokenu: 1
+- nafouknutí holdeři: 1

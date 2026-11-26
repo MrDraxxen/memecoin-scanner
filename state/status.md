@@ -1,20 +1,19 @@
-# Poslední sken: 26.11.2026 · 13:37
+# Poslední sken: 26.11.2026 · 13:47
 
-- kandidátů v rozsahu zdrojů: 137
-- prověřeno do hloubky (RugCheck): 21
-- **prošlo a odesláno: 1**
-  - $DYNAMO `44G6GQL2RX1KRHcy41pkyqJnzxVbiHapHL9ZeU8Npump`
+- kandidátů v rozsahu zdrojů: 144
+- prověřeno do hloubky (RugCheck): 18
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 49
-- MC mimo rozsah: 41
-- není z pump.fun: 14
+- starší 2 h: 56
+- MC mimo rozsah: 44
 - už posláno: 13
-- mladší 10 min: 9
-- boti/wash: 3
-- kopie většího tokenu: 3
+- není z pump.fun: 11
+- mladší 10 min: 10
+- boti/wash: 2
+- nafouknutí holdeři: 2
+- top10 > 25 %: 2
+- kopie většího tokenu: 2
 - prudce padá: 1
 - RugCheck danger: 1
-- top10 > 25 %: 1
-- bundle > 10 %: 1

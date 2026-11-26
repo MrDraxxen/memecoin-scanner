@@ -1,18 +1,19 @@
-# Poslední sken: 26.11.2026 · 05:35
+# Poslední sken: 26.11.2026 · 05:45
 
-- kandidátů v rozsahu zdrojů: 178
-- prověřeno do hloubky (RugCheck): 23
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 176
+- prověřeno do hloubky (RugCheck): 21
+- **prošlo a odesláno: 1**
+  - $TEEETHY `BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 66
-- starší 2 h: 61
-- není z pump.fun: 19
-- už posláno: 15
-- prudce padá: 4
-- málo obchodů: 4
-- boti/wash: 3
+- starší 2 h: 70
+- MC mimo rozsah: 57
+- není z pump.fun: 16
+- už posláno: 12
+- málo obchodů: 9
+- mladší 10 min: 3
+- boti/wash: 2
 - neznamé stáří: 2
 - top10 > 25 %: 2
 - kopie většího tokenu: 2

@@ -1,21 +1,19 @@
-# Poslední sken: 26.11.2026 · 22:32
+# Poslední sken: 26.11.2026 · 22:41
 
-- kandidátů v rozsahu zdrojů: 127
-- prověřeno do hloubky (RugCheck): 15
+- kandidátů v rozsahu zdrojů: 138
+- prověřeno do hloubky (RugCheck): 12
 - **prošlo a odesláno: 1**
-  - $PLATE `3KsnkPNfXzn4gRaxnnEqtx7CferLThRNnuhRrG4Gpump`
+  - $CINU `CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 48
-- starší 2 h: 43
-- už posláno: 13
-- není z pump.fun: 8
-- mladší 10 min: 5
-- prudce padá: 2
-- kopie většího tokenu: 2
-- boti/wash: 1
-- top10 > 25 %: 1
-- bundle > 10 %: 1
-- RugCheck danger: 1
-- nafouknutí holdeři: 1
+- starší 2 h: 53
+- MC mimo rozsah: 45
+- už posláno: 15
+- mladší 10 min: 6
+- není z pump.fun: 6
+- boti/wash: 4
+- prudce padá: 3
+- top10 > 25 %: 2
+- RugCheck danger: 2
+- insideři: 1

@@ -1,18 +1,21 @@
-# Poslední sken: 26.11.2026 · 16:08
+# Poslední sken: 26.11.2026 · 16:19
 
-- kandidátů v rozsahu zdrojů: 138
-- prověřeno do hloubky (RugCheck): 13
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 126
+- prověřeno do hloubky (RugCheck): 11
+- **prošlo a odesláno: 2**
+  - $DUO `CC1uvrWkFdju8NuUrS7x3bKVzu5Cjy6Kt6nyB6Pbpump`
+  - $MONA `6is11V1KgpybgPdMkYGBacbiT62kqunsvnLDNzDfpump`
 
 Vyřazeno:
 
-- starší 2 h: 60
-- MC mimo rozsah: 40
-- už posláno: 13
-- mladší 10 min: 7
-- top10 > 25 %: 6
-- boti/wash: 4
-- není z pump.fun: 4
-- insideři: 2
+- starší 2 h: 54
+- MC mimo rozsah: 41
+- už posláno: 11
+- mladší 10 min: 5
+- boti/wash: 3
+- top10 > 25 %: 3
+- kopie většího tokenu: 3
 - prudce padá: 1
-- kopie většího tokenu: 1
+- insideři: 1
+- není z pump.fun: 1
+- nafouknutí holdeři: 1

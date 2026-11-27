@@ -1,18 +1,20 @@
-# Poslední sken: 27.11.2026 · 22:41
+# Poslední sken: 27.11.2026 · 22:51
 
-- kandidátů v rozsahu zdrojů: 132
-- prověřeno do hloubky (RugCheck): 7
+- kandidátů v rozsahu zdrojů: 134
+- prověřeno do hloubky (RugCheck): 9
 - **prošlo a odesláno: 1**
-  - $Wakachi `NVdGokmTDyBW6T6azrmMNTqxcboxV57hB7PiD1Kpump`
+  - $CODEMEN `597W88FgeoLZLaV4poEPb4eNNa36NmZhPikGhrsEpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 52
-- starší 2 h: 49
-- už posláno: 12
-- mladší 10 min: 6
-- boti/wash: 4
-- RugCheck danger: 3
-- prudce padá: 2
+- starší 2 h: 51
+- MC mimo rozsah: 47
+- už posláno: 16
+- mladší 10 min: 7
+- boti/wash: 2
 - není z pump.fun: 2
-- bundle > 10 %: 1
+- top10 > 25 %: 2
+- RugCheck danger: 2
+- kopie většího tokenu: 2
+- prudce padá: 1
+- málo obchodů: 1

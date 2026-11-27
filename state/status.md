@@ -1,16 +1,18 @@
-# Poslední sken: 27.11.2026 · 17:22
+# Poslední sken: 27.11.2026 · 17:32
 
-- kandidátů v rozsahu zdrojů: 114
-- prověřeno do hloubky (RugCheck): 5
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 121
+- prověřeno do hloubky (RugCheck): 8
+- **prošlo a odesláno: 1**
+  - $Ashes `FHNU6gV6iaAn3ueb6dyhLXtcBZKok3UenaeGERiQpump`
 
 Vyřazeno:
 
-- starší 2 h: 52
-- MC mimo rozsah: 32
-- už posláno: 14
-- mladší 10 min: 8
+- MC mimo rozsah: 43
+- starší 2 h: 41
+- už posláno: 15
+- mladší 10 min: 11
+- není z pump.fun: 4
 - boti/wash: 3
-- není z pump.fun: 3
+- insideři: 1
+- RugCheck danger: 1
 - nafouknutí holdeři: 1
-- kopie většího tokenu: 1

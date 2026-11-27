@@ -1,20 +1,17 @@
-# Poslední sken: 27.11.2026 · 23:34
+# Poslední sken: 27.11.2026 · 23:44
 
-- kandidátů v rozsahu zdrojů: 128
-- prověřeno do hloubky (RugCheck): 9
+- kandidátů v rozsahu zdrojů: 121
+- prověřeno do hloubky (RugCheck): 6
 - **prošlo a odesláno: 1**
-  - $Xbot `EMjYBe5d5Bh6qR64Dm1vCe9QfzbS5GX5q1txhU8MSk7v`
+  - $SILLYBANDZ `55P15koxvyEyzWrNA78rcBPt7Ag5Scn8iFMSY6mxpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 50
-- starší 2 h: 44
-- už posláno: 15
-- boti/wash: 5
-- mladší 10 min: 4
-- není z pump.fun: 4
-- málo obchodů: 1
-- insideři: 1
+- starší 2 h: 47
+- MC mimo rozsah: 46
+- už posláno: 12
+- mladší 10 min: 8
+- není z pump.fun: 3
+- boti/wash: 2
 - top10 > 25 %: 1
-- RugCheck danger: 1
 - kopie většího tokenu: 1

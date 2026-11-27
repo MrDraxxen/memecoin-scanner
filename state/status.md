@@ -1,18 +1,16 @@
-# Poslední sken: 27.11.2026 · 15:16
+# Poslední sken: 27.11.2026 · 15:26
 
-- kandidátů v rozsahu zdrojů: 122
-- prověřeno do hloubky (RugCheck): 7
-- **prošlo a odesláno: 1**
-  - $FRGST `DNgboHpauGZ5KbSptWSkwQyQLSDCQKdoU3qsk9FTpump`
+- kandidátů v rozsahu zdrojů: 126
+- prověřeno do hloubky (RugCheck): 8
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 53
+- starší 2 h: 55
 - MC mimo rozsah: 36
-- už posláno: 17
-- není z pump.fun: 5
-- boti/wash: 4
-- mladší 10 min: 3
-- prudce padá: 1
-- málo obchodů: 1
+- už posláno: 18
+- není z pump.fun: 7
+- mladší 10 min: 5
+- boti/wash: 3
+- neznamé stáří: 1
 - top10 > 25 %: 1

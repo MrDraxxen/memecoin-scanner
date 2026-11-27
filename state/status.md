@@ -1,20 +1,20 @@
-# Poslední sken: 27.11.2026 · 18:48
+# Poslední sken: 27.11.2026 · 18:59
 
-- kandidátů v rozsahu zdrojů: 125
+- kandidátů v rozsahu zdrojů: 119
 - prověřeno do hloubky (RugCheck): 7
-- **prošlo a odesláno: 0**
+- **prošlo a odesláno: 2**
+  - $IceBall `6PFm828RKNJqKvjXQz82hhGvGNWFXZcBHNCF4U7spump`
+  - $Knoware `xMi8Hh5i3pDPMsQLEo7Y84APrUqTJ5KHQ9HiXhApump`
 
 Vyřazeno:
 
-- starší 2 h: 49
-- MC mimo rozsah: 41
-- už posláno: 13
-- mladší 10 min: 11
-- kopie většího tokenu: 3
-- boti/wash: 2
-- málo obchodů: 1
-- neznamé stáří: 1
+- starší 2 h: 48
+- MC mimo rozsah: 36
+- už posláno: 12
+- mladší 10 min: 9
+- boti/wash: 5
+- prudce padá: 2
+- kopie většího tokenu: 2
 - nafouknutí holdeři: 1
-- není z pump.fun: 1
-- dev drží moc: 1
+- insideři: 1
 - RugCheck danger: 1

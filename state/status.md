@@ -1,21 +1,20 @@
-# Poslední sken: 27.11.2026 · 12:56
+# Poslední sken: 27.11.2026 · 13:06
 
-- kandidátů v rozsahu zdrojů: 172
-- prověřeno do hloubky (RugCheck): 20
+- kandidátů v rozsahu zdrojů: 149
+- prověřeno do hloubky (RugCheck): 17
 - **prošlo a odesláno: 1**
-  - $EVOLIQ `GJewwaSYtsKdYmqoinB3LmCVvAD814FdKFWgcR4Kpump`
+  - $VCAT `29xXt9uUiCmPsGM3hs58zsS1cJCpSQS3UBryYoUs85oq`
 
 Vyřazeno:
 
-- starší 2 h: 75
+- starší 2 h: 59
 - MC mimo rozsah: 36
-- málo obchodů: 17
-- už posláno: 14
-- není z pump.fun: 14
-- mladší 10 min: 6
-- boti/wash: 3
+- už posláno: 15
+- málo obchodů: 12
+- není z pump.fun: 12
+- mladší 10 min: 7
+- boti/wash: 2
 - nafouknutí holdeři: 2
 - prudce padá: 1
-- bundle > 10 %: 1
-- top10 > 25 %: 1
-- kopie většího tokenu: 1
+- insideři: 1
+- málo holderů: 1

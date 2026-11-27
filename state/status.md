@@ -1,19 +1,17 @@
-# Poslední sken: 27.11.2026 · 15:59
+# Poslední sken: 27.11.2026 · 16:10
 
-- kandidátů v rozsahu zdrojů: 111
-- prověřeno do hloubky (RugCheck): 5
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 106
+- prověřeno do hloubky (RugCheck): 6
+- **prošlo a odesláno: 1**
+  - $ASCEND `F5DxJtHaFNnxdjBXounqM3xXMSqSSLgJ5u8yt5m5pump`
 
 Vyřazeno:
 
-- starší 2 h: 52
-- MC mimo rozsah: 30
+- starší 2 h: 46
+- MC mimo rozsah: 32
 - už posláno: 17
-- mladší 10 min: 3
-- není z pump.fun: 2
-- kopie většího tokenu: 2
-- boti/wash: 1
-- prudce padá: 1
-- neznamé stáří: 1
+- kopie většího tokenu: 4
+- mladší 10 min: 2
+- boti/wash: 2
 - málo obchodů: 1
-- top10 > 25 %: 1
+- není z pump.fun: 1

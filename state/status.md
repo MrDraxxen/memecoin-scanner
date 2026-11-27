@@ -1,18 +1,18 @@
-# Poslední sken: 27.11.2026 · 05:38
+# Poslední sken: 27.11.2026 · 05:48
 
-- kandidátů v rozsahu zdrojů: 152
-- prověřeno do hloubky (RugCheck): 24
+- kandidátů v rozsahu zdrojů: 150
+- prověřeno do hloubky (RugCheck): 25
 - **prošlo a odesláno: 1**
-  - $VOLALITY `4tPsVjDAqgDjb5TzGazEDMvM2GK2xDvCG2LxpX8opump`
+  - $  `2DyLsLXdJyjPUQ9EZg4VbceuaPDDVZ8n2z365bgtpump`
 
 Vyřazeno:
 
-- starší 2 h: 56
-- MC mimo rozsah: 38
-- není z pump.fun: 21
-- už posláno: 16
-- mladší 10 min: 13
+- starší 2 h: 54
+- MC mimo rozsah: 37
+- není z pump.fun: 22
+- už posláno: 18
+- mladší 10 min: 11
 - boti/wash: 3
 - prudce padá: 2
-- bundle > 10 %: 1
+- insideři: 1
 - kopie většího tokenu: 1

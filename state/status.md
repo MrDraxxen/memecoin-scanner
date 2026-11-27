@@ -1,20 +1,18 @@
-# Poslední sken: 27.11.2026 · 04:54
+# Poslední sken: 27.11.2026 · 05:04
 
-- kandidátů v rozsahu zdrojů: 147
-- prověřeno do hloubky (RugCheck): 21
-- **prošlo a odesláno: 1**
-  - $LUMINARE `EomygbXHKGwb9bkCatVftQpCVgvBPmgAnMUuwusxpump`
+- kandidátů v rozsahu zdrojů: 149
+- prověřeno do hloubky (RugCheck): 25
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 55
-- MC mimo rozsah: 40
-- není z pump.fun: 14
-- mladší 10 min: 13
-- už posláno: 12
-- boti/wash: 4
-- prudce padá: 2
+- starší 2 h: 62
+- MC mimo rozsah: 35
+- není z pump.fun: 19
+- už posláno: 14
+- mladší 10 min: 8
+- boti/wash: 3
 - top10 > 25 %: 2
 - kopie většího tokenu: 2
+- nafouknutí holdeři: 1
 - insideři: 1
-- RugCheck danger: 1

@@ -1,20 +1,16 @@
-# Poslední sken: 27.11.2026 · 19:08
+# Poslední sken: 27.11.2026 · 19:18
 
-- kandidátů v rozsahu zdrojů: 121
-- prověřeno do hloubky (RugCheck): 7
-- **prošlo a odesláno: 1**
-  - $pointless `4TKxE1CC4W7sp6iLEJJUdUzgFRfxGAq7Kj46Rv2Qpump`
+- kandidátů v rozsahu zdrojů: 118
+- prověřeno do hloubky (RugCheck): 6
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 48
-- MC mimo rozsah: 38
+- starší 2 h: 56
+- MC mimo rozsah: 37
 - už posláno: 12
-- mladší 10 min: 9
-- boti/wash: 5
-- kopie většího tokenu: 3
-- prudce padá: 1
-- málo obchodů: 1
+- mladší 10 min: 4
+- prudce padá: 3
+- top10 > 25 %: 3
+- RugCheck danger: 2
 - nafouknutí holdeři: 1
-- není z pump.fun: 1
-- RugCheck danger: 1

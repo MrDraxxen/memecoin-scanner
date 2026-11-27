@@ -1,17 +1,20 @@
-# Poslední sken: 27.11.2026 · 23:24
+# Poslední sken: 27.11.2026 · 23:34
 
-- kandidátů v rozsahu zdrojů: 141
-- prověřeno do hloubky (RugCheck): 5
+- kandidátů v rozsahu zdrojů: 128
+- prověřeno do hloubky (RugCheck): 9
 - **prošlo a odesláno: 1**
-  - $RAURA `F5NjZLqXbYuEa9jBuRk76EzaqwAyVUP69nbW5yWNsHeW`
+  - $Xbot `EMjYBe5d5Bh6qR64Dm1vCe9QfzbS5GX5q1txhU8MSk7v`
 
 Vyřazeno:
 
-- starší 2 h: 56
-- MC mimo rozsah: 53
-- už posláno: 13
-- mladší 10 min: 7
+- MC mimo rozsah: 50
+- starší 2 h: 44
+- už posláno: 15
 - boti/wash: 5
-- není z pump.fun: 3
-- málo obchodů: 2
+- mladší 10 min: 4
+- není z pump.fun: 4
+- málo obchodů: 1
+- insideři: 1
+- top10 > 25 %: 1
+- RugCheck danger: 1
 - kopie většího tokenu: 1

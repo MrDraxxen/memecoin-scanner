@@ -1,18 +1,18 @@
-# Poslední sken: 27.11.2026 · 21:28
+# Poslední sken: 27.11.2026 · 21:38
 
-- kandidátů v rozsahu zdrojů: 155
-- prověřeno do hloubky (RugCheck): 21
-- **prošlo a odesláno: 1**
-  - $inuvest `FkvBGqGgtfGMZN88d4iYzXZXjMu3HLSRe7voFoxmpump`
+- kandidátů v rozsahu zdrojů: 143
+- prověřeno do hloubky (RugCheck): 15
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 57
-- MC mimo rozsah: 44
-- mladší 10 min: 16
-- už posláno: 16
-- není z pump.fun: 16
+- starší 2 h: 63
+- MC mimo rozsah: 40
+- už posláno: 15
+- není z pump.fun: 11
+- mladší 10 min: 5
+- boti/wash: 2
+- málo obchodů: 2
 - RugCheck danger: 2
+- kopie většího tokenu: 2
 - neznamé stáří: 1
-- nafouknutí holdeři: 1
-- kopie většího tokenu: 1

@@ -1,20 +1,18 @@
-# Poslední sken: 27.11.2026 · 20:54
+# Poslední sken: 27.11.2026 · 21:05
 
-- kandidátů v rozsahu zdrojů: 143
-- prověřeno do hloubky (RugCheck): 13
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 148
+- prověřeno do hloubky (RugCheck): 25
+- **prošlo a odesláno: 1**
+  - $Fullball `GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump`
 
 Vyřazeno:
 
-- starší 2 h: 64
-- MC mimo rozsah: 34
-- už posláno: 14
-- mladší 10 min: 8
-- není z pump.fun: 8
-- boti/wash: 5
-- prudce padá: 3
-- insideři: 2
-- RugCheck danger: 2
+- starší 2 h: 58
+- MC mimo rozsah: 33
+- není z pump.fun: 23
+- už posláno: 12
+- mladší 10 min: 10
+- boti/wash: 3
 - neznamé stáří: 1
 - málo obchodů: 1
 - kopie většího tokenu: 1

@@ -1,20 +1,19 @@
-# Poslední sken: 27.11.2026 · 22:51
+# Poslední sken: 27.11.2026 · 22:54
 
-- kandidátů v rozsahu zdrojů: 134
-- prověřeno do hloubky (RugCheck): 9
+- kandidátů v rozsahu zdrojů: 142
+- prověřeno do hloubky (RugCheck): 8
 - **prošlo a odesláno: 1**
-  - $CODEMEN `597W88FgeoLZLaV4poEPb4eNNa36NmZhPikGhrsEpump`
+  - $CI `9SMvQzDmGMpACAqET5PAmwUtHfBYdQ5a7SPLfQa4pump`
 
 Vyřazeno:
 
-- starší 2 h: 51
-- MC mimo rozsah: 47
+- MC mimo rozsah: 54
+- starší 2 h: 48
 - už posláno: 16
-- mladší 10 min: 7
+- mladší 10 min: 12
+- není z pump.fun: 3
 - boti/wash: 2
-- není z pump.fun: 2
+- málo obchodů: 2
 - top10 > 25 %: 2
-- RugCheck danger: 2
-- kopie většího tokenu: 2
-- prudce padá: 1
-- málo obchodů: 1
+- RugCheck danger: 1
+- kopie většího tokenu: 1

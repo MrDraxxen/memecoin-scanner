@@ -1,20 +1,20 @@
-# Poslední sken: 27.11.2026 · 13:06
+# Poslední sken: 27.11.2026 · 13:09
 
-- kandidátů v rozsahu zdrojů: 149
-- prověřeno do hloubky (RugCheck): 17
+- kandidátů v rozsahu zdrojů: 129
+- prověřeno do hloubky (RugCheck): 9
 - **prošlo a odesláno: 1**
-  - $VCAT `29xXt9uUiCmPsGM3hs58zsS1cJCpSQS3UBryYoUs85oq`
+  - $うさぎ `HA4s9epD5baSVeWy3c5jehAmWxeQzjj5kQUzQwQoe4nL`
 
 Vyřazeno:
 
-- starší 2 h: 59
-- MC mimo rozsah: 36
-- už posláno: 15
-- málo obchodů: 12
-- není z pump.fun: 12
-- mladší 10 min: 7
+- starší 2 h: 57
+- MC mimo rozsah: 38
+- už posláno: 17
+- mladší 10 min: 4
+- není z pump.fun: 3
 - boti/wash: 2
+- málo obchodů: 2
 - nafouknutí holdeři: 2
-- prudce padá: 1
 - insideři: 1
-- málo holderů: 1
+- velryba: 1
+- top10 > 25 %: 1

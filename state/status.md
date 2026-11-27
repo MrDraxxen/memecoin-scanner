@@ -1,17 +1,17 @@
-# Poslední sken: 27.11.2026 · 06:11
+# Poslední sken: 27.11.2026 · 06:21
 
-- kandidátů v rozsahu zdrojů: 164
-- prověřeno do hloubky (RugCheck): 15
+- kandidátů v rozsahu zdrojů: 144
+- prověřeno do hloubky (RugCheck): 13
 - **prošlo a odesláno: 1**
-  - $123Packers `H7RL6etzmbPw4hS2dgxzbjjKzGEzJicpWiNYmiqSpump`
+  - $Simyo `fMEwHFwbEmAWg5n5tvrVTJJR9cZnH2dTzZy3hY5pump`
 
 Vyřazeno:
 
-- starší 2 h: 71
-- MC mimo rozsah: 40
-- už posláno: 21
-- mladší 10 min: 12
-- není z pump.fun: 11
-- boti/wash: 5
+- starší 2 h: 60
+- MC mimo rozsah: 41
+- už posláno: 17
+- není z pump.fun: 10
+- mladší 10 min: 9
+- boti/wash: 3
 - kopie většího tokenu: 2
-- top10 > 25 %: 1
+- málo obchodů: 1

@@ -1,22 +1,17 @@
-# Poslední sken: 27.11.2026 · 14:23
+# Poslední sken: 27.11.2026 · 14:33
 
-- kandidátů v rozsahu zdrojů: 135
-- prověřeno do hloubky (RugCheck): 23
-- **prošlo a odesláno: 2**
-  - $FULLPORT `FjfhXHU7f4ZY1u8G2MUvYJZCoNBEXarAK8mJhHx5pump`
-  - $WINSTON `7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump`
+- kandidátů v rozsahu zdrojů: 144
+- prověřeno do hloubky (RugCheck): 14
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 48
-- MC mimo rozsah: 30
-- není z pump.fun: 17
-- už posláno: 15
-- mladší 10 min: 13
-- boti/wash: 3
-- málo obchodů: 2
+- starší 2 h: 66
+- MC mimo rozsah: 31
+- už posláno: 18
+- není z pump.fun: 13
+- mladší 10 min: 8
+- boti/wash: 5
+- málo obchodů: 1
 - prudce padá: 1
-- insideři: 1
-- nafouknutí holdeři: 1
-- top10 > 25 %: 1
 - kopie většího tokenu: 1

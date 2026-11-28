@@ -1,19 +1,17 @@
-# Poslední sken: 28.11.2026 · 15:44
+# Poslední sken: 28.11.2026 · 15:54
 
-- kandidátů v rozsahu zdrojů: 144
-- prověřeno do hloubky (RugCheck): 22
-- **prošlo a odesláno: 1**
-  - $Artcoin `HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump`
+- kandidátů v rozsahu zdrojů: 139
+- prověřeno do hloubky (RugCheck): 18
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- MC mimo rozsah: 46
-- starší 2 h: 41
-- mladší 10 min: 17
-- už posláno: 12
+- starší 2 h: 48
+- MC mimo rozsah: 44
+- už posláno: 15
 - RugCheck nedostupný: 12
-- není z pump.fun: 7
-- boti/wash: 5
-- málo obchodů: 1
-- top10 > 25 %: 1
-- kopie většího tokenu: 1
+- boti/wash: 7
+- mladší 10 min: 5
+- není z pump.fun: 4
+- prudce padá: 2
+- kopie většího tokenu: 2

@@ -1,18 +1,17 @@
-# Poslední sken: 28.11.2026 · 08:43
+# Poslední sken: 28.11.2026 · 08:53
 
 - kandidátů v rozsahu zdrojů: 124
-- prověřeno do hloubky (RugCheck): 19
+- prověřeno do hloubky (RugCheck): 17
 - **prošlo a odesláno: 1**
-  - $STRATA `AxtPM9L2o8jpT2H8QqWtd8D6Z2JUKK73g53Wkz8hpump`
+  - $Småkager `BW98q4cYxCeJM3uoB43Yy2e1EcjF4fPpeAuRkrhWpump`
 
 Vyřazeno:
 
-- MC mimo rozsah: 46
-- starší 2 h: 37
-- není z pump.fun: 16
-- už posláno: 11
-- mladší 10 min: 7
-- boti/wash: 3
-- prudce padá: 1
-- top10 > 25 %: 1
-- kopie většího tokenu: 1
+- MC mimo rozsah: 43
+- starší 2 h: 42
+- není z pump.fun: 15
+- už posláno: 10
+- mladší 10 min: 8
+- boti/wash: 2
+- prudce padá: 2
+- bundle > 10 %: 1

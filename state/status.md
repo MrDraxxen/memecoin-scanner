@@ -1,17 +1,19 @@
-# Poslední sken: 28.11.2026 · 01:11
+# Poslední sken: 28.11.2026 · 01:21
 
-- kandidátů v rozsahu zdrojů: 131
-- prověřeno do hloubky (RugCheck): 17
+- kandidátů v rozsahu zdrojů: 135
+- prověřeno do hloubky (RugCheck): 10
 - **prošlo a odesláno: 1**
-  - $LORE `GoDSZo2BHEgFo8Au5qjwnseWfKGww7JqWmyLqDPpWfB3`
+  - $Bambi `GwquWa45CSfhfE3GiSZa7YhXxgG8DwDJZaTGuswipump`
 
 Vyřazeno:
 
+- starší 2 h: 54
 - MC mimo rozsah: 48
-- starší 2 h: 41
-- už posláno: 15
-- není z pump.fun: 14
-- mladší 10 min: 9
-- boti/wash: 1
-- top10 > 25 %: 1
+- už posláno: 14
+- mladší 10 min: 6
+- není z pump.fun: 5
+- boti/wash: 2
+- top10 > 25 %: 2
+- málo obchodů: 1
+- RugCheck danger: 1
 - kopie většího tokenu: 1

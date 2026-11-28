@@ -1,17 +1,18 @@
-# Poslední sken: 28.11.2026 · 08:40
+# Poslední sken: 28.11.2026 · 08:43
 
-- kandidátů v rozsahu zdrojů: 154
-- prověřeno do hloubky (RugCheck): 25
-- **prošlo a odesláno: 0**
+- kandidátů v rozsahu zdrojů: 124
+- prověřeno do hloubky (RugCheck): 19
+- **prošlo a odesláno: 1**
+  - $STRATA `AxtPM9L2o8jpT2H8QqWtd8D6Z2JUKK73g53Wkz8hpump`
 
 Vyřazeno:
 
-- starší 2 h: 52
-- MC mimo rozsah: 45
-- není z pump.fun: 22
-- už posláno: 15
-- mladší 10 min: 9
+- MC mimo rozsah: 46
+- starší 2 h: 37
+- není z pump.fun: 16
+- už posláno: 11
+- mladší 10 min: 7
 - boti/wash: 3
-- kopie většího tokenu: 2
 - prudce padá: 1
 - top10 > 25 %: 1
+- kopie většího tokenu: 1

@@ -1,18 +1,20 @@
-# Poslední sken: 28.11.2026 · 01:56
+# Poslední sken: 28.11.2026 · 02:06
 
-- kandidátů v rozsahu zdrojů: 151
+- kandidátů v rozsahu zdrojů: 157
 - prověřeno do hloubky (RugCheck): 21
 - **prošlo a odesláno: 1**
-  - $Midcurve `14SsX1H9qge5qE3MeQK87hygFkmHBQnHxJEHgXkspump`
+  - $semigenius `BPzJyLJZyFZaYqiQsTgYCUj1GCPY2ZY5JNDg5LgwVsGN`
 
 Vyřazeno:
 
-- starší 2 h: 57
-- MC mimo rozsah: 54
-- není z pump.fun: 18
-- už posláno: 13
-- mladší 10 min: 4
-- boti/wash: 1
+- starší 2 h: 52
+- MC mimo rozsah: 48
+- už posláno: 16
+- mladší 10 min: 14
+- není z pump.fun: 14
+- prudce padá: 3
+- kopie většího tokenu: 3
+- boti/wash: 2
+- RugCheck danger: 2
 - málo obchodů: 1
-- RugCheck danger: 1
-- kopie většího tokenu: 1
+- top10 > 25 %: 1

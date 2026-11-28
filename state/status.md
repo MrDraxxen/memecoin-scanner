@@ -1,19 +1,18 @@
-# Poslední sken: 28.11.2026 · 21:28
+# Poslední sken: 28.11.2026 · 21:37
 
-- kandidátů v rozsahu zdrojů: 138
-- prověřeno do hloubky (RugCheck): 12
-- **prošlo a odesláno: 1**
-  - $tremps `9VkYJFkYxh8fgf7y9yA4jZ4y9WTYXTRHyzhJGmySpump`
+- kandidátů v rozsahu zdrojů: 115
+- prověřeno do hloubky (RugCheck): 10
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 62
-- MC mimo rozsah: 41
-- už posláno: 11
-- mladší 10 min: 7
-- RugCheck nedostupný: 6
+- starší 2 h: 55
+- MC mimo rozsah: 34
+- už posláno: 10
+- RugCheck nedostupný: 4
 - není z pump.fun: 4
 - boti/wash: 3
+- mladší 10 min: 2
 - prudce padá: 1
-- neznamé stáří: 1
+- top10 > 25 %: 1
 - málo holderů: 1

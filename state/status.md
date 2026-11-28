@@ -1,19 +1,18 @@
-# Poslední sken: 28.11.2026 · 01:46
+# Poslední sken: 28.11.2026 · 01:56
 
-- kandidátů v rozsahu zdrojů: 148
-- prověřeno do hloubky (RugCheck): 22
+- kandidátů v rozsahu zdrojů: 151
+- prověřeno do hloubky (RugCheck): 21
 - **prošlo a odesláno: 1**
-  - $Vicewire `viCEWiReoWxwmRRfGmWmpP1FFdB8Jm8PzZChVJ9dvg6`
+  - $Midcurve `14SsX1H9qge5qE3MeQK87hygFkmHBQnHxJEHgXkspump`
 
 Vyřazeno:
 
-- starší 2 h: 49
-- MC mimo rozsah: 45
+- starší 2 h: 57
+- MC mimo rozsah: 54
 - není z pump.fun: 18
-- už posláno: 14
-- mladší 10 min: 13
-- prudce padá: 3
-- kopie většího tokenu: 2
+- už posláno: 13
+- mladší 10 min: 4
 - boti/wash: 1
 - málo obchodů: 1
-- nafouknutí holdeři: 1
+- RugCheck danger: 1
+- kopie většího tokenu: 1

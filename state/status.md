@@ -1,18 +1,20 @@
-# Poslední sken: 28.11.2026 · 03:23
+# Poslední sken: 28.11.2026 · 03:33
 
-- kandidátů v rozsahu zdrojů: 148
-- prověřeno do hloubky (RugCheck): 22
-- **prošlo a odesláno: 2**
-  - $PERPD `2onfXtiwcd8qhiCBA3sVFoDjTBtnwji2n161k5Gupump`
-  - $MANDY `4HdH4EKBKCVaPD9f4TxdGhcWyhm259qKa7JHSGhMpump`
+- kandidátů v rozsahu zdrojů: 146
+- prověřeno do hloubky (RugCheck): 18
+- **prošlo a odesláno: 0**
 
 Vyřazeno:
 
-- starší 2 h: 54
-- MC mimo rozsah: 46
-- není z pump.fun: 18
-- mladší 10 min: 12
+- MC mimo rozsah: 51
+- starší 2 h: 47
+- mladší 10 min: 14
 - už posláno: 12
-- prudce padá: 2
-- bundle > 10 %: 1
-- top10 > 25 %: 1
+- není z pump.fun: 12
+- top10 > 25 %: 3
+- boti/wash: 2
+- prudce padá: 1
+- málo obchodů: 1
+- nafouknutí holdeři: 1
+- RugCheck danger: 1
+- kopie většího tokenu: 1

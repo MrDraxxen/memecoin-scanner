@@ -1,20 +1,20 @@
-# Poslední sken: 28.11.2026 · 18:55
+# Poslední sken: 28.11.2026 · 19:02
 
-- kandidátů v rozsahu zdrojů: 133
-- prověřeno do hloubky (RugCheck): 16
+- kandidátů v rozsahu zdrojů: 128
+- prověřeno do hloubky (RugCheck): 12
 - **prošlo a odesláno: 1**
-  - $Kohler `GMat1LbX2USa4vWSXBMSLPyD5JrY6KJuj4rybLQEpump`
+  - $nelson `ChMSoitxHt2cYCqqJzQ3S5ZzFmNVtkZ4HW5qqDRupump`
 
 Vyřazeno:
 
-- starší 2 h: 47
+- starší 2 h: 48
 - MC mimo rozsah: 42
-- už posláno: 12
-- mladší 10 min: 9
-- RugCheck nedostupný: 7
-- není z pump.fun: 6
-- boti/wash: 4
+- mladší 10 min: 10
+- už posláno: 10
+- RugCheck nedostupný: 6
+- není z pump.fun: 3
+- boti/wash: 2
 - prudce padá: 2
-- málo obchodů: 1
+- málo obchodů: 2
 - RugCheck danger: 1
-- kopie většího tokenu: 1
+- top10 > 25 %: 1
